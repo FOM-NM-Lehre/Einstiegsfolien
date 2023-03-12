@@ -1,64 +1,42 @@
 /*-- scss:defaults --*/
 
-$body-bg: #f3f3f3 !default;
+$body-bg: #ffffff !default;
 $body-color: #222 !default;
 $border-color: #00998A !default;
 $presentation-heading-color: #00998A !default;
+$presentation-title-slide-text-align: right;
 
-/*-- Some colors --*/
-.red {
-  color: #F34213;
+/*-- scss:rules --*/
+.reveal .slide h2 {
+  background-color: #00998A;
+  color: white;
+  padding-left: 10px;
 }
 
-.gray {
-  color: #5E6974;
+.reveal .my-title div {
+  margin-left: 50%;
+  margin-top: 30%;
 }
 
-.green {
-  color: #00998A;
+.reveal .my-title h1 {
+  font-size: 30px;
 }
 
-.blue {
-  color: #0000FF;
+.reveal .my-title h2 {
+  font-size: 28px;
 }
 
-.orange {
-   color: #FF8811;
+.reveal .quarto-title-block .quarto-title-authors .quarto-title-author,
+.reveal .quarto-title-block .quarto-title-authors {
+  padding-right: 0px;
+  padding-left: 0px;
+  display: block;
 }
 
-.violet {
-  color: #DA70D6;
-}
-
-.purple {
-  color: #7A378B;
-}
-
-.olive {
-  color: #808000;
-}     
-
-/*-- Font-Sizes --*/
-
-.small {
-  font-size: 80%;
-}
-
-.large {
-  font-size: 120%;
-}
-
-.Large {
-  font-size: 150%;
-}
-
-.center {
-text-align: center;
-}
-
-.box {
-  text-align: center;
-  margin-top: 5px;
-  border: 3px solid $body-color;
-  padding: 5px;
+.reveal .slide h2 {
+  /* background-image: url("fom.jpg"); */
+  background-image: url("../../../../../fom.jpg");
+  background-size: 1em;
+  background-repeat: no-repeat;
+  background-position-x: right 10px;
 }

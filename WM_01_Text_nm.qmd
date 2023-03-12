@@ -1,0 +1,46 @@
+---
+title: "Willkommen zum ersten Termin"
+author: "Norman Markgraf"
+format: pdf
+editor: visual
+---
+
+Sehr geehrte Studierende,
+
+wir werden in der Vorlesung gemeinsam Daten analysieren. Dazu werden wir eine freie, offene Standardsoftware verwenden. Sie haben dabei zwei Möglichkeiten:
+
+-   Verwenden eines Cloud Dienstes
+
+-   Lokale Installation
+
+Hier werde ich beide Möglichkeiten der Softwarenutzung kurz beschrieben, wobei Sie natürlich nur eine nutzen müssen. In dem Projekt zur Vorlesung finden sich u.a. die Rohversionen der Fallstudien samt Daten. Bitte beachten Sie: Hilfe bei der Installation kann nur per Email bzw. vor oder nach einer Vorlesung aber nicht während der Vorlesung erfolgen.
+
+Alle Auswertungen sind transparent und reproduzierbar. Bei Fragen oder Problemen bitte einfach melden.
+
+## Cloud
+
+Den Cloud Dienst können Sie mit jedem Internetbrowser nutzen, eine lokale Installation ist nicht erforderlich. Der kostenfreie Account erlaubt aktuell eine Nutzung von 25 Projektstunden im Monat.
+
+-   Registrieren Sie sich bei https://posit.cloud/
+
+-   Öffnen Sie den Link zum Vorlesungsprojekt: https://posit.cloud/content/5558167.
+
+-   Klicken Sie rechts oben auf Save a Permanent Copy um eine Kopie des Projektes im eigenen Workspace anzulegen.
+
+-   Stellen Sie sicher, dass Sie beim erneuten Anmelden über https://posit.cloud/ in Ihrem Projekt weiterarbeiten.
+
+## Lokale Installation
+
+Ein lokale Installation ist für Windows, macOS und Linux PCs möglich. Eine Installation ist nur einmalig nötig.
+
+-   Installieren Sie R für Ihr Betriebssystem: https://cloud.r-project.org/
+
+-   Installieren Sie RStudio Desktop für Ihr Betriebssystem: https://posit.co/download/rstudio-desktop/
+
+-   Speichern Sie den gepackten Projektordner (siehe unten, R Studio Projekt zur Vorlesung) auf Ihrem PC.
+
+-   Entpacken Sie den Projektordner (https://github.com/FOM-NM-Lehre/2023-SoSe-WM/archive/refs/heads/main.zip) an einer geeigneten Stelle auf Ihrem Computer. Sie finden das Repository auch unter: https://github.com/FOM-NM-Lehre/2023-SoSe-WM
+
+-   Starten Sie RStudio durch Klick auf die Rproj Datei, die sich im Projektverzeichnis befindet
+
+-   Öffnen Sie die Datei *Pakete-installieren.R* aus dem Ordner *setup* und führen Sie das Skript in R aus: Run
