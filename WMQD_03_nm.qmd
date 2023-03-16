@@ -1,7 +1,7 @@
 ---
 title: "Wissenschaftliche Methodik - Quantitative Datenanalyse"
 subtitle: "Dritter Termin"
-institute: "FOM Essen"
+institute: "FOM Dortmund"
 author: "Norman Markgraf"
 lang: de-DE
 format: 
@@ -152,7 +152,7 @@ Am Ende des Semesters wird Ihr Lernergebnis durch &#x1F469;&#x200D;&#x1F3EB; ver
 
 Diskutieren Sie innerhalb Ihrer Gruppe das genannte Gütekriterium. Was kann ich tun, damit das [Messergebnis]{.gray} gut mit dem [Wert der Eigenschaft]{.blue} übereinstimmt?
 
-&#x1F4AA; [https://bit.ly/3LGDngp](https://bit.ly/3LGDngp)
+&#x1F4AA; [https://bit.ly/3yIHhQn](https://bit.ly/3yIHhQn)
 
 
  
