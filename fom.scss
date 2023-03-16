@@ -36,7 +36,20 @@ $presentation-title-slide-text-align: right;
 .reveal .slide h2 {
   /* background-image: url("fom.jpg"); */
   background-image: url("../../../../../fom.jpg");
-  background-size: 1em;
+  background-size: 1.2em;
   background-repeat: no-repeat;
-  background-position-x: right 10px;
+  background-position: top 0px right 10px;
+}
+
+@media print {
+  @page {
+   size: A4 landscape;
+  }
+  .slide-menu-botton
+  .slide-chalkboard-bottons {
+    display: none;
+  }
+  .footer {
+    text-align: center;
+  }
 }

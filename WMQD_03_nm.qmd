@@ -26,15 +26,11 @@ format:
 
 ## Zur Erinnerung
 
+✏ Arbeiten Sie aktiv mit.
 
-&#x270F; Arbeiten Sie aktiv mit.
+🤷 Stellen Sie Fragen.
 
-&#x1F937; Stellen Sie Fragen.
-
-&#x1F4AA; [https://tweedback.de/XXXX](https://tweedback.de/XXXX)
-
-
- 
+💪 <https://tweedback.de/XXXX>
 
 ## Stimmung?
 
@@ -42,13 +38,9 @@ Auf der *Katzenskala*: Wie geht es Ihnen?
 
 ![](img/cat-scale8.jpg){fig-align="center" width="40%"}
 
-
 ::: aside
-Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1338206742371594240)
+Quelle: [\@MMagdowski](https://twitter.com/MMagdowski/status/1338206742371594240)
 :::
-
-
- 
 
 ## Learning Pit
 
@@ -62,64 +54,47 @@ Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1338206742371594240)
 Quelle: [Sketschplanations](https://sketchplanations.com/the-learning-pit)
 :::
 
-
- 
-
 ## Tipps für den Vorlesungserfolg
 
-- Kommen Sie zur Vorlesung!
+-   Kommen Sie zur Vorlesung!
 
-- Vermeiden Sie Ablenkung.
+-   Vermeiden Sie Ablenkung.
 
-- Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
+-   Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
 
-- Stellen Sie Fragen.
+-   Stellen Sie Fragen.
 
-- Unterstützen Sie sich gegenseitig.
-
-
- 
+-   Unterstützen Sie sich gegenseitig.
 
 ## UN Ziel 3: Gesundheit und Wohlergehen
 
 ::: center
-<iframe src="https://upgrader.gapminder.org/q/1/embed?hasBorder=true&hasOpenSansFont=false" title="" width="100%" height="500" style="border:none;"></iframe>
+<iframe src="https://upgrader.gapminder.org/q/1/embed?hasBorder=true&amp;hasOpenSansFont=false" title width="100%" height="500" style="border:none;">
+
+</iframe>
 :::
 
+## Heutiges Thema 🏫
 
- 
+-   Grundlagen Quantitativer Datenanalyse
 
-## Heutiges Thema &#127979;
+## Was Sie lernen 👩‍🏫
 
-- Grundlagen Quantitativer Datenanalyse
+-   Die Studierenden können Messen definieren und können verschiedene Typen von Skalenniveaus sicher unterscheiden.
 
+-   Die Studierenden kennen Grundbegriffe der quantitativen Datenanalyse (wie unabhängige und abhängige Variable) und können Probleme erklären, die aufgrund der Nichtberücksichtigung von Drittvariablen auftreten können.
 
- 
+-   Die Studierenden können zentrale Begriffe um Stichproben(arten) und Populationen erläutern.
 
-## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
+## Was Sie auch noch lernen 👩‍🏫
 
-- Die Studierenden können Messen definieren und können verschiedene Typen von Skalenniveaus sicher unterscheiden.
+-   Die Studierenden wissen um die Unterschiede hinsichtlich Zufall und Kausalität bei Beobachtungs- vs. Experimentalstudien.
 
-- Die Studierenden kennen Grundbegriffe der quantitativen Datenanalyse (wie unabhängige und abhängige Variable) und können Probleme erklären, die aufgrund der Nichtberücksichtigung von Drittvariablen auftreten können.
-
-- Die Studierenden können zentrale Begriffe um Stichproben(arten) und Populationen erläutern.
-
-
- 
-
-## Was Sie auch noch lernen &#x1F469;&#x200D;&#x1F3EB; 
-
-- Die Studierenden wissen um die Unterschiede hinsichtlich Zufall und Kausalität bei Beobachtungs- vs. Experimentalstudien.
-
-- Die Studierenden können die Phasen des PPDAC-Zyklus nennen und anhand von Beispielen illustrieren.
-
-
- 
+-   Die Studierenden können die Phasen des PPDAC-Zyklus nennen und anhand von Beispielen illustrieren.
 
 ## PPDAC
 
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
 In fünf Schritten von der Fragestellung zur (vorläufigen) Antwort...
 :::
@@ -127,11 +102,7 @@ In fünf Schritten von der Fragestellung zur (vorläufigen) Antwort...
 ::: {.column width="50%"}
 ![](img/PPDAC.png){fig-align="center" width="100%"}
 :::
-
-::::
-
-
- 
+:::
 
 ## Messung
 
@@ -143,33 +114,23 @@ Beim Messen wird einer [Eigenschaft]{.blue} eines Objektes ein [Wert]{.gray} zug
 [Messergebnis]{.gray} = [Wert der Eigenschaft]{.blue} + [Systematische Abweichungen]{.purple} + [Zufällige Schwankungen]{.orange}
 :::
 
-
- 
-
 ## Klausur
 
-Am Ende des Semesters wird Ihr Lernergebnis durch &#x1F469;&#x200D;&#x1F3EB; vermessen - im Rahmen einer Klausur.
+Am Ende des Semesters wird Ihr Lernergebnis durch 👩‍🏫 vermessen - im Rahmen einer Klausur.
 
 Diskutieren Sie innerhalb Ihrer Gruppe das genannte Gütekriterium. Was kann ich tun, damit das [Messergebnis]{.gray} gut mit dem [Wert der Eigenschaft]{.blue} übereinstimmt?
 
-&#x1F4AA; [https://bit.ly/3yIHhQn](https://bit.ly/3yIHhQn)
-
-
- 
+💪 <https://bit.ly/3yIHhQn>
 
 ## Datentabelle
 
 ![](https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/tidydata_1.jpg){fig-align="center" width="80%"}
 
-
 ::: aside
-Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
+Quelle: [\@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
 :::
 
-
- 
-
-## Übung &#x1F4AA;
+## Übung 💪
 
 ![](https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/tidydata_1.jpg){fig-align="right" width="25%"}
 
@@ -182,47 +143,36 @@ Was ist bei einer Datentabelle der Klausurergebnisse eine Beobachtung (engl.: ob
 **C**: Die erreichte Punktzahl von 60 Punkten von Susi.
 
 ::: aside
-Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
+Quelle: [\@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
 :::
-
-
- 
 
 ## Skalenniveaus
 
 ::: center
-<iframe src="https://www.causeweb.org/cause/resources/fun/songs/levels-measurement" title="" width="100%" height="500" style="border:none;"></iframe>
+<iframe src="https://www.causeweb.org/cause/resources/fun/songs/levels-measurement" title width="100%" height="500" style="border:none;">
+
+</iframe>
 :::
 
 ::: aside
-Quelle: [https://www.causeweb.org/cause/resources/fun/songs/levels-measurement](https://www.causeweb.org/cause/resources/fun/songs/levels-measurement)
+Quelle: <https://www.causeweb.org/cause/resources/fun/songs/levels-measurement>
 :::
-
-
- 
 
 ## R Markdown rockt!
 
 ![](https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/rmarkdown_rockstar.png){fig-align="center" width="60%"}
 
-
 ::: aside
-Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
+Quelle: [\@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
 :::
 
+## Fallstudie 💻
 
- 
+-   Lokal: RStudio durch klick auf `2023-SoSe-WMQD.Rproj` starten.
 
-## Fallstudie &#x1F4BB;
-
-- Lokal: RStudio durch klick auf `2023-SoSe-WMQD.Rproj` starten.
-
-- RStudio Cloud: In **Ihr** Projekt einloggen.  
+-   RStudio Cloud: In **Ihr** Projekt einloggen.
 
 Datei `EineLuege_Fortsetzung.Rmd` im Ordner `fallstudie` öffnen.
-
-
- 
 
 ## Eine wichtige Gleichung (I/II)
 
@@ -230,39 +180,36 @@ Datei `EineLuege_Fortsetzung.Rmd` im Ordner `fallstudie` öffnen.
 [Beobachteter Wert]{.gray} = [Wahrer Wert]{.blue} + [Verzerrung]{.purple} + [Rauschen]{.orange}
 :::
 
-- [Beobachteter Wert]{.gray}: Wert, den wir auf Basis unser **Stichprobe** berechnen, häufig eine **Statistik**.
+-   [Beobachteter Wert]{.gray}: Wert, den wir auf Basis unser **Stichprobe** berechnen, häufig eine **Statistik**.
 
-- [Wahrer Wert]{.blue}: Wert, an dem wir interessiert sind. Häufig ein **Parameter** der **Population**.
-
-
- 
+-   [Wahrer Wert]{.blue}: Wert, an dem wir interessiert sind. Häufig ein **Parameter** der **Population**.
 
 ## Eine wichtige Gleichung (II/II)
 
-- [Verzerrung]{.purple}: Systematische Abweichungen zwischen [Beobachteter Wert]{.gray} und [Wahrer Wert]{.blue}, z.B. aufgrund nicht-repräsentativer Stichprobe oder Störfaktoren.
+::: box
+[Beobachteter Wert]{.gray} = [Wahrer Wert]{.blue} + [Verzerrung]{.purple} + [Rauschen]{.orange}
+:::
 
-- [Rauschen]{.orange}: Zufällige Schwankungen aufgrund der Stichprobe.
+-   [Verzerrung]{.purple}: Systematische Abweichungen zwischen [Beobachteter Wert]{.gray} und [Wahrer Wert]{.blue}, z.B. aufgrund nicht-repräsentativer Stichprobe oder Störfaktoren.
+
+-   [Rauschen]{.orange}: Zufällige Schwankungen aufgrund der Stichprobe.
 
 ::: aside
 [de Mesquita and Fowler (2021)](https://press.princeton.edu/books/paperback/9780691214351/thinking-clearly-with-data)
 :::
 
-
- 
-
 ## Stichprobenarten (I/II)
 
-&#x1F469;&#x200D;&#x1F3EB; möchte wissen wie gut die Studierenden die Inhalte verstanden haben.
+👩‍🏫 möchte wissen wie gut die Studierenden die Inhalte verstanden haben.
 
-- **Gelegenheitsstichprobe**: &#x1F469;&#x200D;&#x1F3EB; nimmt die dran, die sich meldet.
+Dazu kann 👩‍🏫 im Prinzip wählen zwischen:
 
-- **Zufällige Stichprobe**:  &#x1F469;&#x200D;&#x1F3EB; wählt zufällig eine Studierende aus.
+-   **Gelegenheitsstichprobe**: 👩‍🏫 nimmt die dran, die sich meldet.
 
+-   **Zufällige Stichprobe**: 👩‍🏫 wählt zufällig Studierende aus.
 
- 
 
 ## Stichprobenarten (II/II)
-
 
 ```{r}
 #| layout-ncol: 2
@@ -303,19 +250,16 @@ dag_s2
 
 Der Zufall [eliminert]{.red} die Abhängigkeit von möglichen [Verzerrungen]{.purple} der Stichprobe (hier durch Verstehen). Der [Beobachtete Wert]{.gray} kann den [Wahrer Wert]{.blue} unverzerrt schätzen. Es gibt aber noch [zufällige Schwankungen]{.orange}.
 
-
- 
-
 ## Studienarten (I/II)
 
-&#x1F469;&#x200D;&#x1F3EB; möchte wissen, wie Lernzeit und Klausurergebnis zusammenhängen.
+👩‍🏫 möchte wissen, wie Lernzeit und Klausurergebnis zusammenhängen.
 
-- **Beobachtungsstudie**: &#x1F469;&#x200D;&#x1F3EB; beobachtet Lernzeit und resultierende Klausurpunkte.
+Dazu kann 👩‍🏫 wählen zwischen:
 
-- **Randomisierte Studie**:  &#x1F469;&#x200D;&#x1F3EB; manipuliert Lernzeit zufällig und beobachtet resultierende Klausurpunkte.
+-   **Beobachtungsstudie**: 👩‍🏫 beobachtet Lernzeit und resultierende Klausurpunkte.
 
+-   **Randomisierte Studie**: 👩‍🏫 manipuliert Lernzeit zufällig und beobachtet resultierende Klausurpunkte.
 
- 
 
 ## Studienarten (II/II)
 
