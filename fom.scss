@@ -43,10 +43,21 @@ $presentation-title-slide-text-align: right;
 
 @media print {
   @page {
-   size: A4 landscape;
+    size: A4 landscape;
+    margin: 0 15pt; 
   }
-  .slide-menu-botton
-  .slide-chalkboard-bottons {
+  h2 {
+      font-size: clamp(2em, calc(2em + 1vw), 3em);
+  }
+  .reveal .slide li {
+    margin-left: 1em !important;
+  }
+  .reveal .slide h2 {
+    color: white !important;
+    font-size: 200% !important;
+  }
+  div.slide-menu-botton,
+  div.slide-chalkboard-bottons {
     display: none;
   }
   .footer {
