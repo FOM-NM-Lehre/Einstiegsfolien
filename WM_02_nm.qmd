@@ -45,7 +45,7 @@ Wie sind Sie heute aufgestanden?
 <iframe src="https://giphy.com/embed/l46CBEVQjSJG6mCnC" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 ::::: aside
-[via GIPHY](https://giphy.com/gifs/veephbo-hbo-veep-julia-louis-dreyfus-l46CBEVQjSJG6mCnC)
+[A via GIPHY](https://giphy.com/gifs/veephbo-hbo-veep-julia-louis-dreyfus-l46CBEVQjSJG6mCnC)
 :::::
 ::::
 
@@ -57,7 +57,7 @@ Wie sind Sie heute aufgestanden?
 <iframe src="https://giphy.com/embed/l46CBvLI7Q7YthRzG" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 ::::: aside
-[via GIPHY](https://giphy.com/gifs/comedycentral-amy-schumer-inside-stretch-l46CBvLI7Q7YthRzG)
+[B via GIPHY](https://giphy.com/gifs/comedycentral-amy-schumer-inside-stretch-l46CBvLI7Q7YthRzG)
 :::::
 ::::
 :::
@@ -75,14 +75,6 @@ Lernen ist kein Zuschauersport!
 [via GIPHY](https://media.giphy.com/media/3o6Zt90p6NgiyoN4Mo/giphy.gif)
 :::
 
-
-## \#FOMforscht
-
-![](img/FrontArtifIntell.png){fig-align="center" width="40.7%"}
-
-::: small
-[https://doi.org/10.3389%2Ffrai.2021.681915](https://doi.org/10.3389%2Ffrai.2021.681915)
-:::
 
 
 ## UN Ziel 2: Kein Hunger
@@ -152,7 +144,7 @@ Quelle: [The Raf: The R Inferno Song (Teenage Dirtbag Parody)](https://youtu.be/
 
 ## Fallstudie &#x1F4BB;
 
-- Lokal: RStudio durch klick auf `WM-WiSe-2022.Rproj` starten.
+- Lokal: RStudio durch klick auf `2023-SoSe-WM.Rproj` starten.
 
 - RStudio Cloud: In **Ihr** Projekt einloggen.  
 
@@ -161,7 +153,7 @@ Datei `EineLuege.Rmd` im Ordner `fallstudie` öffnen.
 
 ## Gütekriterien
 
-Disktuieren Sie in Gruppen die Gütekritieren unserer Wissenschaftlichen Studie zum Thema *Zwei Wahrheiten, eine Lüge*
+Diskutieren Sie in Gruppen die Gütekritieren unserer wissenschaftlichen Studie zum Thema *Zwei Wahrheiten, eine Lüge*
 
 &#x1F4AA; [https://bit.ly/3qOD7CD](https://bit.ly/3qOD7CD)
 

@@ -52,7 +52,7 @@ Gehen wir es an ...
 
 -   
 
-    {{< fa brands twitter >}}: 
+    {{< fa brands twitter >}}: https://twitter.com/NormanMarkgraf
 
 ------------------------------------------------------------------------
 
@@ -254,3 +254,5 @@ Text, Code und Ausgabe wird über `Knit` zusammengeknüpft.
 ## eRfolg?
 
 <center><img src="img/Erfolg-EineLuege.png" alt="eRfolg?" width="850"/></center>
+
+------------------------------------------------------------------------
