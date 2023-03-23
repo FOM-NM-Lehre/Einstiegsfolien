@@ -86,11 +86,11 @@ Quelle: [Etsy](https://www.etsy.com/de/listing/1032124670/emotion-check-in-emoti
 
 ## Fallstudie &#x1F4BB;
 
-- Lokal: RStudio durch einen Klick auf `2023-WiSe-WMQD.Rproj` starten.
+- Lokal: RStudio durch einen Klick auf `2023-SoSe-WMQD.Rproj` starten.
 
 - RStudio Cloud: In **Ihr** Projekt einloggen.  
 
-Datei `Filmgenre.Rmd` im Ordner `fallstudie` öffnen.
+Datei `Filmgenre.Rmd` im Ordner `fallstudie` öffnen und unter `Filmgenre_<KÜRZEL>.Rmd` speichern.
 
 
 ## Risk Literacy

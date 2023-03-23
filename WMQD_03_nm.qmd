@@ -172,7 +172,7 @@ Quelle: [\@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
 
 -   RStudio Cloud: In **Ihr** Projekt einloggen.
 
-Datei `EineLuege_Fortsetzung.Rmd` im Ordner `fallstudie` öffnen.
+Datei `EineLuege_Fortsetzung.Rmd` im Ordner `fallstudie` öffnen und unter `EineLuege_Fortsetzung_<KÜRZEL>.Rmd` speichern.
 
 ## Eine wichtige Gleichung (I/II)
 

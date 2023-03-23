@@ -213,7 +213,7 @@ Quelle: [\@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
 
 -   RStudio Cloud: In **Ihr** Projekt einloggen.
 
-Datei `EineLuege.Rmd` im Ordner `fallstudie` öffnen.
+Datei `EineLuege.Rmd` im Ordner `fallstudie` öffnen und unter `EineLuege_<KÜRZEL>.Rmd` speichern.
 
 ------------------------------------------------------------------------
 
