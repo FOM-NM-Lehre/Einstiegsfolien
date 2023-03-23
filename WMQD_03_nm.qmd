@@ -299,3 +299,6 @@ dag_e2
 ```
 
 Der Zufall [eliminiert]{.red} die Abhängigkeit einer [Verzerrungen]{.purple} des Zusammenhangs (hier durch Vorwissen). Der [Beobachtete Wert]{.gray} kann den [Wahrer Wert]{.blue} unverzerrt schätzen. Es gibt aber noch [zufällige Schwankungen]{.orange}.
+
+## .
+.

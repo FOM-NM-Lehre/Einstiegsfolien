@@ -46,13 +46,9 @@ Gehen wir es an ...
 
 > The best thing about being a statistician is that you get to play in everyone's backyard.
 
--   
+-   {{< fa envelope >}}: norman.markgraf\@fom-net.de
 
-    {{< fa envelope >}}: norman.markgraf@fom-net.de
-
--   
-
-    {{< fa brands twitter >}}: https://twitter.com/NormanMarkgraf
+-   {{< fa brands twitter >}}: https://twitter.com/NormanMarkgraf
 
 ------------------------------------------------------------------------
 
