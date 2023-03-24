@@ -32,24 +32,22 @@ format:
 
 &#x1F4AA; [https://tweedback.de/z4aa](https://tweedback.de/z4aa)
 
+------------------------------------------------------------------------
 
 ## Guten Morgen
 
 Wie sind Sie heute aufgestanden?
 
 ::: {.columns}
-
-:::: {.column width="50%"}
+::: {.column width="50%"}
 **A**:
 
 <iframe src="https://giphy.com/embed/l46CBEVQjSJG6mCnC" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
-::::: aside
+::: aside
 [A via GIPHY](https://giphy.com/gifs/veephbo-hbo-veep-julia-louis-dreyfus-l46CBEVQjSJG6mCnC)
-:::::
-::::
-
-
+:::
+:::
 
 :::: {.column width="50%"}
 **B**:
@@ -62,6 +60,7 @@ Wie sind Sie heute aufgestanden?
 ::::
 :::
 
+------------------------------------------------------------------------
 
 ## Erinnerung
 
@@ -75,12 +74,13 @@ Lernen ist kein Zuschauersport!
 [via GIPHY](https://media.giphy.com/media/3o6Zt90p6NgiyoN4Mo/giphy.gif)
 :::
 
-
+------------------------------------------------------------------------
 
 ## UN Ziel 2: Kein Hunger
 
 <iframe src="https://upgrader.gapminder.org/q/28/embed?hasBorder=true&hasOpenSansFont=false" title="85% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
 
+------------------------------------------------------------------------
 
 ## Was bisher geschah ...
 
@@ -92,6 +92,7 @@ Lernen ist kein Zuschauersport!
 
 - **Modell**: Vereinfachte Darstellung relevanter Teile der Realität.
 
+------------------------------------------------------------------------
 
 ## Dazu gibt es noch ...
 
@@ -99,11 +100,13 @@ Lernen ist kein Zuschauersport!
 
 - **Falsifikationsprinzip**: Hypothesen sind (nach Karl Popper) nie beweisbar/bestätigbar, man kann höchstens zeigen, dass sie falsch sind.
 
+------------------------------------------------------------------------
 
 ## Heutiges Thema &#127979;
 
 - Wissenschaftliche Grundlagen (Fortsetzung)
 
+------------------------------------------------------------------------
 
 ## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB;
 
@@ -115,6 +118,7 @@ Lernen ist kein Zuschauersport!
 
 - Weitere Schritte in R.
 
+------------------------------------------------------------------------
 
 ## Transparenz
 
@@ -128,6 +132,7 @@ Wir sind es dem datenbasierten Entscheiden schuldig!
 Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
 :::
 
+------------------------------------------------------------------------
 
 ## Coding
 
@@ -141,6 +146,7 @@ Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
 Quelle: [The Raf: The R Inferno Song (Teenage Dirtbag Parody)](https://youtu.be/nziSP3vELCk)
 :::
 
+------------------------------------------------------------------------
 
 ## Fallstudie &#x1F4BB;
 
@@ -150,6 +156,7 @@ Quelle: [The Raf: The R Inferno Song (Teenage Dirtbag Parody)](https://youtu.be/
 
 Datei `EineLuege.Rmd` im Ordner `fallstudie` öffnen.
 
+------------------------------------------------------------------------
 
 ## Gütekriterien
 
@@ -165,3 +172,8 @@ Diskutieren Sie in Gruppen die Gütekritieren unserer wissenschaftlichen Studie 
 ::: {.aside}
 [via GIPHY](https://giphy.com/gifs/Obama-26FLaFRZa93ZcoDnO)
 :::
+
+------------------------------------------------------------------------
+
+## .
+.
