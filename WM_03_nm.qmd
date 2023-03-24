@@ -24,14 +24,13 @@ format:
       data-background-size: contain
 ---
 
-
 ## Zur Erinnerung
 
-&#x270F; Arbeiten Sie aktiv mit.
+✏ Arbeiten Sie aktiv mit.
 
-&#x1F937; Stellen Sie Fragen.
+🤷 Stellen Sie Fragen.
 
-&#x1F4AA; [https://tweedback.de/XXXX](https://tweedback.de/XXXX)
+💪 <https://tweedback.de/XXXX>
 
 ------------------------------------------------------------------------
 
@@ -39,77 +38,77 @@ format:
 
 Auf der *Katzenskala*: Wie geht es Ihnen?
 
-![](img/cat-scale8.jpg){fig-align="center" width="40%"}
+```{r cat-scale8_img, fig.align="center", out.width="40%", fig.cap="Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1338206742371594240)"}
+knitr::include_graphics(here::here("img", "cat-scale8.jpg"))
+```
 
-
-::: aside
-Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1338206742371594240)
+::: footnote
 :::
 
 ## Learning Pit
-
 
 ::: center
 **Sie** schaffen es aus der Grube
 :::
 
-![](img/TheLearningPit.png){fig-align="center" width="40%"}
-
-::: aside
-Quelle: [Sketschplanations](https://sketchplanations.com/the-learning-pit)
-:::
+```{r TheLearningPit_img, fig.align="center", out.width="40%", fig.cap="Quelle: [Sketschplanations](https://sketchplanations.com/the-learning-pit)"}
+knitr::include_graphics(here::here("img","TheLearningPit.png"))
+```
 
 ------------------------------------------------------------------------
 
 ## Tipps für den Vorlesungserfolg
 
-- Kommen Sie zur Vorlesung!
+-   Kommen Sie zur Vorlesung!
 
-- Vermeiden Sie Ablenkung.
+-   Vermeiden Sie Ablenkung.
 
-- Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
+-   Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
 
-- Stellen Sie Fragen.
+-   Stellen Sie Fragen.
 
-- Unterstützen Sie sich gegenseitig.
-
+-   Unterstützen Sie sich gegenseitig.
 
 ## UN Ziel 3: Gesundheit und Wohlergehen
 
 ::: center
-<iframe src="https://upgrader.gapminder.org/q/1/embed?hasBorder=true&hasOpenSansFont=false" title="" width="100%" height="500" style="border:none;"></iframe>
+<iframe src="https://upgrader.gapminder.org/q/1/embed?hasBorder=true&amp;hasOpenSansFont=false" title width="100%" height="500" style="border:none;">
+
+</iframe>
 :::
 
 ------------------------------------------------------------------------
 
-## Heutiges Thema &#127979;
+## Heutiges Thema 🏫
 
+-   Grundlagen Quantitativer Datenanalyse
 
-- Grundlagen Quantitativer Datenanalyse
+## Was Sie lernen 👩‍🏫
 
-## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
-
-- Die Studierenden können Messen definieren und können verschiedene Typen von Skalenniveaus sicher unterscheiden.
-- Die Studierenden kennen Grundbegriffe der quantitativen Datenanalyse (wie unabhängige und abhängige Variable) und können Probleme erklären, die aufgrund der Nichtberücksichtigung von Drittvariablen auftreten können.
-- Die Studierenden können zentrale Begriffe um Stichproben(arten) und Populationen erläutern.
+-   Die Studierenden können Messen definieren und können verschiedene Typen von Skalenniveaus sicher unterscheiden.
+-   Die Studierenden kennen Grundbegriffe der quantitativen Datenanalyse (wie unabhängige und abhängige Variable) und können Probleme erklären, die aufgrund der Nichtberücksichtigung von Drittvariablen auftreten können.
+-   Die Studierenden können zentrale Begriffe um Stichproben(arten) und Populationen erläutern.
 
 ------------------------------------------------------------------------
 
-## Was Sie auch noch lernen &#x1F469;&#x200D;&#x1F3EB; 
+## Was Sie auch noch lernen 👩‍🏫
 
-- Die Studierenden wissen um die Unterschiede hinsichtlich Zufall und Kausalität bei Beobachtungs- vs. Experimentalstudien.
-- Die Studierenden können die Phasen des PPDAC-Zyklus nennen und anhand von Beispielen illustrieren.
+-   Die Studierenden wissen um die Unterschiede hinsichtlich Zufall und Kausalität bei Beobachtungs- vs. Experimentalstudien.
+-   Die Studierenden können die Phasen des PPDAC-Zyklus nennen und anhand von Beispielen illustrieren.
 
 ------------------------------------------------------------------------
 
 ## PPDAC
 
-::: {.columns}
+::: columns
 ::: {.column width="50%"}
 In fünf Schritten von der Fragestellung zur (vorläufigen) Antwort...
 :::
+
 ::: {.column width="50%"}
-![](img/PPDAC.png){fig-align="center" width="100%"}
+```{r PPDAC_img, fig.align="center", out.width="95%", fig.cap="Quelle: Eigene Zeichnung"}
+knitr::include_graphics(here::here("img", "PPDAC.png"))
+```
 :::
 :::
 
@@ -127,28 +126,38 @@ Beim Messen wird einer [Eigenschaft]{.blue} eines Objektes ein [Wert]{.gray} zug
 
 ## Klausur
 
-Am Ende des Semesters wird Ihr Lernergebnis durch &#x1F469;&#x200D;&#x1F3EB; vermessen - im Rahmen einer Klausur.
+Am Ende des Semesters wird Ihr Lernergebnis durch 👩‍🏫 vermessen - im Rahmen einer Klausur.
 
 Diskutieren Sie innerhalb Ihres Raumes das genannte Gütekriterium. Was kann ich tun, damit das [Messergebnis]{.gray} gut mit dem [Wert der Eigenschaft]{.blue} übereinstimmt?
 
-&#x1F4AA; [https://bit.ly/3ZbqLmP](https://bit.ly/3ZbqLmP)
+💪 <https://bit.ly/3ZbqLmP>
 
 ------------------------------------------------------------------------
 
 ## Datentabelle
 
-![](https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/tidydata_1.jpg){fig-align="center" width="80%"}
-
-
-::: aside
-Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
-:::
+```{r tidydata_1_img}
+#| echo: false
+#| fig.align: center
+#| fig.cap: "Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)"
+knitr::include_graphics(
+  "https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/tidydata_1.jpg")
+```
 
 ------------------------------------------------------------------------
 
-## Übung &#x1F4AA;
+## Übung 💪
 
-![](https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/tidydata_1.jpg){fig-align="right" width="25%"}
+```{r tidydata_1_img_reuse}
+#| echo: false
+#| fig-align: right
+#| out.width: 25%
+#| fig-cap: "Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)"
+knitr::include_graphics(
+  "https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/tidydata_1.jpg"
+  )
+```
+
 
 Was ist bei einer Datentabelle der Klausurergebnisse eine Beobachtung (engl.: observation?)
 
@@ -158,38 +167,33 @@ Was ist bei einer Datentabelle der Klausurergebnisse eine Beobachtung (engl.: ob
 
 **C**: Die erreichte Punktzahl von 60 Punkten von Susi.
 
-::: aside
-Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
-:::
-
 ------------------------------------------------------------------------
 
 ## Skalenniveaus
 
 ::: center
-<iframe src="https://www.causeweb.org/cause/resources/fun/songs/levels-measurement" title="" width="100%" height="500" style="border:none;"></iframe>
+<iframe src="https://www.causeweb.org/cause/resources/fun/songs/levels-measurement" title width="100%" height="500" style="border:none;">
+</iframe>
 :::
 
-::: aside
-Quelle: [https://www.causeweb.org/cause/resources/fun/songs/levels-measurement](https://www.causeweb.org/cause/resources/fun/songs/levels-measurement)
+::: footnote
+Quelle: <https://www.causeweb.org/cause/resources/fun/songs/levels-measurement>
 :::
 
 ## R Markdown rockt!
 
-![](https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/rmarkdown_rockstar.png){fig-align="center" width="60%"}
-
-
-::: aside
-Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
-:::
+```{r rmarkdown_rockstar_img, fig.align="center", out.width="60%", fig.cap="Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)"}
+knitr::include_graphics(
+  "https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/rmarkdown_rockstar.png")
+```
 
 ------------------------------------------------------------------------
 
-## Fallstudie &#x1F4BB;
+## Fallstudie 💻
 
-- Lokal: RStudio durch klick auf `2023-SoSe-WM.Rproj` starten.
+-   Lokal: RStudio durch klick auf `2023-SoSe-WM.Rproj` starten.
 
-- RStudio Cloud: In **Ihr** Projekt einloggen.  
+-   RStudio Cloud: In **Ihr** Projekt einloggen.
 
 Datei `EineLuege_Fortsetzung.Rmd` im Ordner `fallstudie` öffnen und unter `EineLuege_Fortsetzung_<KÜRZEL>.Rmd` speichern.
 
@@ -201,9 +205,9 @@ Datei `EineLuege_Fortsetzung.Rmd` im Ordner `fallstudie` öffnen und unter `Eine
 [Beobachteter Wert]{.gray} = [Wahrer Wert]{.blue} + [Verzerrung]{.purple} + [Rauschen]{.orange}
 :::
 
-- [Beobachteter Wert]{.gray}: Wert, den wir auf Basis unser **Stichprobe** berechnen, häufig eine **Statistik**.
+-   [Beobachteter Wert]{.gray}: Wert, den wir auf Basis unser **Stichprobe** berechnen, häufig eine **Statistik**.
 
-- [Wahrer Wert]{.blue}: Wert, an dem wir interessiert sind. Häufig ein **Parameter** der **Population**.
+-   [Wahrer Wert]{.blue}: Wert, an dem wir interessiert sind. Häufig ein **Parameter** der **Population**.
 
 ------------------------------------------------------------------------
 
@@ -213,11 +217,11 @@ Datei `EineLuege_Fortsetzung.Rmd` im Ordner `fallstudie` öffnen und unter `Eine
 [Beobachteter Wert]{.gray} = [Wahrer Wert]{.blue} + [Verzerrung]{.purple} + [Rauschen]{.orange}
 :::
 
-- [Verzerrung]{.purple}: Systematische Abweichungen zwischen [Beobachteter Wert]{.gray} und [Wahrer Wert]{.blue}, z.B. aufgrund nicht-repräsentativer Stichprobe oder Störfaktoren.
+-   [Verzerrung]{.purple}: Systematische Abweichungen zwischen [Beobachteter Wert]{.gray} und [Wahrer Wert]{.blue}, z.B. aufgrund nicht-repräsentativer Stichprobe oder Störfaktoren.
 
-- [Rauschen]{.orange}: Zufällige Schwankungen aufgrund der Stichprobe.
+-   [Rauschen]{.orange}: Zufällige Schwankungen aufgrund der Stichprobe.
 
-::: aside
+::: footnote
 [de Mesquita and Fowler (2021)](https://press.princeton.edu/books/paperback/9780691214351/thinking-clearly-with-data)
 :::
 
@@ -225,19 +229,19 @@ Datei `EineLuege_Fortsetzung.Rmd` im Ordner `fallstudie` öffnen und unter `Eine
 
 ## Stichprobenarten (I/II)
 
-&#x1F469;&#x200D;&#x1F3EB; möchte wissen wie gut die Studierenden die Inhalte verstanden haben.
+👩‍🏫 möchte wissen wie gut die Studierenden die Inhalte verstanden haben.
 
-- **Gelegenheitsstichprobe**: &#x1F469;&#x200D;&#x1F3EB; nimmt die dran, die sich meldet.
+-   **Gelegenheitsstichprobe**: 👩‍🏫 nimmt die dran, die sich meldet.
 
-- **Zufällige Stichprobe**:  &#x1F469;&#x200D;&#x1F3EB; wählt zufällig eine Studierende aus.
+-   **Zufällige Stichprobe**: 👩‍🏫 wählt zufällig eine Studierende aus.
 
 ------------------------------------------------------------------------
 
 ## Stichprobenarten (II/II)
 
 ```{r}
-#| layout-ncol: 2
-#| column: page
+#| echo: false
+#| warning: false
 
 library(ggplot2)
 library(ggdag)
@@ -247,9 +251,12 @@ co <- data.frame(x = c(0.5,0,1), y = c(1,0,0), name = c("Z", "S", "X"))
 dag_s1 <- dagify(S ~ Z,
                X ~ Z,
                coords = co) %>% 
-  ggdag(node_size = 20, text_size = 8, text = TRUE, text_col = "lightgray") + theme_dag_blank() +
-  geom_dag_edges(arrow_directed = grid::arrow(length = grid::unit(15, "pt"), type = "closed"))  + 
-  geom_text(label = "Z - Verstehen\nS - Stichprobe\nX - Antwort", 
+  ggdag(node_size = 20, text_size = 8, text = TRUE, text_col = "lightgray") +
+  theme_dag_blank() +
+  geom_dag_edges(
+    arrow_directed = grid::arrow(length = grid::unit(15, "pt"),
+                                 type = "closed"))  +
+  geom_text(label = "Z - Verstehen\nS - Stichprobe\nX - Antwort",
             hjust = 0, vjust = 0,
             x = 0.15, y = 0, size = 7, color = "darkgrey") +
   labs(title = "Gelegenheitsstichprobe")
@@ -259,18 +266,30 @@ co <- data.frame(x = c(0.5,0,1,-1), y = c(1,0,0,0), name = c("Z", "S", "X", "R")
 dag_s2 <- dagify(X ~ Z,
                  S ~ Z,
                  S ~ R, coords = co) %>% 
-  ggdag(node_size = 20, text_size = 8, text = TRUE, text_col = "lightgray") + theme_dag_blank() +
-  geom_dag_edges(arrow_directed = grid::arrow(length = grid::unit(15, "pt"), type = "closed"))  + 
+  ggdag(node_size = 20, text_size = 8, text = TRUE, text_col = "lightgray") +
+  theme_dag_blank() +
+  geom_dag_edges(
+    arrow_directed = grid::arrow(length = grid::unit(15, "pt"),
+                                 type = "closed")) +
   geom_segment(aes(x = .15, y = .475, xend = .35, yend = .575), color = "red") +
   geom_segment(aes(x = .15, y = .425, xend = .35, yend = .525), color = "red") +
   geom_text(label = "Z - Verstehen\nS - Stichprobe\nX - Antwort\nR - Dozent:in", 
             hjust = 0, vjust = 1,
             x = -1.1, y = 0.75, size = 7, color = "darkgrey") + 
   labs(title = "Zufällige Stichprobe")
-
+```
+::: columns
+::: {.column width="49%"}
+```{r}
 dag_s1
+```
+:::
+::: {.column width="49%"}
+```{r}
 dag_s2
 ```
+:::
+:::
 
 Der Zufall [eliminert]{.red} die Abhängigkeit von möglichen [Verzerrungen]{.purple} der Stichprobe (hier durch Verstehen). Der [Beobachtete Wert]{.gray} kann den [Wahrer Wert]{.blue} unverzerrt schätzen. Es gibt aber noch [zufällige Schwankungen]{.orange}.
 
@@ -278,54 +297,71 @@ Der Zufall [eliminert]{.red} die Abhängigkeit von möglichen [Verzerrungen]{.pu
 
 ## Studienarten (I/II)
 
-&#x1F469;&#x200D;&#x1F3EB; möchte wissen, wie Lernzeit und Klausurergebnis zusammenhängen.
+👩‍🏫 möchte wissen, wie Lernzeit und Klausurergebnis zusammenhängen.
 
-- **Beobachtungsstudie**: &#x1F469;&#x200D;&#x1F3EB; beobachtet Lernzeit und resultierende Klausurpunkte.
+-   **Beobachtungsstudie**: 👩‍🏫 beobachtet Lernzeit und resultierende Klausurpunkte.
 
-- **Randomisierte Studie**:  &#x1F469;&#x200D;&#x1F3EB; manipuliert Lernzeit zufällig und beobachtet resultierende Klausurpunkte.
+-   **Randomisierte Studie**: 👩‍🏫 manipuliert Lernzeit zufällig und beobachtet resultierende Klausurpunkte.
 
 ------------------------------------------------------------------------
 
 ## Studienarten (II/II)
 
 ```{r}
-#| layout-ncol: 2
-#| column: page
+#| echo: false
+#| warning: false
 
 co <- data.frame(x = c(0,0,1), y = c(1,0,0), name = c("Z", "X", "Y")) 
 
 dag_e1 <- dagify(Y ~ X,
                  X ~ Z,
                  Y ~ Z, coords = co) %>% 
-  ggdag(node_size = 20, text_size = 8, text = TRUE, text_col = "lightgray") + theme_dag_blank() +
-  geom_dag_edges(arrow_directed = grid::arrow(length = grid::unit(15, "pt"), type = "closed"))  + 
+  ggdag(node_size = 20, text_size = 8, text = TRUE, text_col = "lightgray") +
+  theme_dag_blank() +
+  geom_dag_edges(
+    arrow_directed = grid::arrow(length = grid::unit(15, "pt"), 
+                                 type = "closed"))  + 
   geom_text(label = "Z - Vorwissen\nX - Lernzeit\nY - Klausurpunkte", 
             hjust = 1, vjust = 1,
             x = 1, y = 1, size = 7, color = "darkgrey") +
   labs(title = "Beobachtungsstudie")
 
-co <- data.frame(x = c(0,0,1,-1), y = c(1,0,0,0), name = c("Z", "X", "Y", "R")) 
+co <- data.frame(x = c(0,0,1,-1), y = c(1,0,0,0), name = c("Z", "X", "Y", "R"))
 
-dag_e2 < -dagify(Y ~ X,
+dag_e2 <- dagify(Y ~ X,
                  X ~ Z,
                  X ~ R,
                  Y ~ Z, coords = co) %>% 
-  ggdag(node_size = 20, text_size = 8, text = TRUE, text_col = "lightgray") + theme_dag_blank() +
-  geom_dag_edges(arrow_directed = grid::arrow(length = grid::unit(15, "pt"), type = "closed"))  + 
+  ggdag(node_size = 20, text_size = 8, text = TRUE, text_col = "lightgray") +
+  theme_dag_blank() +
+  geom_dag_edges(
+    arrow_directed = grid::arrow(length = grid::unit(15, "pt"), 
+                                 type = "closed")) + 
   geom_segment(aes(x = -.1, y = .475, xend = .1, yend = .575), color = "red") +
   geom_segment(aes(x = -.1, y = .425, xend = .1, yend = .525), color = "red") +
-  geom_text(label = "Z - Vorwissen\nX - Lernzeit\nY - Klausurpunkte\nR - Dozent:in", 
-            hjust = 0, vjust = 1,
-            x = -1.15, y = 0.85, size = 7, color = "darkgrey") +
+  geom_text(
+    label = "Z - Vorwissen\nX - Lernzeit\nY - Klausurpunkte\nR - Dozent:in", 
+    hjust = 0, vjust = 1,
+    x = -1.15, y = 0.85, size = 7, color = "darkgrey") +
   labs(title = "Randomisiertes Experiment")
-
-dag_e1
-dag_e2
 ```
+::: columns
+::: {.column width="49%"}
+```{r}
+dag_s1
+```
+:::
+::: {.column width="49%"}
+```{r}
+dag_s2
+```
+:::
+:::
 
 Der Zufall [eliminert]{.red} die Abhängigkeit einer [Verzerrungen]{.purple} des Zusammenhangs (hier durch Vorwissen). Der [Beobachtete Wert]{.gray} kann den [Wahrer Wert]{.blue} unverzerrt schätzen. Es gibt aber noch [zufällige Schwankungen]{.orange}.
 
 ------------------------------------------------------------------------
 
 ## .
+
 .
