@@ -41,10 +41,40 @@ $presentation-title-slide-text-align: right;
   background-position: top 0px right 10px;
 }
 
+div.footnote {
+  font-size: 40%;
+}
+
+div.footer {
+  border-top: solid #00998A !important;
+  padding-top: 4px;
+}
+
+@page :last {
+  display: none;
+}
+
+
+figcaption,
+p.caption,
+div.caption {
+  font-size: 40% !important;
+  padding-left: 10px!important;
+  padding-right: 10px!important;
+}
+
+figcaption {
+  display: inline-block !important;
+}
+
+
 @media print {
   @page {
     size: A4 landscape;
     margin: 0 15pt; 
+  }
+  @page:first div.footer{
+    display:none !important;
   }
   h2 {
       font-size: clamp(2em, calc(2em + 1vw), 3em);
@@ -60,7 +90,19 @@ $presentation-title-slide-text-align: right;
   div.slide-chalkboard-bottons {
     display: none;
   }
+  .footer p,
   .footer {
-    text-align: center;
+    text-align: center !important;
+  }
+  div.footer {
+    border-top: unset;
+  }
+  html:not(.print-pdf) div.columns,
+  html:not(.print-pdf) div.column {
+    display: flex !important;
+  }
+  html:not(.print-pdf) div.footer {
+    text-align: center !important;
+    border-top: unset;
   }
 }
