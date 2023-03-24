@@ -30,7 +30,7 @@ format:
 
 🤷 Stellen Sie Fragen.
 
-💪 <https://tweedback.de/XXXX>
+💪 <https://tweedback.de/zw83>
 
 ------------------------------------------------------------------------
 
@@ -158,7 +158,6 @@ knitr::include_graphics(
   )
 ```
 
-
 Was ist bei einer Datentabelle der Klausurergebnisse eine Beobachtung (engl.: observation?)
 
 **A**: Die erreichte Punktzahl.
@@ -173,6 +172,7 @@ Was ist bei einer Datentabelle der Klausurergebnisse eine Beobachtung (engl.: ob
 
 ::: center
 <iframe src="https://www.causeweb.org/cause/resources/fun/songs/levels-measurement" title width="100%" height="500" style="border:none;">
+
 </iframe>
 :::
 
@@ -278,12 +278,14 @@ dag_s2 <- dagify(X ~ Z,
             x = -1.1, y = 0.75, size = 7, color = "darkgrey") + 
   labs(title = "Zufällige Stichprobe")
 ```
+
 ::: columns
 ::: {.column width="49%"}
 ```{r}
 dag_s1
 ```
 :::
+
 ::: {.column width="49%"}
 ```{r}
 dag_s2
@@ -345,12 +347,14 @@ dag_e2 <- dagify(Y ~ X,
     x = -1.15, y = 0.85, size = 7, color = "darkgrey") +
   labs(title = "Randomisiertes Experiment")
 ```
+
 ::: columns
 ::: {.column width="49%"}
 ```{r}
 dag_s1
 ```
 :::
+
 ::: {.column width="49%"}
 ```{r}
 dag_s2
@@ -359,4 +363,3 @@ dag_s2
 :::
 
 Der Zufall [eliminert]{.red} die Abhängigkeit einer [Verzerrungen]{.purple} des Zusammenhangs (hier durch Vorwissen). Der [Beobachtete Wert]{.gray} kann den [Wahrer Wert]{.blue} unverzerrt schätzen. Es gibt aber noch [zufällige Schwankungen]{.orange}.
-
