@@ -67,6 +67,10 @@ figcaption {
   display: inline-block !important;
 }
 
+#quarto-log-error-modal .modal__overlay {
+  display: none !important;
+}
+
 
 @media print {
   @page {
