@@ -1,0 +1,104 @@
+---
+title: "Wissenschaftliche Methodik"
+subtitle: "Vierter Termin"
+institute: "FOM Essen"
+author: "Norman Markgraf"
+lang: de-DE
+format: 
+  revealjs:
+    main-font: Arial
+    hight: 1920
+    width: 1080
+    margin: 0
+    history: true
+    center: false
+    theme:
+      - colors.scss
+      - fontsstyles.scss 
+      - fom.scss
+      - wm.scss
+    footer: "WM | Norman Markgraf"
+    chalkboard: true
+    title-slide-attributes:
+      data-background-image: fom-background.png
+      data-background-size: contain
+---
+
+## Zur Erinnerung
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/XXXX](https://tweedback.de/XXXX)
+
+------------------------------------------------------------------------
+
+## Stimmung?
+
+::: {.columns}
+::: {.column width="55%"}
+Auf der *Funny Scale*:  
+Wie geht es Ihnen heute?
+:::
+::: {.column width="45%"}
+```{r cat-scale8_img, fig.align="center", out.width="95%", fig.cap="Quelle: [Etsy](https://www.etsy.com/de/listing/1032124670/emotion-check-in-emotional-regulation?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=stimmung+skala&ref=sr_gallery-1-16&sts=1)"}
+knitr::include_graphics(here::here("img", "fun-scale.jpg"))
+```
+:::
+:::
+
+------------------------------------------------------------------------
+
+## UN Ziel 4: Hochwertige Bildung
+
+::: center
+<iframe src="https://upgrader.gapminder.org/q/3/embed?hasBorder=true&hasOpenSansFont=false" title="86% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+:::
+
+------------------------------------------------------------------------
+
+## Heutiges Thema &#127979;
+
+- Explorative Datenanalyse und Beschreibende Statistik: Schwerpunkt **[kategoriale]{.green}** Daten
+
+<br>
+
+**Tipp**: Öffnen Sie:
+
+- Übersicht: Explorative Datenanalyse und Deskriptive Statistik
+
+- R Befehlsübersicht
+
+------------------------------------------------------------------------
+
+## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
+
+- Sie kennen zentrale Statistiken (Anteile) und Visualisierungen (Säulendiagramme) für kategoriale Variablen und können diese anwenden.
+
+- Sie können den Zusammenhang zwischen zwei kategorialen Merkmalen analysieren und interpretieren.
+
+------------------------------------------------------------------------
+
+## Fallstudie &#x1F4BB;
+
+- Lokal: RStudio durch klick auf `2023-SoSe-WM.Rproj` starten.
+
+- RStudio Cloud: In **Ihr** Projekt einloggen.  
+
+Datei `Filmgenre.Rmd` im Ordner `fallstudie` öffnen und unter `Filmgenre_<KÜRZEL>.Rmd` speichern.
+
+------------------------------------------------------------------------
+
+## Risk Literacy
+
+Steigern Sie in Ihrer Gruppe die Risikokompetenz: [http://bit.ly/3FQZUFJ](http://bit.ly/3FQZUFJ)
+
+
+<center>
+<iframe src="https://giphy.com/embed/26DMZEsanUIYHFO9y" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+</center>
+
+::: {.footnote}
+[via GIPHY](https://giphy.com/gifs/26DMZEsanUIYHFO9y)
+:::
