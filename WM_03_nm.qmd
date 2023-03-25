@@ -351,13 +351,13 @@ dag_e2 <- dagify(Y ~ X,
 ::: columns
 ::: {.column width="49%"}
 ```{r}
-dag_s1
+dag_e1
 ```
 :::
 
 ::: {.column width="49%"}
 ```{r}
-dag_s2
+dag_e2
 ```
 :::
 :::
