@@ -1,6 +1,6 @@
 ---
 title: "Wissenschaftliche Methodik"
-subtitle: "Vierter Termin"
+subtitle: "Fünfter Termin"
 institute: "FOM Essen"
 author: "Norman Markgraf"
 lang: de-DE
@@ -87,7 +87,7 @@ knitr::include_graphics(here::here("img", "Homer_Simpson2.jpg"))
 
 ## Was Sie lernen 👩‍🏫
 
--   Sie kennen zentrale Statistiken (Lage- und Streumaße) und Visualisierungen für metrische Variablen und können diese anwenden.
+-   Sie kennen grundlegende Statistiken (Lage- und Streumaße) und Visualisierungen für metrische Variablen und können diese anwenden.
 
 -   Sie können Verteilungsformen charakterisieren und unterscheiden.
 

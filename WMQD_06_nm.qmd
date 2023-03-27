@@ -95,7 +95,7 @@ Abbildung: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
 
 ## Fallstudie &#x1F4BB;
 
-- Lokal: RStudio durch klick auf `WMQD_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+- Lokal: RStudio durch klick auf `2023_SoSe_WMQD.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
 
 - RStudio Cloud: In **Ihr** Projekt einloggen.  
 
