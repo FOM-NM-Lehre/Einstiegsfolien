@@ -102,7 +102,7 @@ Wir sind es dem datenbasierten Entscheiden schuldig!
 <img src="https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/rmarkdown_wizards.png" alt="eRfolg" width="450"/>
 </center>
 
-::: {.aside}
+::: {.footnote}
 Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
 :::
 
@@ -114,7 +114,7 @@ Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nziSP3vELCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
-::: {.aside}
+::: {.footnote}
 Quelle: [The Raf: The R Inferno Song (Teenage Dirtbag Parody)](https://youtu.be/nziSP3vELCk)
 :::
 
@@ -137,7 +137,7 @@ Disktuieren Sie in Gruppen die Gütekritieren unserer Wissenschaftlichen Studie 
 <iframe src="https://giphy.com/embed/26FLaFRZa93ZcoDnO" width="480" height="270´" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 </center>
 
-::: {.aside}
+::: {.footnote}
 [via GIPHY](https://giphy.com/gifs/Obama-26FLaFRZa93ZcoDnO)
 :::
 

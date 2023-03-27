@@ -1,6 +1,6 @@
 ---
-title: "Wissenschaftliche Methodik -- Quantitative Datenanalyse"
-subtitle: "Fünfter Termin"
+title: "Wissenschaftliche Methodik"
+subtitle: "Vierter Termin"
 institute: "FOM Essen"
 author: "Norman Markgraf"
 lang: de-DE
@@ -26,13 +26,15 @@ format:
 
 ## Zur Erinnerung
 
+📛 Schalten Sie bitte die Kamera an.
+
 ✏ Arbeiten Sie aktiv mit.
 
 🤷 Stellen Sie Fragen.
 
 💪 <https://tweedback.de/XXXX>
 
-<br> Hinweise zu den **Prüfungsleistungen** finden Sie in der **Projektgruppe** zur Vorlesung.
+------------------------------------------------------------------------
 
 ## Stimmung?
 
@@ -42,17 +44,21 @@ Auf der Skala von *Homer Simpson*: Wie geht es Ihnen heute?
 knitr::include_graphics(here::here("img", "Homer_Simpson2.jpg"))
 ```
 
+------------------------------------------------------------------------
+
 ## Tipps für den Vorlesungserfolg
 
 -   Kommen Sie zur Vorlesung!
 
 -   Vermeiden Sie Ablenkung.
 
--   Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die das [Skript von Prof. Matthias Gehrke aus dem OC](https://campus.bildungscentrum.de/nfcampus/plpd/content/9168039)!
+-   Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die das [Skript von Prof. Matthias Gehrke aus dem OC](https://campus.bildungscentrum.de/nfcampus/plpd/content/9168045)!
 
 -   Stellen Sie Fragen.
 
 -   Unterstützen Sie sich gegenseitig.
+
+------------------------------------------------------------------------
 
 ## UN Ziel 5: Gender Equality
 
@@ -62,6 +68,8 @@ knitr::include_graphics(here::here("img", "Homer_Simpson2.jpg"))
 </iframe>
 :::
 
+------------------------------------------------------------------------
+
 ## Heutiges Thema 🏫
 
 -   Explorative Datenanalyse und Deskriptive Statistik: Schwerpunkt [**metrische**]{.green} Daten
@@ -70,18 +78,26 @@ knitr::include_graphics(here::here("img", "Homer_Simpson2.jpg"))
 <iframe src="https://giphy.com/embed/XXAKgZR1EbAqmuGBE9" width="360" height="300" frameBorder="0" class="giphy-embed" allowFullScreen>
 
 </iframe>
-:::
-
 ::: footnote
 [via GIPHY](https://giphy.com/gifs/Verohallinto-superhero-verohallinto-epic-tax-guy-XXAKgZR1EbAqmuGBE9)
 :::
+:::
+
+------------------------------------------------------------------------
 
 ## Was Sie lernen 👩‍🏫
 
 -   Sie kennen zentrale Statistiken (Lage- und Streumaße) und Visualisierungen für metrische Variablen und können diese anwenden.
--   Sie wissen, welcher dieser Lage- und Streumaße bei nominalen und ordinalen Merkmalen angewendet werden können.
+
 -   Sie können Verteilungsformen charakterisieren und unterscheiden.
--   Sie können den Zusammenhang zwischen zwei metrischen Merkmalen visualisieren und interpretieren.
+
+**Tipp**: Öffnen Sie:
+
+-   Übersicht: Explorative Datenanalyse und Deskriptive Statistik
+
+-   R Befehlsübersicht
+
+------------------------------------------------------------------------
 
 ## Exploring Histograms
 
@@ -89,11 +105,12 @@ knitr::include_graphics(here::here("img", "Homer_Simpson2.jpg"))
 <iframe src="http://tinlizzie.org/histograms/" width="900" height="525">
 
 </iframe>
-:::
-
 ::: footnote
 <http://tinlizzie.org/histograms/>
 :::
+:::
+
+------------------------------------------------------------------------
 
 ## Verteilungsformen
 
@@ -105,10 +122,12 @@ knitr::include_graphics(here::here("img", "Homer_Simpson2.jpg"))
 <https://youtu.be/2eFFzErlU4c>
 :::
 
+------------------------------------------------------------------------
+
 ## Fallstudie 💻
 
--   Lokal: RStudio durch klick auf `2023-SoSe-WMQD.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+-   Lokal: RStudio durch klick auf `2023_SoSe_WM.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
 
 -   RStudio Cloud: In **Ihr** Projekt einloggen.
 
-`Lego.Rmd` im Ordner `fallstudien` öffnen und unter `Lego_<KÜRZEL>.Rmd` speichern.
+-   `Fueleconomy.Rmd` im Ordner `fallstudien` öffnen und unter `Fueleconomy_<KÜRZEL>.Rmd` speichern.

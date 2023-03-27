@@ -74,6 +74,7 @@ figcaption {
 
 @media print {
   @page {
+    size: landscape;
     size: A4 landscape;
     margin: 0 15pt; 
   }
@@ -89,6 +90,14 @@ figcaption {
   .reveal .slide h2 {
     color: white !important;
     font-size: 200% !important;
+  }
+  html:not(.print-pdf) #title-slide h1,
+  html:not(.print-pdf) #title-slide p,
+  html:not(.print-pdf) #title-slide div {
+    text-align: right !important;
+  }
+  html:not(.print-pdf) #title-slide h1 {
+    font-size: 76px !important;
   }
   div.slide-menu-botton,
   div.slide-chalkboard-bottons {

@@ -26,23 +26,24 @@ format:
 
 ## Zur Erinnerung
 
-&#x270F; Arbeiten Sie aktiv mit.
+✏ Arbeiten Sie aktiv mit.
 
-&#x1F937; Stellen Sie Fragen.
+🤷 Stellen Sie Fragen.
 
-&#x1F4AA; [https://tweedback.de/XXXX](https://tweedback.de/XXXX)
+💪 <https://tweedback.de/XXXX>
 
 ------------------------------------------------------------------------
 
 ## Stimmung?
 
-::: {.columns}
+::: columns
 ::: {.column width="55%"}
-Auf der *Funny Scale*:  
+Auf der *Funny Scale*:\
 Wie geht es Ihnen heute?
 :::
+
 ::: {.column width="45%"}
-```{r cat-scale8_img, fig.align="center", out.width="85%", fig.cap="Quelle: [Etsy](https://www.etsy.com/de/listing/1032124670/emotion-check-in-emotional-regulation?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=stimmung+skala&ref=sr_gallery-1-16&sts=1)"}
+```{r fun-scale_img, fig.align="center", out.width="85%", fig.cap="Quelle: [Etsy](https://www.etsy.com/de/listing/1032124670/emotion-check-in-emotional-regulation?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=stimmung+skala&ref=sr_gallery-1-16&sts=1)"}
 knitr::include_graphics(here::here("img", "fun-scale.jpg"))
 ```
 :::
@@ -53,38 +54,40 @@ knitr::include_graphics(here::here("img", "fun-scale.jpg"))
 ## UN Ziel 4: Hochwertige Bildung
 
 ::: center
-<iframe src="https://upgrader.gapminder.org/q/3/embed?hasBorder=true&hasOpenSansFont=false" title="86% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+<iframe src="https://upgrader.gapminder.org/q/3/embed?hasBorder=true&amp;hasOpenSansFont=false" title="86% of people get this question wrong" width="100%" height="500" style="border:none;">
+
+</iframe>
 :::
 
 ------------------------------------------------------------------------
 
-## Heutiges Thema &#127979;
+## Heutiges Thema 🏫
 
-- Explorative Datenanalyse und Beschreibende Statistik: Schwerpunkt **[kategoriale]{.green}** Daten
+-   Explorative Datenanalyse und Beschreibende Statistik: Schwerpunkt [**kategoriale**]{.green} Daten
 
 <br>
 
 **Tipp**: Öffnen Sie:
 
-- Übersicht: Explorative Datenanalyse und Deskriptive Statistik
+-   Übersicht: Explorative Datenanalyse und Deskriptive Statistik
 
-- R Befehlsübersicht
-
-------------------------------------------------------------------------
-
-## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
-
-- Sie kennen zentrale Statistiken (Anteile) und Visualisierungen (Säulendiagramme) für kategoriale Variablen und können diese anwenden.
-
-- Sie können den Zusammenhang zwischen zwei kategorialen Merkmalen analysieren und interpretieren.
+-   R Befehlsübersicht
 
 ------------------------------------------------------------------------
 
-## Fallstudie &#x1F4BB;
+## Was Sie lernen 👩‍🏫
 
-- Lokal: RStudio durch klick auf `2023-SoSe-WM.Rproj` starten.
+-   Sie kennen zentrale Statistiken (Anteile) und Visualisierungen (Säulendiagramme) für kategoriale Variablen und können diese anwenden.
 
-- RStudio Cloud: In **Ihr** Projekt einloggen.  
+-   Sie können den Zusammenhang zwischen zwei kategorialen Merkmalen analysieren und interpretieren.
+
+------------------------------------------------------------------------
+
+## Fallstudie 💻
+
+-   Lokal: RStudio durch klick auf `2023-SoSe-WM.Rproj` starten.
+
+-   RStudio Cloud: In **Ihr** Projekt einloggen.
 
 Datei `Filmgenre.Rmd` im Ordner `fallstudie` öffnen und unter `Filmgenre_<KÜRZEL>.Rmd` speichern.
 
@@ -92,13 +95,13 @@ Datei `Filmgenre.Rmd` im Ordner `fallstudie` öffnen und unter `Filmgenre_<KÜRZ
 
 ## Risk Literacy
 
-Steigern Sie in Ihrer Gruppe die Risikokompetenz: [http://bit.ly/3FQZUFJ](http://bit.ly/3FQZUFJ)
+Steigern Sie in Ihrer Gruppe die Risikokompetenz: <http://bit.ly/3FQZUFJ>
 
+::: {.center}
+<iframe src="https://giphy.com/embed/26DMZEsanUIYHFO9y" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen>
 
-<center>
-<iframe src="https://giphy.com/embed/26DMZEsanUIYHFO9y" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-</center>
-
-::: {.footnote}
+</iframe>
+::: footnote
 [via GIPHY](https://giphy.com/gifs/26DMZEsanUIYHFO9y)
+:::
 :::

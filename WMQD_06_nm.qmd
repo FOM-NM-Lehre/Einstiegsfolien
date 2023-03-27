@@ -1,0 +1,103 @@
+---
+title: "Wissenschaftliche Methodik -- Quantitative Datenanalyse"
+subtitle: "Sechster Termin"
+institute: "FOM Dortmund"
+author: "Norman Markgraf"
+lang: de-DE
+format: 
+  revealjs:
+    main-font: Arial
+    hight: 1920
+    width: 1080
+    margin: 0
+    history: true
+    center: false
+    theme:
+      - colors.scss
+      - fontsstyles.scss 
+      - fom.scss
+      - wmqd.scss
+    footer: "WMQD | Norman Markgraf"
+    chalkboard: true
+    title-slide-attributes:
+      data-background-image: fom-background.png
+      data-background-size: contain
+---
+
+## Zur Erinnerung
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/XXXX](https://tweedback.de/XXXX)
+
+<br> Hinweise zu den **Prüfungsleistungen** finden Sie in der **Projektgruppe** zur Vorlesung.
+
+------------------------------------------------------------------------
+
+## Stimmung?
+
+Auf der Skala von *Elon Musk*: Wie fühlen Sie sich heute?
+
+```{r cat-scale8_img, fig.align="center", out.width="35%", fig.cap="Quelle: [@Empoweringrace](https://www.pinterest.de/pin/1196337391792572/)"}
+knitr::include_graphics(here::here("img", "Elon_Musk_eres_hoy_cut.jpg"))
+```
+
+------------------------------------------------------------------------
+
+## Verantwortung übernehmen!
+
+::: {.columns}
+::: {.column width="49%"}
+Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die das [Skript von Prof. Matthias Gehrke aus dem OC](https://campus.bildungscentrum.de/nfcampus/plpd/content/9168039)!
+:::
+::: {.column width="49%"}
+```{r sketchplanations-the-accountability-ladder_img, fig.align="center", fig.cap="Quelle: [sketchplanations](https://sketchplanations.com/the-accountability-ladder)"}
+knitr::include_graphics(here::here("img", "sketchplanations-the-accountability-ladder.png"))
+```
+:::
+:::
+
+------------------------------------------------------------------------
+
+## UN Ziel 6: Clean water and sanitation
+
+::: center
+<iframe src="https://upgrader.gapminder.org/q/6/embed?hasBorder=true&hasOpenSansFont=false" title="89% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+:::
+
+------------------------------------------------------------------------
+
+## Heutiges Thema &#127979;
+
+- Normalverteilung
+
+![](https://raw.githubusercontent.com/allisonhorst/stats-illustrations/main/other-stats-artwork/not_normal.png){fig-align="center" width="50%"}
+
+::: {.footnote}
+Abbildung: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
+:::
+
+------------------------------------------------------------------------
+
+## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
+
+- Sie lernen eine theoretische Verteilung, die **[Normalverteilung]{.green}**, kennen.
+
+- Sie können die **[Z-Transformation]{.green}** anwenden und die Ergebnisse interpretieren.
+
+- Sie wissen, was die **[68-95-99.7%-Regel]{.green}** bedeutet.
+
+- Sie lernen den Satz von Bayes anzuwenden.
+
+------------------------------------------------------------------------
+
+## Fallstudie &#x1F4BB;
+
+- Lokal: RStudio durch klick auf `WMQD_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+
+- RStudio Cloud: In **Ihr** Projekt einloggen.  
+
+- `Groessenverteilung.Rmd` im Ordner `fallstudien` öffnen.
+

@@ -42,8 +42,6 @@ Auf der *Katzenskala*: Wie geht es Ihnen?
 knitr::include_graphics(here::here("img", "cat-scale8.jpg"))
 ```
 
-::: footnote
-:::
 
 ## Learning Pit
 
@@ -63,7 +61,7 @@ knitr::include_graphics(here::here("img","TheLearningPit.png"))
 
 -   Vermeiden Sie Ablenkung.
 
--   Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
+-   Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die das [Skript von Prof. Matthias Gehrke aus dem OC](https://campus.bildungscentrum.de/nfcampus/plpd/content/9168045)!
 
 -   Stellen Sie Fragen.
 
