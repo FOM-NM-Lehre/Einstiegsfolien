@@ -23,7 +23,19 @@ format:
       data-background-image: fom-background.png
       data-background-size: contain
 ---
-
+```{r}
+if (knitr::is_html_output()) knitr::knit_hooks$set(
+  plot = function(x, options) {
+    cap  <- options$fig.cap  # figure caption
+    tags <- htmltools::tags
+    width <- options$out.width  # output width
+    as.character(tags$figure(
+      tags$img(src = x, alt = cap, width = width),
+      tags$figcaption(cap, width = width)
+    ))
+  }
+)
+```
 ## Zur Erinnerung
 
 &#x270F; Arbeiten Sie aktiv mit.
@@ -40,19 +52,21 @@ format:
 
 Auf der Skala von *Elon Musk*: Wie fühlen Sie sich heute?
 
+::: {.center}
 ```{r cat-scale8_img, fig.align="center", out.width="35%", fig.cap="Quelle: [@Empoweringrace](https://www.pinterest.de/pin/1196337391792572/)"}
 knitr::include_graphics(here::here("img", "Elon_Musk_eres_hoy_cut.jpg"))
 ```
+:::
 
 ------------------------------------------------------------------------
 
 ## Verantwortung übernehmen!
 
 ::: {.columns}
-::: {.column width="49%"}
+::: {.column width="59%"}
 Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die das [Skript von Prof. Matthias Gehrke aus dem OC](https://campus.bildungscentrum.de/nfcampus/plpd/content/9168039)!
 :::
-::: {.column width="49%"}
+::: {.column width="39%"}
 ```{r sketchplanations-the-accountability-ladder_img, fig.align="center", fig.cap="Quelle: [sketchplanations](https://sketchplanations.com/the-accountability-ladder)"}
 knitr::include_graphics(here::here("img", "sketchplanations-the-accountability-ladder.png"))
 ```
@@ -73,11 +87,12 @@ knitr::include_graphics(here::here("img", "sketchplanations-the-accountability-l
 
 - Normalverteilung
 
-![](https://raw.githubusercontent.com/allisonhorst/stats-illustrations/main/other-stats-artwork/not_normal.png){fig-align="center" width="50%"}
-
-::: {.footnote}
-Abbildung: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
+::: {.center}
+```{r snot_normal_img, fig.align="center", out.width="50%", fig.cap="Abbildung: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)"}
+knitr::include_graphics(here::here("img", "not_normal.png"))
+```
 :::
+
 
 ------------------------------------------------------------------------
 
@@ -99,5 +114,5 @@ Abbildung: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
 
 - RStudio Cloud: In **Ihr** Projekt einloggen.  
 
-- `Groessenverteilung.Rmd` im Ordner `fallstudien` öffnen.
+- `Groessenverteilung.Rmd` im Ordner `fallstudien` öffnen nd unter `Groessenverteilung_<KÜRZEL>.Rmd` speichern.
 

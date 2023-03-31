@@ -35,10 +35,11 @@ $presentation-title-slide-text-align: right;
 
 .reveal .slide h2 {
   /* background-image: url("fom.jpg"); */
-  background-image: url("../../../../../fom.jpg");
-  background-size: 1.2em;
+  background-image: url("../../../../../fom.png");
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: top 0px right 10px;
+  /* background-position: top 0px right 10px; */
+  background-position-x: right;
 }
 
 div.footnote {
@@ -54,17 +55,20 @@ div.footer {
   display: none;
 }
 
-
 figcaption,
 p.caption,
 div.caption {
   font-size: 40% !important;
   padding-left: 10px!important;
   padding-right: 10px!important;
+  /* padding-top: 5px!important; */
+  /* text-align: left!important; */
+  margin-top: 0 !important;
 }
 
 figcaption {
-  display: inline-block !important;
+  /* display: inline-block !important;*/
+  vertical-align: top;
 }
 
 #quarto-log-error-modal .modal__overlay {
@@ -75,6 +79,9 @@ figcaption {
 @media print {
   @page {
     size: landscape;
+    margin: 0 15pt; 
+  }
+  @page {
     size: A4 landscape;
     margin: 0 15pt; 
   }
@@ -99,23 +106,36 @@ figcaption {
   html:not(.print-pdf) #title-slide h1 {
     font-size: 76px !important;
   }
-  div.slide-menu-botton,
-  div.slide-chalkboard-bottons {
-    display: none;
+  html:not(.print-pdf) div.slide-menu-botton {
+    display: none !important;
   }
-  .footer p,
-  .footer {
-    text-align: center !important;
-  }
-  div.footer {
-    border-top: unset;
+  html:not(.print-pdf) .reveal .slide-chalkboard-buttons {
+    display: none !important;
   }
   html:not(.print-pdf) div.columns,
   html:not(.print-pdf) div.column {
     display: flex !important;
   }
-  html:not(.print-pdf) div.footer {
+  html:not(.print-pdf) div.footer,
+  html:not(.print-pdf) div.center,
+  html:not(.print-pdf) div.center div.cell,
+  {
+    text-align: center!important;
+    margin: auto!important;
+  }
+  html:not(.print-pdf) .footer p{
     text-align: center !important;
-    border-top: unset;
+  }
+  html:not(.print-pdf) div.center div.cell figure,
+  html:not(.print-pdf) .reveal section img{
+    display: inline-block;
+  }
+  html:not(.print-pdf) p,
+  html:not(.print-pdf) li {
+    font-size: 120% !important;
+  }
+  html:not(.print-pdf) .reveal section img {
+    border: 0!important;
+    margin: auto!important;
   }
 }
