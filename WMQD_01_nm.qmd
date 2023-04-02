@@ -24,6 +24,11 @@ format:
       data-background-size: contain
 ---
 
+```{r child="prelude_WMQD.Rmd"}
+#| output: false
+#| include: false
+```
+
 ## Herzlich Wilkommen!
 
 Aus der [Data-Literacy-Charta](https://www.stifterverband.org/charta-data-literacy):
@@ -33,6 +38,8 @@ Aus der [Data-Literacy-Charta](https://www.stifterverband.org/charta-data-litera
 <br>
 
 Gehen wir es an ...
+
+------------------------------------------------------------------------
 
 ## Über mich 🤓
 
@@ -52,6 +59,8 @@ Gehen wir es an ...
 
     {{< fa brands twitter >}}:
 
+------------------------------------------------------------------------
+
 ## Wünsche von mir
 
 📛 Stellen Sie bitte ein Namensschild auf.
@@ -62,31 +71,32 @@ Gehen wir es an ...
 
 💪 <https://tweedback.de/z25p>
 
+------------------------------------------------------------------------
+
 ## Stimmung?
 
 Auf einer Skala von *OlafScholz*, wie geht es Ihnen heute?
 
-<center><img src="img/Scholz.jpeg" alt="drawing" width="450"/></center>
-
-::: aside
-Quelle: [\@MMagdowski](https://twitter.com/MMagdowski/status/1443100157487296512)
+::: center
+```{r Scholz_img, fig.align="center", out.width="450px", fig.cap="Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1443100157487296512)"}
+knitr::include_graphics(here::here("img", "Scholz.jpeg"))
+```
 :::
+
+------------------------------------------------------------------------
 
 ## Erinnerung
 
 Lernen ist kein Zuschauersport!
 
-<center>
-
-<iframe src="https://giphy.com/embed/3o6Zt90p6NgiyoN4Mo" width="960" height="407´" frameBorder="0" class="giphy-embed" allowFullScreen>
-
-</iframe>
-
-</center>
-
-::: aside
+::: center
+<iframe src="https://giphy.com/embed/3o6Zt90p6NgiyoN4Mo" width="960" height="407´" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+::: footnote
 [via GIPHY](https://media.giphy.com/media/3o6Zt90p6NgiyoN4Mo/giphy.gif)
 :::
+:::
+
+------------------------------------------------------------------------
 
 ## Tipps für den Vorlesungserfolg
 
@@ -94,11 +104,13 @@ Lernen ist kein Zuschauersport!
 
 -   Vermeiden Sie Ablenkung.
 
--   Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die das [Skript von Prof. Matthias Gehrke aus dem OC](https://campus.bildungscentrum.de/nfcampus/plpd/content/9168039)!
+-   Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die das [Skript von Prof. Matthias Gehrke aus dem OC](`r SkriptLink)!
 
 -   Stellen Sie Fragen.
 
 -   Unterstützen Sie sich gegenseitig.
+
+------------------------------------------------------------------------
 
 ## Didaktische Hinweise
 
@@ -112,6 +124,8 @@ Lernen ist kein Zuschauersport!
 
 Es gibt wissenschaftliche Belege, dass dies sich positiv auf den Lernerfolg auswirkt!
 
+------------------------------------------------------------------------
+
 ## Lernergebnisse
 
 Die Studierenden können nach erfolgreichem Abschluss des Moduls:
@@ -121,6 +135,8 @@ Die Studierenden können nach erfolgreichem Abschluss des Moduls:
 -   Methoden der deskriptiven und induktiven Statistik auswählen und anwenden,
 
 -   die Ergebnisse statistischer Methoden interpretieren,
+
+------------------------------------------------------------------------
 
 ## Lernergebnisse (Fortsetzung)
 
@@ -132,6 +148,8 @@ Die Studierenden können nach erfolgreichem Abschluss des Moduls:
 
 -   Auswertungen mit R durchführen.
 
+------------------------------------------------------------------------
+
 ## Prüfungsleistung
 
 -   Hausarbeit (auf FOM deutsch: Seminararbeit)
@@ -141,6 +159,8 @@ Die Studierenden können nach erfolgreichem Abschluss des Moduls:
 Seminararbeit und Klausur gehen jeweils zu 50% in die Modulnote ein, beide Prüfungsleistungen müssen mit mindestens 4,0 bewertet werden.
 
 Beachten Sie die im OC hinterlegten Fristen!
+
+------------------------------------------------------------------------
 
 ## Workload
 
@@ -154,63 +174,85 @@ Beachten Sie die im OC hinterlegten Fristen!
 
 -   ECTS-Credit Punkte: 8
 
+------------------------------------------------------------------------
+
 ## Heutiges Thema 🏫
 
 -   Organisatorisches
 
 -   Erste Daten - Erstkontakt mit R
 
+------------------------------------------------------------------------
+
 ## UN Ziele
 
 > Die Agenda 2030 mit ihren 17 Zielen für nachhaltige Entwicklung (Sustainable Development Goals, SDGs) ist ein globaler Plan zur Förderung nachhaltigen Friedens und Wohlstands und zum Schutz unseres Planeten.
 
-::: aside
+::: footnote
 Quelle: <https://unric.org/de/17ziele/>
 :::
 
 Gucken wir uns dazu mal Daten an ...
 
+------------------------------------------------------------------------
+
 ## UN Ziel 1: Keine Armut
 
-<iframe src="https://upgrader.gapminder.org/q/21/embed?hasBorder=true&amp;hasOpenSansFont=false" title="92% of people get this question wrong" width="100%" height="500" style="border:none;">
+::: center
+<iframe src="https://upgrader.gapminder.org/q/21/embed?hasBorder=true&amp;hasOpenSansFont=false" title="92% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+:::
 
-</iframe>
+------------------------------------------------------------------------
 
 ## Sie kommen zum eRfolg!
 
-<center><img src="https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/r_first_then.png" alt="eRfolg" width="450"/></center>
-
-::: aside
-Quelle: [\@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
+::: center
+```{r r_first_then_img, fig.align="center", out.width="450px", fig.cap="Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)"}
+knitr::include_graphics(here::here("img", "r_first_then.png"))
+```
 :::
+
+------------------------------------------------------------------------
 
 ## Reproduzierbarkeit durch R Markdown
 
-<center><img src="https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/reproducibility_court.png" alt="R Markdown" width="700"/></center>
-
-::: aside
-Quelle: [\@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
+::: center
+```{r reproducibility_court_img, fig.align="center", out.width="700px", fig.cap="Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)"}
+knitr::include_graphics(here::here("img", "reproducibility_court.png"))
+```
 :::
 
---
+------------------------------------------------------------------------
 
 ## Fallstudie 💻
 
--   Lokal: RStudio durch klick auf `2023-SoSe-WMQD.Rproj` starten.
+-   Lokal: RStudio durch klick auf ``r ProjektName`` starten.
 
 -   RStudio/posit Cloud: In **Ihr** Projekt einloggen.
 
-Datei `EineLuege.Rmd` im Ordner `fallstudie` öffnen.
+Datei `EineLuege.Rmd` im Ordner `fallstudie` öffnen nd unter `EineLuege_<KÜRZEL>.Rmd` speichern.
+
+------------------------------------------------------------------------
 
 ## Arbeiten in R Studio
 
-<center><img src="img/Kochen_mit_RStudio.png" alt="R Studio" width="850"/></center>
+::: center
+```{r Kochen_mit_RStudio_img, fig.align="center", out.width="850px", fig.cap="Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)"}
+knitr::include_graphics(here::here("img", "Kochen_mit_RStudio.png"))
+```
+:::
+
+------------------------------------------------------------------------
 
 ## YAML Header
 
 Im *YAML Header* stehen Informationen über unser Dokument.
 
-<center><img src="img/YAML-EineLuege.png" alt="YAML" width="700"/></center>
+::: center
+```{r YAML-EineLuege_img, fig.align="center", out.width="850px", fig.cap="Quelle: Eigene Darstellung"}
+knitr::include_graphics(here::here("img", "YAML-EineLuege.png"))
+```
+:::
 
 ------------------------------------------------------------------------
 
@@ -218,7 +260,11 @@ Im *YAML Header* stehen Informationen über unser Dokument.
 
 In den *Code Chunks* stehen die R Befehle.
 
-<center><img src="img/Chunk-EineLuege.png" alt="Chunk" width="700"/></center>
+::: center
+```{r Chunk-EineLuege_img, fig.align="center", out.width="700px", fig.cap="Quelle: Eigene Darstellung"}
+knitr::include_graphics(here::here("img", "Chunk-EineLuege.png"))
+```
+:::
 
 ------------------------------------------------------------------------
 
@@ -226,10 +272,18 @@ In den *Code Chunks* stehen die R Befehle.
 
 Text, Code und Ausgabe wird über `Knit` zusammengeknüpft.
 
-<center><img src="img/Knit.png" alt="Knit" width="200"/></center>
+::: center
+```{r Knit_img, fig.align="center", out.width="200px", fig.cap="Quelle: Eigene Darstellung"}
+knitr::include_graphics(here::here("img", "Knit.png"))
+```
+:::
 
 ------------------------------------------------------------------------
 
 ## eRfolg?
 
-<center><img src="img/Erfolg-EineLuege.png" alt="eRfolg?" width="850"/></center>
+::: center
+```{r /Erfolg-EineLuege_img, fig.align="center", out.width="850px", fig.cap="Quelle: Eigene Darstellung"}
+knitr::include_graphics(here::here("img", "Erfolg-EineLuege.png"))
+```
+:::

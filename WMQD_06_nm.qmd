@@ -23,19 +23,13 @@ format:
       data-background-image: fom-background.png
       data-background-size: contain
 ---
-```{r}
-if (knitr::is_html_output()) knitr::knit_hooks$set(
-  plot = function(x, options) {
-    cap  <- options$fig.cap  # figure caption
-    tags <- htmltools::tags
-    width <- options$out.width  # output width
-    as.character(tags$figure(
-      tags$img(src = x, alt = cap, width = width),
-      tags$figcaption(cap, width = width)
-    ))
-  }
-)
+
+```{r child="prelude_WMQD.Rmd"}
+#| output: false
+#| include: false
 ```
+
+
 ## Zur Erinnerung
 
 &#x270F; Arbeiten Sie aktiv mit.
@@ -53,7 +47,7 @@ if (knitr::is_html_output()) knitr::knit_hooks$set(
 Auf der Skala von *Elon Musk*: Wie fühlen Sie sich heute?
 
 ::: {.center}
-```{r cat-scale8_img, fig.align="center", out.width="35%", fig.cap="Quelle: [@Empoweringrace](https://www.pinterest.de/pin/1196337391792572/)"}
+```{r Elon_Musk_eres_hoy_cut_img, fig.align="center", out.width="35%", fig.cap="Quelle: [@Empoweringrace](https://www.pinterest.de/pin/1196337391792572/)"}
 knitr::include_graphics(here::here("img", "Elon_Musk_eres_hoy_cut.jpg"))
 ```
 :::
@@ -110,9 +104,9 @@ knitr::include_graphics(here::here("img", "not_normal.png"))
 
 ## Fallstudie &#x1F4BB;
 
-- Lokal: RStudio durch klick auf `2023_SoSe_WMQD.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+- Lokal: RStudio durch klick auf ``r ProjektName`` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
 
 - RStudio Cloud: In **Ihr** Projekt einloggen.  
 
-- `Groessenverteilung.Rmd` im Ordner `fallstudien` öffnen nd unter `Groessenverteilung_<KÜRZEL>.Rmd` speichern.
+- `Groessenverteilung.Rmd` im Ordner `fallstudien` öffnen und unter `Groessenverteilung_<KÜRZEL>.Rmd` speichern.
 

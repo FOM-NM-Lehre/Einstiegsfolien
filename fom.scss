@@ -76,6 +76,19 @@ figcaption {
 }
 
 
+.right {
+  text-align: right;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.left {
+  text-align: left;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+
 @media print {
   @page {
     size: landscape;

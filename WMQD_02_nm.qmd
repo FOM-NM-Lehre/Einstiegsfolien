@@ -24,6 +24,12 @@ format:
       data-background-size: contain
 ---
 
+```{r child="prelude_WMQD.Rmd"}
+#| output: false
+#| include: false
+```
+
+
 ## Zur Erinnerung
 
 &#x1F4DB; Stellen Sie bitte ein Namensschild auf.
@@ -35,34 +41,40 @@ format:
 &#x1F4AA; [https://tweedback.de/exy7](https://tweedback.de/exy7)
 
 
+------------------------------------------------------------------------
+
 ## Vorlesungstyp
 
 Auf einer Skala von *AngelaMerkel*, welcher Vorlesungstyp sind Sie? 
 
-<center>
-<img src="img/angela_merkel_vorlesungstyp_cut.jpg"  width="450"/>
-</center>
-
-::: {.aside}
-Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1338206742371594240)
+::: center
+```{r angela_merkel_vorlesungstyp_cut_img, fig.align="center", out.width="35%", fig.cap="Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/133820674237159424"}
+knitr::include_graphics(here::here("img", "angela_merkel_vorlesungstyp_cut.jpg"))
+```
 :::
 
+------------------------------------------------------------------------
 
 ## Erinnerung
 
 Lernen ist kein Zuschauersport!
 
-<center>
+::: center
 <iframe src="https://giphy.com/embed/3o6Zt90p6NgiyoN4Mo" width="960" height="407´" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-</center>
-
-::: {.aside}
+::: {.footnote}
 [via GIPHY](https://media.giphy.com/media/3o6Zt90p6NgiyoN4Mo/giphy.gif)
 :::
+:::
+
+------------------------------------------------------------------------
 
 ## UN Ziel 2: Kein Hunger
 
+::: center
 <iframe src="https://upgrader.gapminder.org/q/28/embed?hasBorder=true&hasOpenSansFont=false" title="85% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+:::
+
+------------------------------------------------------------------------
 
 ## Was bisher geschah ...
 
@@ -74,15 +86,21 @@ Lernen ist kein Zuschauersport!
 
 - **Modell**: Vereinfachte Darstellung relevanter Teile der Realität.
 
+------------------------------------------------------------------------
+
 ## Dazu gibt es noch ...
 
 - **Abduktion**: Verknüpfung von Einzelbeobachtungen und Erkennen (Vermuten) von Regeln.
 
 - **Falsifikationsprinzip**: Hypothesen sind (nach Karl Popper) nie beweisbar/bestätigbar, man kann höchstens zeigen, dass sie falsch sind.
 
+------------------------------------------------------------------------
+
 ## Heutiges Thema &#127979;
 
 - Wissenschaftliche Grundlagen (Fortsetzung)
+
+------------------------------------------------------------------------
 
 ## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB;
 
@@ -94,37 +112,42 @@ Lernen ist kein Zuschauersport!
 
 - Weitere Schritte in R.
 
+------------------------------------------------------------------------
+
 ## Transparenz
 
 Wir sind es dem datenbasierten Entscheiden schuldig!
 
-<center>
-<img src="https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/rmarkdown_wizards.png" alt="eRfolg" width="450"/>
-</center>
-
-::: {.footnote}
-Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
+::: center
+```{r rmarkdown_wizards_img, fig.align="center", out.width="450px", fig.cap="Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)"}
+knitr::include_graphics(here::here("img", "rmarkdown_wizards.png"))
+```
 :::
+
+------------------------------------------------------------------------
 
 ## Coding
 
 > and in a blink of an eye [a] week passes by [t]hen I read my code again I can’t understand a damn thing
 
-<center>
+::: center
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nziSP3vELCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
-
 ::: {.footnote}
 Quelle: [The Raf: The R Inferno Song (Teenage Dirtbag Parody)](https://youtu.be/nziSP3vELCk)
 :::
+:::
+
+------------------------------------------------------------------------
 
 ## Fallstudie &#x1F4BB;
 
-- Lokal: RStudio durch klick auf `WMQD-WiSe-2022.Rproj` starten.
+- Lokal: RStudio durch klick auf ``r ProjektName`` starten.
 
 - RStudio Cloud: In **Ihr** Projekt einloggen.  
 
-Datei `Gummibaerchen.Rmd` im Ordner `fallstudie` öffnen.
+Datei `EineLuege.Rmd` im Ordner `fallstudie` öffnen und unter `EineLuege_<KÜRZEL>.Rmd` speichern.
+
+------------------------------------------------------------------------
 
 ## Gütekriterien
 
@@ -132,12 +155,9 @@ Disktuieren Sie in Gruppen die Gütekritieren unserer Wissenschaftlichen Studie 
 
 &#x1F4AA; [https://bit.ly/3eExhAN](https://bit.ly/3eExhAN)
 
-
-<center>
+::: center
 <iframe src="https://giphy.com/embed/26FLaFRZa93ZcoDnO" width="480" height="270´" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-</center>
-
 ::: {.footnote}
 [via GIPHY](https://giphy.com/gifs/Obama-26FLaFRZa93ZcoDnO)
 :::
-
+:::
