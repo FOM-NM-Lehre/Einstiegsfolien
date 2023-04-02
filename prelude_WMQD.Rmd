@@ -1,0 +1,6 @@
+```{r child="prelude.Rmd"}
+```
+```{r echo=FALSE}
+ProjektName <- "2023_SoSe_WMQD.Rproj"
+SkriptLink <- "https://campus.bildungscentrum.de/nfcampus/plpd/content/9168039"
+```
