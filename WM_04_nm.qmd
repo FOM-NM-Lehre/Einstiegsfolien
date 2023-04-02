@@ -69,7 +69,7 @@ knitr::include_graphics(here::here("img", "fun-scale.jpg"))
 
 **Tipp**: Öffnen Sie:
 
--   Übersicht: Explorative Datenanalyse und Deskriptive Statistik
+-   Übersicht: *Explorative Datenanalyse und Deskriptive Statistik*
 
 -   R Befehlsübersicht
 
