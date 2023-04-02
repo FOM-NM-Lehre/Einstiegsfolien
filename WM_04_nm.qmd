@@ -24,6 +24,11 @@ format:
       data-background-size: contain
 ---
 
+```{r child="prelude_WM.Rmd"}
+#| output: false
+#| include: false
+```
+
 ## Zur Erinnerung
 
 ✏ Arbeiten Sie aktiv mit.

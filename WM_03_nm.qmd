@@ -24,6 +24,12 @@ format:
       data-background-size: contain
 ---
 
+```{r child="prelude_WM.Rmd"}
+#| output: false
+#| include: false
+```
+
+
 ## Zur Erinnerung
 
 ✏ Arbeiten Sie aktiv mit.
@@ -42,16 +48,17 @@ Auf der *Katzenskala*: Wie geht es Ihnen?
 knitr::include_graphics(here::here("img", "cat-scale8.jpg"))
 ```
 
+------------------------------------------------------------------------
 
 ## Learning Pit
 
 ::: center
 **Sie** schaffen es aus der Grube
-:::
 
 ```{r TheLearningPit_img, fig.align="center", out.width="40%", fig.cap="Quelle: [Sketschplanations](https://sketchplanations.com/the-learning-pit)"}
 knitr::include_graphics(here::here("img","TheLearningPit.png"))
 ```
+:::
 
 ------------------------------------------------------------------------
 
@@ -67,6 +74,8 @@ knitr::include_graphics(here::here("img","TheLearningPit.png"))
 
 -   Unterstützen Sie sich gegenseitig.
 
+------------------------------------------------------------------------
+
 ## UN Ziel 3: Gesundheit und Wohlergehen
 
 ::: center
@@ -80,6 +89,8 @@ knitr::include_graphics(here::here("img","TheLearningPit.png"))
 ## Heutiges Thema 🏫
 
 -   Grundlagen Quantitativer Datenanalyse
+
+------------------------------------------------------------------------
 
 ## Was Sie lernen 👩‍🏫
 
@@ -178,6 +189,8 @@ Was ist bei einer Datentabelle der Klausurergebnisse eine Beobachtung (engl.: ob
 Quelle: <https://www.causeweb.org/cause/resources/fun/songs/levels-measurement>
 :::
 
+------------------------------------------------------------------------
+
 ## R Markdown rockt!
 
 ```{r rmarkdown_rockstar_img, fig.align="center", out.width="60%", fig.cap="Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)"}
@@ -189,7 +202,7 @@ knitr::include_graphics(
 
 ## Fallstudie 💻
 
--   Lokal: RStudio durch klick auf `2023-SoSe-WM.Rproj` starten.
+-   Lokal: RStudio durch klick auf ``r ProjektName`` starten.
 
 -   RStudio Cloud: In **Ihr** Projekt einloggen.
 

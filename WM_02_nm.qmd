@@ -24,6 +24,12 @@ format:
       data-background-size: contain
 ---
 
+```{r child="prelude_WM.Rmd"}
+#| output: false
+#| include: false
+```
+
+
 ## Zur Erinnerung
 
 &#x270F; Arbeiten Sie aktiv mit.
@@ -44,20 +50,19 @@ Wie sind Sie heute aufgestanden?
 
 <iframe src="https://giphy.com/embed/l46CBEVQjSJG6mCnC" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
-::: aside
+::: footnote
 [A via GIPHY](https://giphy.com/gifs/veephbo-hbo-veep-julia-louis-dreyfus-l46CBEVQjSJG6mCnC)
 :::
 :::
-
-:::: {.column width="50%"}
+::: {.column width="50%"}
 **B**:
 
 <iframe src="https://giphy.com/embed/l46CBvLI7Q7YthRzG" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
-::::: aside
+::: footnote
 [B via GIPHY](https://giphy.com/gifs/comedycentral-amy-schumer-inside-stretch-l46CBvLI7Q7YthRzG)
-:::::
-::::
+:::
+:::
 :::
 
 ------------------------------------------------------------------------
@@ -66,19 +71,20 @@ Wie sind Sie heute aufgestanden?
 
 Lernen ist kein Zuschauersport!
 
-<center>
+::: center
 <iframe src="https://giphy.com/embed/3o6Zt90p6NgiyoN4Mo" width="960" height="407´" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-</center>
-
-::: {.aside}
+::: {.footnote}
 [via GIPHY](https://media.giphy.com/media/3o6Zt90p6NgiyoN4Mo/giphy.gif)
+:::
 :::
 
 ------------------------------------------------------------------------
 
 ## UN Ziel 2: Kein Hunger
 
+::: center
 <iframe src="https://upgrader.gapminder.org/q/28/embed?hasBorder=true&hasOpenSansFont=false" title="85% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+:::
 
 ------------------------------------------------------------------------
 
@@ -124,12 +130,10 @@ Lernen ist kein Zuschauersport!
 
 Wir sind es dem datenbasierten Entscheiden schuldig!
 
-<center>
-<img src="https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/rmarkdown_wizards.png" alt="eRfolg" width="450"/>
-</center>
-
-::: {.aside}
-Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
+::: center
+```{r rmarkdown_wizards_img, fig.align="center", out.width="450px", fig.cap="Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)"}
+knitr::include_graphics(here::here("img", "rmarkdown_wizards.png"))
+```
 :::
 
 ------------------------------------------------------------------------
@@ -138,37 +142,34 @@ Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
 
 > and in a blink of an eye [a] week passes by [t]hen I read my code again I can’t understand a damn thing
 
-<center>
+::: center
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nziSP3vELCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
-
-::: {.aside}
+::: {.footnote}
 Quelle: [The Raf: The R Inferno Song (Teenage Dirtbag Parody)](https://youtu.be/nziSP3vELCk)
+:::
 :::
 
 ------------------------------------------------------------------------
 
 ## Fallstudie &#x1F4BB;
 
-- Lokal: RStudio durch klick auf `2023-SoSe-WM.Rproj` starten.
+- Lokal: RStudio durch klick auf ``r ProjektName`` starten.
 
 - RStudio Cloud: In **Ihr** Projekt einloggen.  
 
-Datei `EineLuege.Rmd` im Ordner `fallstudie` öffnen.
+Datei `EineLuege.Rmd` im Ordner `fallstudie` öffnen und unter `EineLuege_<KÜRZEL>.Rmd` speichern.
 
 ------------------------------------------------------------------------
 
 ## Gütekriterien
 
-Diskutieren Sie in Gruppen die Gütekritieren unserer wissenschaftlichen Studie zum Thema *Zwei Wahrheiten, eine Lüge*
+Disktuieren Sie in Gruppen die Gütekritieren unserer Wissenschaftlichen Studie zum Thema *Gummibärchen am Geschmack erkennen (?)*
 
 &#x1F4AA; [bit.ly/3n46y56](bit.ly/3n46y56)
 
-
-<center>
+::: center
 <iframe src="https://giphy.com/embed/26FLaFRZa93ZcoDnO" width="480" height="270´" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-</center>
-
-::: {.aside}
+::: {.footnote}
 [via GIPHY](https://giphy.com/gifs/Obama-26FLaFRZa93ZcoDnO)
+:::
 :::
