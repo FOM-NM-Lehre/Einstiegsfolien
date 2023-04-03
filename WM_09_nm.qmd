@@ -23,57 +23,69 @@ format:
       data-background-image: fom-background.png
       data-background-size: contain
 ---
-## Zur Erinnerung
 
-&#x1F4DB; Schalten Sie bitte die Kamera an.
+```{r child="prelude_WM.Rmd"}
+#| output: false
+#| include: false
+```
+
+
+## Zur Erinnerung
 
 &#x270F; Arbeiten Sie aktiv mit.
 
 &#x1F937; Stellen Sie Fragen.
 
-&#x1F4AA; [https://tweedback.de/zf8e](https://tweedback.de/zf8e)
+&#x1F4AA; [https://tweedback.de/XXXX](https://tweedback.de/XXXX)
 
+
+------------------------------------------------------------------------
 
 ## Wie ist Ihre Stimmung heute?
 
-![](img/annalena_baerbock.jpg){fig-align="center" width="50%"}
-
-
-::: aside
-Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1442743577126264832)
+::: center
+```{r annalena_baerbock_img, fig.align="center", out.width="50%", fig.cap="Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1442743577126264832)"}
+knitr::include_graphics(here::here("img", "annalena_baerbock.jpg"))
+```
 :::
+
+------------------------------------------------------------------------
 
 ## UN Ziel 9: Industry, innovation and infrastructure
 
 ::: center
-
 <iframe src="https://upgrader.gapminder.org/q/64/embed?hasBorder=true&hasOpenSansFont=false" title="66% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
-
 :::
+
+------------------------------------------------------------------------
 
 ## Aus der Forschung
 
-```{r, echo=FALSE, fig.align="center", out.width="70%"}
-knitr::include_graphics("img/CI.png")
+
+::: center
+```{r CI_img, fig.align="center", out.width="70%", fig.cap="Quelle: [https://doi.org/10.1080/10691898.2020.1752859](https://doi.org/10.1080/10691898.2020.1752859)"}
+knitr::include_graphics(here::here("img", "CI.png"))
 ```
+:::
 
-
-::: {.aside}
-[https://doi.org/10.1080/10691898.2020.1752859](https://doi.org/10.1080/10691898.2020.1752859)
-
+::: footnote
 &#129351; ASA's most read collection 2020 (JSE).
 :::
 
----
+------------------------------------------------------------------------
 
 ## Heutiges Thema &#127979;
 
 
 - Kausale Inferenz
 
-```{r, echo=FALSE, fig.align="center", out.width="60%"}
-knitr::include_graphics("img/RedBlue-Causal.jpg")
+::: center
+```{r RedBlue-Causal_img, fig.align="center", out.width="60%", fig.cap=""}
+knitr::include_graphics(here::here("img", "RedBlue-Causal.jpg"))
 ```
+:::
+
+------------------------------------------------------------------------
 
 
 ## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB;
@@ -85,10 +97,13 @@ wie kausale Effekte definiert werden können und warum die Bestimmung von kausal
 
 - zwischen Beschreibung, Vorhersage und Kausaler Inferenz zu unterscheiden; warum diese Unterscheidung wichtig ist und was die Kausale Leiter ist.
 
+------------------------------------------------------------------------
 
 ## Praxistransfer
 
 Geben Sie bitte ein Beispiel für die Ebene Assoziation (oder Intervention oder Counterfactual) auf der kausalen Leiter nach Pearl in Ihrer beruflichen Praxis (bitte angeben). Definieren Sie dabei $X$, $Y$.
+
+------------------------------------------------------------------------
 
 ## Kausale Leiter
 
@@ -98,14 +113,17 @@ Geben Sie bitte ein Beispiel für die Ebene Assoziation (oder Intervention oder 
 
 - **Counterfactuals**: $Pr(y_x|x',y')$ &ndash; Vorstellung: *Was wäre gewesen*? Wir haben $X=x'$ und als Folge $Y=y'$ beobachtet. Wie wahrscheinlich ist dann $Y=y$, wenn ich $X=x$ gesetzt hätte?
 
+------------------------------------------------------------------------
 
 ## Heutiges Vorgehen
 
 - Das erste Tutorial führen wir gemeinsam durch: [https://fomshinyapps.shinyapps.io/WWWEKI_Modul_01/](https://fomshinyapps.shinyapps.io/WWWEKI_Modul_01/)
 
-- Die Tutorien [https://fomshinyapps.shinyapps.io/WWWEKI_Modul_02/](https://fomshinyapps.shinyapps.io/WWWEKI_Modul_02/) und [https://fomshinyapps.shinyapps.io/WWWEKI_Modul_03/](https://fomshinyapps.shinyapps.io/WWWEKI_Modul_03/) jeweils in Breakout-Sessions.
+- Die Tutorien [https://fomshinyapps.shinyapps.io/WWWEKI_Modul_02/](https://fomshinyapps.shinyapps.io/WWWEKI_Modul_02/) und [https://fomshinyapps.shinyapps.io/WWWEKI_Modul_03/](https://fomshinyapps.shinyapps.io/WWWEKI_Modul_03/) jeweils in Gruppen.
 
-Anschließend [https://fomshinyapps.shinyapps.io/WWWEKI_Modul_07/](https://fomshinyapps.shinyapps.io/WWWEKI_Modul_07/) wieder gemeinsam.
+- Anschließend [https://fomshinyapps.shinyapps.io/WWWEKI_Modul_07/](https://fomshinyapps.shinyapps.io/WWWEKI_Modul_07/) wieder gemeinsam.
+
+------------------------------------------------------------------------
 
 ##  Resourcen
 

@@ -24,6 +24,10 @@ format:
       data-background-size: contain
 ---
 
+```{r child="prelude_WM.Rmd"}
+#| output: false
+#| include: false
+```
 
 ## Zur Erinnerung
 
@@ -51,7 +55,7 @@ knitr::include_graphics(here::here("img", "Elon_Musk_eres_hoy_cut.jpg"))
 
 ::: {.columns}
 ::: {.column width="49"}
-Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die das [Skript von Prof. Matthias Gehrke aus dem OC](https://campus.bildungscentrum.de/nfcampus/plpd/content/9168045)!
+Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die das [Skript von Prof. Matthias Gehrke aus dem OC](`r SkriptLink`)!
 :::
 ::: {.column width="49%"}
 ```{r sketchplanations-the-accountability-ladder_img, fig.align="center", fig.cap="Quelle: [sketchplanations](https://sketchplanations.com/the-accountability-ladder)"}
@@ -75,11 +79,10 @@ knitr::include_graphics(here::here("img", "sketchplanations-the-accountability-l
 - Korrelation
 
 - Einstieg in die lineare Regression
-
-![](https://imgs.xkcd.com/comics/correlation.png){fig-align="center" width="70%"}
-
-::: {.footnote}
-Abbildung: [https://xkcd.com/552](https://xkcd.com/552)
+::: center
+```{r correlation_img, fig.align="center", out.width="70%", fig.cap="Quelle: [https://xkcd.com/552](https://xkcd.com/552)"}
+knitr::include_graphics(here::here("img", "correlation.png"))
+```
 :::
 
 ------------------------------------------------------------------------
@@ -94,7 +97,7 @@ Abbildung: [https://xkcd.com/552](https://xkcd.com/552)
 
 **Tipp**: Öffnen Sie:
 
-- Übersicht: Lineare Regression
+- Übersicht: *Lineare Regression*
 
 - R Befehlsübersicht
 
@@ -102,13 +105,13 @@ Abbildung: [https://xkcd.com/552](https://xkcd.com/552)
 
 ## Streudiagramm
 
-::: {.center}
+::: center
 <iframe src="https://fomshinyapps.shinyapps.io/Korrelation/" width="475" height="535"></iframe>
-:::
-
-::: {.footnote}
+::: footnote
 [https://fomshinyapps.shinyapps.io/Korrelation/](https://fomshinyapps.shinyapps.io/Korrelation/)
 :::
+:::
+
 
 ------------------------------------------------------------------------
 
@@ -136,17 +139,17 @@ Erst visualisieren, dann korrelieren! $\bar{x}, \bar{y}, sd_x, sd_y,r_{x,y}$ sin
 
 ::: {.center}
 <iframe src="https://damassets.autodesk.net/content/dam/autodesk/research/publications-assets/gifs/same-stats-different-graphs/DinoSequentialSmaller.gif" width="750" height="435"></iframe>
-:::
-
 ::: {.footnote}
 [https://www.autodesk.com/research/publications/same-stats-different-graphs](https://www.autodesk.com/research/publications/same-stats-different-graphs/)
 :::
+:::
+
 
 ------------------------------------------------------------------------
 
 ## Fallstudie &#x1F4BB;
 
-- Lokal: RStudio durch klick auf `2023_SoSe_WM.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+- Lokal: RStudio durch klick auf ``r ProjektName`` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
 
 - RStudio Cloud: In **Ihr** Projekt einloggen.  
 

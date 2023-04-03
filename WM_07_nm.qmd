@@ -24,15 +24,18 @@ format:
       data-background-size: contain
 ---
 
-## Zur Erinnerung
+```{r child="prelude_WM.Rmd"}
+#| output: false
+#| include: false
+```
 
-&#x1F4DB; Schalten Sie bitte die Kamera an.
+## Zur Erinnerung
 
 &#x270F; Arbeiten Sie aktiv mit.
 
 &#x1F937; Stellen Sie Fragen.
 
-&#x1F4AA; [https://tweedback.de/eqe9](https://tweedback.de/eqe9)
+&#x1F4AA; [https://tweedback.de/XXXX](https://tweedback.de/XXXX)
 
 ------------------------------------------------------------------------
 
@@ -44,17 +47,17 @@ format:
 **A**:
 
 <iframe src="https://giphy.com/embed/l4pLXMFYQmTM2se7m" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-::: {.footnote}
+::: footnote
 Quelle: [via GIPHY](https://giphy.com/gifs/abcnetwork-tired-the-middle-l4pLXMFYQmTM2se7m)
 :::
 :::
 :::
 ::: {.column width="49%"}
-
 ::: center
 **B**:
 <iframe src="https://giphy.com/embed/pttEsx1vDDhYs" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-::: {.footnote}
+
+::: footnote
 Quelle: [via GIPHY](https://giphy.com/gifs/pttEsx1vDDhYs)
 :::
 :::
@@ -75,8 +78,11 @@ Quelle: [via GIPHY](https://giphy.com/gifs/pttEsx1vDDhYs)
 
 Mission Vorhersage &#128073; [https://bit.ly/RegCont](https://bit.ly/RegCont)
 
-
-![](img/linearregression.png){fig-align="center" width="20%"}
+::: center
+```{r linearregression_img, fig.align="center", out.width="20%", fig.cap=""}
+knitr::include_graphics(here::here("img", "linearregression.png"))
+```
+:::
 
 ------------------------------------------------------------------------
 
@@ -109,11 +115,10 @@ $$Verbrauch = 8.120,60 - 18,44 \cdot Temperatur$$
 
 $$\hat{\beta} = \beta + \text{(Verzerrung)} + \text{Rauschen}$$
 
-![](img/modelmeme.jpeg){fig-align="center" width="40%"}
-
-
-::: {.footnote}
-Quelle: [David Hood](https://twitter.com/Thoughtfulnz/status/1446972794135216131)
+::: center
+```{r modelmeme_img, fig.align="center", out.width="40%", fig.cap="Quelle: [David Hood](https://twitter.com/Thoughtfulnz/status/1446972794135216131)"}
+knitr::include_graphics(here::here("img", "modelmeme.jpeg"))
+```
 :::
 
 ------------------------------------------------------------------------
@@ -128,7 +133,7 @@ Quelle: [David Hood](https://twitter.com/Thoughtfulnz/status/1446972794135216131
 
 ## Regression motivieren (II/II)
 
-- Regression funktioniert genau so: Wir haben (fiktive) Daten von Temperatur und Vebrauch und wir wollen den Zusammenhang zwischen diesen Variablen analysieren. 
+- Regression funktioniert genau so: Wir haben (fiktive) Daten von Temperatur und Verbrauch und wir wollen den Zusammenhang zwischen diesen Variablen analysieren. 
 - Das gefundene Modell wird aufgrund des Rauschens nicht perfekt sein.
 
 :::{.footnote}
@@ -139,7 +144,7 @@ Anregung: [Tay (2022)](https://doi.org/10.1080/26939169.2021.2024777)
 
 ## Fallstudie &#x1F4BB;
 
-- Lokal: RStudio durch klick auf `2023_SoSe_WM.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+- Lokal: RStudio durch klick auf ``r ProjektName`` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
 
 - RStudio Cloud: In **Ihr** Projekt einloggen.  
 

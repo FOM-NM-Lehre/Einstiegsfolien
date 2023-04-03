@@ -24,61 +24,56 @@ format:
       data-background-size: contain
 ---
 
-## Zur Erinnerung
+```{r child="prelude_WM.Rmd"}
+#| output: false
+#| include: false
+```
 
-&#x1F4DB; Schalten Sie bitte die Kamera an.
+
+## Zur Erinnerung
 
 &#x270F; Arbeiten Sie aktiv mit.
 
 &#x1F937; Stellen Sie Fragen.
 
-&#x1F4AA; [https://tweedback.de/zkjv](https://tweedback.de/zkjv)
+&#x1F4AA; [https://tweedback.de/XXXX](https://tweedback.de/XXXX)
 
+------------------------------------------------------------------------
 
 ## Letzter Termin
 
-:::: {.columns}
-
+::: {.columns}
 ::: {.column width="50%"}
-
-:::: center
+::: center
 **A**:
 
 <iframe src="https://giphy.com/embed/DhstvI3zZ598Nb1rFf" width="360" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-::::
-
-::: aside
+::: footnote
 Quelle: [via GIPHY](https://giphy.com/gifs/theoffice-the-office-episode-23-tv-DhstvI3zZ598Nb1rFf)
 :::
-
 :::
-
+:::
 ::: {.column width="50%"}
-
-:::: center
+::: center
 **B**:
 
 <iframe src="https://giphy.com/embed/3oEjI80DSa1grNPTDq" width="360" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-::::
-
-::: aside
+::: footnote
 Quelle: [via GIPHY](https://giphy.com/gifs/arrested-development-michael-cera-george-bluth-3oEjI80DSa1grNPTDq)
 :::
-
+:::
+:::
 :::
 
-:::
-
-
+------------------------------------------------------------------------
 
 ## UN Ziel 10: Reduced inequalities
 
-::: {.center}
-
-
-
+::: center
 <iframe src="https://upgrader.gapminder.org/q/71/embed?hasBorder=true&hasOpenSansFont=false" title="81% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
 :::
+
+------------------------------------------------------------------------
 
 ## Heutiges Thema
 
@@ -87,17 +82,14 @@ Quelle: [via GIPHY](https://giphy.com/gifs/arrested-development-michael-cera-geo
 - Wiederholung
 
 
-::: {.center}
+::: center
 <iframe src="https://giphy.com/embed/P8CK7bJMxyNv9RMSJC" width="240" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-:::
-
-::: {.aside}
+::: footnote
 [via GIPHY](https://giphy.com/gifs/thewatch-television-bbc-america-the-watch-P8CK7bJMxyNv9RMSJC)
 :::
+:::
 
-
-
----
+------------------------------------------------------------------------
 
 ## Zum Abschluss
 
@@ -105,13 +97,12 @@ Quelle: [via GIPHY](https://giphy.com/gifs/arrested-development-michael-cera-geo
 
 - Ich hoffe Sie konnten etwas lernen!
 
-::: {.center}
+::: center
 
 Für die anstehenden Prüfungsleistungen:
 
-<iframe src="https://giphy.com/embed/3ornk7TgUdhjhTYgta" width="300" height="140" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-:::
-
-::: {.aside}
+<iframe src="https://giphy.com/embed/3ornk7TgUdhjhTYgta" width="300px" height="140px" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+::: footnote
 [via GIPHY](https://giphy.com/gifs/starwars-movie-star-wars-3ornk7TgUdhjhTYgta)
+:::
 :::
