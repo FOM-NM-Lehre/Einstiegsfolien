@@ -28,8 +28,6 @@ format:
 #| output: false
 #| include: false
 ```
-
-
 ## Zur Erinnerung
 
 &#x270F; Arbeiten Sie aktiv mit.
