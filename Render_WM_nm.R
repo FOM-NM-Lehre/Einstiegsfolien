@@ -1,11 +1,12 @@
 library(quarto)
-quarto_render("WM_01_nm.qmd") # defaults to html
-quarto_render("WM_02_nm.qmd") # defaults to html
-quarto_render("WM_03_nm.qmd") # defaults to html
-quarto_render("WM_04_nm.qmd") # defaults to html
-quarto_render("WM_05_nm.qmd") # defaults to html
-quarto_render("WM_06_nm.qmd") # defaults to html
-quarto_render("WM_07_nm.qmd") # defaults to html
-quarto_render("WM_08_nm.qmd") # defaults to html
-quarto_render("WM_09_nm.qmd") # defaults to html
-quarto_render("WM_10_nm.qmd") # defaults to html
+files <- c(
+  "WM_01_nm.qmd",  "WM_02_nm.qmd",  "WM_03_nm.qmd",  "WM_04_nm.qmd",
+  "WM_05_nm.qmd",  "WM_06_nm.qmd",  "WM_07_nm.qmd",  "WM_08_nm.qmd",
+  "WM_09_nm.qmd",  "WM_10_nm.qmd"
+)
+
+for (file in files) {
+  quarto_render(file)
+}
+
+foreach::foreach()
