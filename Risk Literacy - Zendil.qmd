@@ -1,0 +1,46 @@
+---
+title: "Risk Literacy -- Zendil"
+author: "Norman Markgraf"
+format: pdf
+lang: de
+editor: visual
+---
+
+## Rahmenbedingungen: Zendil[^1]
+
+Stellen Sie sich vor, Sie sehen die folgende Anzeige für eine neue Zahnpasta:
+
+
+Zendil - 50% Verringerung des Auftretens von Zahnfleischentzündungen. 
+
+
+Zendil ist eine neue Zahnpasta zur Vorbeugung von Zahnfleischentzündungen. Halb so viele Menschen, die Zendil verwendeten, entwickelten sich Zahnfleischentzündung im Vergleich zu Menschen, die eine andere Zahnpasta verwenden. 
+
+[^1]: Quelle: Cokely, E.T., Galesic, M., Schulz, E., Ghazal, S., & Garcia-Retamero, R. (2012). Measuring risk literacy: The Berlin Numeracy Test. Judgment and Decision Making, 7, 25-47
+
+### Aufgabenstellung: Welche Information fehlt?
+
+Welcher der folgenden Punkte würde Ihnen am besten helfen zu beurteilen, wie viel eine Person von der Verwendung von Zendil profitieren könnte? 
+
+1. Das Risiko einer Zahnfleischentzündung für Menschen, die Zendil nicht verwenden. 
+2. Das Risiko einer Zahnfleischentzündung für Menschen, die eine andere Marke für den gleichen Zweck nehmen.
+3. Wie viele Personen gab es in der Gruppe, die eine andere Zahnpasta benutzten.
+4. Wie alt sind die Personen, die an der Studie teilgenommen haben? 
+5. Wie viel ein wöchentlicher Vorrat an Zendil kostet.
+6. Ob Zendil von einer Zahnärztevereinigung für diese Anwendung empfohlen wurde.
+
+## Antwort
+
+Die Antworten 3 bis 4 sind sicherlich Quatsch. 
+Was wir gerne wissen wollen würden ist:
+$$
+  Pr(Entzündung = ja \,|\, Zendil = ja)
+$$
+
+Wir wissen nun aus der Aufgabe, das 
+
+$$
+  Pr(Entzündung = ja \,|\, Zendil = ja) = 50% \cdot Pr(Entzündung = ja \,|\, Zendil = nein)
+$$
+
+Und $Pr(Entzündung = ja \,|\, Zendil = nein)$ ist gebau die Antwort 1. Nicht jedoch die Antwort 2, da es nur eine Teilmenge von $\{Zendil = nein\}$ ist.

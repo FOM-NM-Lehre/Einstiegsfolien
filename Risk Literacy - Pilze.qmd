@@ -1,0 +1,70 @@
+---
+title: "Risk Literacy -- Pilze"
+author: "Norman Markgraf"
+format: pdf
+lang: de
+editor: visual
+---
+
+## Rahmenbedingungen
+
+In einem Wald sind 20% der Pilze rot, 50% braun und 30% weiß. 
+Ein roter Pilz ist mit einer Wahrscheinlichkeit von 20% giftig. 
+Ein nicht roter Pilz ist mit einer Wahrscheinlichkeit von 5% giftig.
+
+#### Aufgabe
+
+Wie groß ist die Wahrscheinlichkeit, dass ein giftiger Pilz rot ist?
+
+## Mathematisierung der Rahmenbedingungen:
+
+$$
+Pr(Farbe = rot) = 0.2; \qquad Pr(Farbe \neq rot) = 0.8
+$$
+
+$$
+Pr(giftig = ja\,|\,Farbe = rot) = 0.2;\qquad Pr(giftig = ja\,|\,Farbe \neq rot) = 0.05
+$$
+
+## Mathematisierung der Aufgabe
+
+Berechne:
+
+$$
+Pr(Farbe = rot\,|\,giftig = Ja)
+$$
+
+### Lösungsweg
+
+Mit dem **Satz von Bayes** gilt:
+
+$$
+Pr(Farbe = rot\,|\,giftig = Ja) = \frac{Pr(giftig = ja\,|\,Farbe = rot) \cdot Pr(Farbe = rot)}{Pr(giftig = ja)}
+$$
+
+Wir wissen, dass $Pr(giftig = ja\,|\,Farbe = rot) = 0.2$ und $Pr(Farbe = rot)=0.2$ ist. Somit ist der Zähler leicht zu berechnen.\
+\
+Wir brauchen aber noch $Pr(giftig = ja)$!
+
+Hier hilft der **Satz von der totalen Wahrscheinlichkeit**:
+
+$$
+\begin{aligned}
+Pr(giftig = ja) &= \quad Pr(giftig = ja\,|\,Farbe = rot) \cdot Pr(Farbe = rot) \\
+                &\quad+ Pr(giftig = ja\,|\,Farbe \neq rot) \cdot Pr(Farbe \neq rot)
+\end{aligned}
+$$
+
+Wir setzen ein:
+
+$$
+Pr(giftig = ja) = 0.2 \cdot 0.2 + 0.05 \cdot 0.8 = 0.08
+$$
+
+Das setzen wir in die obige Formel ein und erhalten:
+
+$$
+Pr(Farbe = rot\,|\,giftig = Ja) = \frac{0.2 \cdot 0.2}{0.08} = 0.5
+$$
+
+Damit ist die Wahrscheinlichen das ein giftiger Pilz ein roter Pilz ist bei 50%.
