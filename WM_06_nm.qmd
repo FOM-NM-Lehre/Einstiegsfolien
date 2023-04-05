@@ -153,5 +153,5 @@ Erst visualisieren, dann korrelieren! $\bar{x}, \bar{y}, sd_x, sd_y,r_{x,y}$ sin
 
 - RStudio Cloud: In **Ihr** Projekt einloggen.  
 
-- `Lego.Rmd` im Ordner `fallstudien` öffnen und unter `Lego_<KÜRZEL>.Rmd` speichern.
+- `LEGO-Modellierung.Rmd` im Ordner `fallstudien` öffnen und unter `LEGO-Modellierung_<KÜRZEL>.Rmd` speichern.
 

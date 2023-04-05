@@ -35,7 +35,7 @@ format:
 
 💪 <https://tweedback.de/XXXX>
 
-<br> Hinweise zu den **Prüfungsleistungen** finden Sie in der **Projektgruppe** zur Vorlesung.
+<br> Hinweise zu den **Prüfungsleistungen** finden Sie im OC.
 
 ------------------------------------------------------------------------
 
@@ -90,7 +90,7 @@ knitr::include_graphics(here::here("img", "Homer_Simpson2.jpg"))
 
 ## Was Sie lernen 👩‍🏫
 
--   Sie kennen zentrale Statistiken (Lage- und Streumaße) und Visualisierungen für metrische Variablen und können diese anwenden.
+-   Sie kennen grundlegenden Statistiken (Lage- und Streumaße) und Visualisierungen für metrische Variablen und können diese anwenden.
 -   Sie wissen, welcher dieser Lage- und Streumaße bei nominalen und ordinalen Merkmalen angewendet werden können.
 -   Sie können Verteilungsformen charakterisieren und unterscheiden.
 -   Sie können den Zusammenhang zwischen zwei metrischen Merkmalen visualisieren und interpretieren.
@@ -127,4 +127,4 @@ knitr::include_graphics(here::here("img", "Homer_Simpson2.jpg"))
 
 -   RStudio Cloud: In **Ihr** Projekt einloggen.
 
-`Lego.Rmd` im Ordner `fallstudien` öffnen und unter `Lego_<KÜRZEL>.Rmd` speichern.
+`LEGO-Modellierung.Rmd` im Ordner `fallstudien` öffnen und unter `LEGO-Modellierung_<KÜRZEL>.Rmd` speichern.
