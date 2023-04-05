@@ -31,8 +31,6 @@ format:
 
 ## Zur Erinnerung
 
-&#x1F4DB; Schalten Sie bitte die Kamera an.
-
 &#x270F; Arbeiten Sie aktiv mit.
 
 &#x1F937; Stellen Sie Fragen.

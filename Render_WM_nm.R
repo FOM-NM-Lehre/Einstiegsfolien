@@ -8,5 +8,3 @@ files <- c(
 for (file in files) {
   quarto_render(file)
 }
-
-foreach::foreach()
