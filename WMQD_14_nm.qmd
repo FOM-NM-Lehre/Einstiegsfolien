@@ -1,6 +1,6 @@
 ---
 title: "Wissenschaftliche Methodik -- Quantitative Datenanalyse"
-subtitle: "Erster Termin"
+subtitle: "Vierzehnter Termin"
 institute: "FOM Dortmund"
 author: "Norman Markgraf"
 lang: de-DE
