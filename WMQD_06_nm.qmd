@@ -85,7 +85,6 @@ knitr::include_graphics(here::here("img", "not_normal.png"))
 ```
 :::
 
-
 ------------------------------------------------------------------------
 
 ## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
