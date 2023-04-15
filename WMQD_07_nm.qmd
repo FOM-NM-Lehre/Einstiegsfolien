@@ -144,9 +144,9 @@ normiert die *Kovarianz* auf den Wertebereich $-1$ bis $+1$ durch Division mitte
 
 ## Korrelation (II/II)
 
-- *Korrelationskoeffizienten* $r>0$ zeigen einen positiven linearen Zusammenhang an.
+- Ein positiver linearer Zusammenhang führt zu einem *Korrelationskoeffizienten* $r>0$.
 
-- *Korrelationskoeffizienten* $r<0$ einen negativen.
+- Ein negativer linearer Zusammenhang führt zu einem *Korrelationskoeffizienten* $r<0$.
 
 - Je größer ist der lineare Zusammenhang, desto größer $|r|$.
 
