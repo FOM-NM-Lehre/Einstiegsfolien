@@ -36,45 +36,40 @@ format:
 
 &#x1F937; Stellen Sie Fragen.
 
-&#x1F4AA; [https://tweedback.de/XXXX](https://tweedback.de/XXXX)
+&#x1F4AA; [https://tweedback.de/z8mm](https://tweedback.de/z8mm)
 
-<br> Hinweise zu den **Prüfungsleistungen** finden Sie in der **Projektgruppe** zur Vorlesung.
+<br> Hinweise zu den **Prüfungsleistungen** finden Sie im OC.
 
-Die **Studienbriefe** strukturieren Ihre Vor- und Nacharbeit.
+Das [Skript von Prof. Matthias Gehrke aus dem OC](https://campus.bildungscentrum.de/nfcampus/plpd/content/9168039) strukturiert Ihre Vor- und Nacharbeit.
+
+------------------------------------------------------------------------
 
 ## Stimmung?
 
 :::: {.columns}
-
 ::: {.column width="50%"}
-
 ::: center
 **A**:
 
 <iframe src="https://giphy.com/embed/l4pLXMFYQmTM2se7m" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-:::
-
-::: aside
+::: footnote
 Quelle: [via GIPHY](https://giphy.com/gifs/abcnetwork-tired-the-middle-l4pLXMFYQmTM2se7m)
 :::
-
 :::
-
+:::
 ::: {.column width="50%"}
-
 ::: center
 **B**:
-<iframe src="https://giphy.com/embed/pttEsx1vDDhYs" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-:::
 
-::: aside
+<iframe src="https://giphy.com/embed/pttEsx1vDDhYs" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+::: footnote
 Quelle: [via GIPHY](https://giphy.com/gifs/pttEsx1vDDhYs)
 :::
-
+:::
+:::
 :::
 
-:::
-
+------------------------------------------------------------------------
 
 ## UN Ziel 7: Affordable and clean energy
 
@@ -82,7 +77,7 @@ Quelle: [via GIPHY](https://giphy.com/gifs/pttEsx1vDDhYs)
 <iframe src="https://upgrader.gapminder.org/q/59/embed?hasBorder=true&hasOpenSansFont=false" title="83% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
 :::
 
-
+------------------------------------------------------------------------
 
 ## Heutiges Thema &#127979;
 
@@ -90,12 +85,13 @@ Quelle: [via GIPHY](https://giphy.com/gifs/pttEsx1vDDhYs)
 
 - Einstieg in die lineare Regression
 
-![](https://imgs.xkcd.com/comics/correlation.png){fig-align="center" width="70%"}
-
-::: {.aside}
-Abbildung: [https://xkcd.com/552](https://xkcd.com/552)
+::: {.center}
+```{r correlation_img, fig.align="center", out.width="70%", fig.cap="Quelle: [https://xkcd.com/552](https://xkcd.com/552)"}
+knitr::include_graphics(here::here("img", "correlation.png"))
+```
 :::
 
+------------------------------------------------------------------------
 
 ## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
 
@@ -111,32 +107,53 @@ Abbildung: [https://xkcd.com/552](https://xkcd.com/552)
 
 - R Befehlsübersicht
 
+------------------------------------------------------------------------
+
 ## Streudiagramm
 
 ::: {.center}
 <iframe src="https://fomshinyapps.shinyapps.io/Korrelation/" width="475" height="535"></iframe>
-:::
-
-::: {.aside}
+::: footnote
 [https://fomshinyapps.shinyapps.io/Korrelation/](https://fomshinyapps.shinyapps.io/Korrelation/)
 :::
+:::
 
+
+------------------------------------------------------------------------
+
+## Kovarianz
+
+Die **Kovarianz** beschreibt den linearen Zusammenhang zweier metrischer Merkmale: 
+
+$$s_{xy}=\frac{1}{n-1}\sum_{i=1}^n (x_i-\bar{x})(y_i-\bar{y})$$ 
+
+Die Werte beider Variablen einer Beobachtung werden mit dem jeweiligen Mittelwert der Variable verglichen. 
+Vom Produkt der gemeinsamen Abweichungen wird (ungefähr) Mittelwert berechnet.
+Der Wertebereich liegt (hypothetisch) zwischen $-\infty$ und $\infty$.
+
+------------------------------------------------------------------------
 
 ## Korrelation (I/II)
 
-- **Kovarianz** beschreibt den linearen Zusammenhang zweier metrischer Merkmale: $s_{xy}=\frac{1}{n-1}\sum_{i=1}^n (x_i-\bar{x})(y_i-\bar{y})$: Die Werte beider Variablen einer Beobachtung werden mit dem jeweiligen Mittelwert der Variable verglichen. Vom Produkt der gemeinsamen Abweichungen wird $\approx$ Mittelwert berechnet.
+Der **Korrelationskoeffizient** nach Pearson
 
-- Der **Korrelationskoeffizient** nach Pearson $r=\frac{s_{xy}}{sd_x \cdot sd_y}$ normiert die Kovarianz auf den Wertebereich $-1$ bis $+1$ durch Division der Kovarianz durch das Produkt der Standardabweichungen.
+$$r=\frac{s_{xy}}{sd_x \cdot sd_y}$$ 
+normiert die *Kovarianz* auf den Wertebereich $-1$ bis $+1$ durch Division mittels des Produktes der *Standardabweichungen* von $x$ und $y$.
 
+------------------------------------------------------------------------
 
 ## Korrelation (II/II)
 
-- Korrelationskoeffizienten $r>0$ zeigen einen positiven linearen Zusammenhang an, $r<0$ einen negativen. Je größer $|r|$, desto größer ist der lineare Zusammenhang.
+- *Korrelationskoeffizienten* $r>0$ zeigen einen positiven linearen Zusammenhang an.
+
+- *Korrelationskoeffizienten* $r<0$ einen negativen.
+
+- Je größer ist der lineare Zusammenhang, desto größer $|r|$.
 
 - **Achtung**: Korrelation heißt nicht zwangsläufig Kausalität, keine 
 Korrelation heißt nicht zwangsläufig kein Zusammenhang oder keine Kausalität. Beispiele unter [http://www.tylervigen.com/spurious-correlations](http://www.tylervigen.com/spurious-correlations).
 
-
+------------------------------------------------------------------------
 
 ## Visualisierung
 
@@ -145,27 +162,29 @@ Erst visualisieren, dann korrelieren! $\bar{x}, \bar{y}, sd_x, sd_y,r_{x,y}$ sin
 
 ::: {.center}
 <iframe src="https://damassets.autodesk.net/content/dam/autodesk/research/publications-assets/gifs/same-stats-different-graphs/DinoSequentialSmaller.gif" width="750" height="435"></iframe>
-:::
-
-::: {.aside}
+::: footnote
 [https://www.autodesk.com/research/publications/same-stats-different-graphs](https://www.autodesk.com/research/publications/same-stats-different-graphs/)
 :::
+:::
+
+------------------------------------------------------------------------
 
 ## Korrelation und Kausalität
 
 ::: center
 <iframe src="https://www.causeweb.org/cause/resources/fun/songs/correlation-does-not-imply-causation" title="" width="100%" height="500" style="border:none;"></iframe>
-:::
-
-::: aside
+::: footnote
 Quelle: [https://www.causeweb.org/cause/resources/fun/songs/correlation-does-not-imply-causation](https://www.causeweb.org/cause/resources/fun/songs/correlation-does-not-imply-causation)
 :::
+:::
+
+------------------------------------------------------------------------
 
 ## Fallstudie &#x1F4BB;
 
-- Lokal: RStudio durch klick auf `WMQD_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+- Lokal: RStudio durch klick auf ``r ProjektName`` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
 
 - RStudio Cloud: In **Ihr** Projekt einloggen.  
 
-- `Lego.Rmd` im Ordner `fallstudien` öffnen.
+- `LEGO-Modellierung_<KÜRZEL>.Rmd` im Ordner `fallstudien` öffnen.
 
