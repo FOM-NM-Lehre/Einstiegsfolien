@@ -33,13 +33,39 @@ $presentation-title-slide-text-align: right;
   display: block;
 }
 
+/*
+  Hintergrund nur auf der ersten Seite ('quarto-title-block')
+  einblenden. Diesen um 1.2em nach oben rücken um die Footer-Zeile
+  frei zu lassen. 
+*/
+div.quarto-title-block > div.slide-background-content { 
+  background-image: url("../../../../../fom-background.png");
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat;
+  background-position: 50% calc(50% - 1.2em) !important;
+}
+
+/*
+  Hintergrund für alle anderen Seiten hat rechts ein FOM Logo
+*/
+section.slide {
+  background-image: url("../../../../../fom.png");
+  background-size: 2.3em;
+  background-repeat: no-repeat;
+  background-position: right top;
+  padding-right: -27px;
+} 
+
 .reveal .slide h2 {
   /* background-image: url("fom.jpg"); */
-  background-image: url("../../../../../fom.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  /* background-position: top 0px right 10px; */
-  background-position-x: right;
+  width: calc(100% - 1.8em);
+  max-height: 2.3em;
+  text-size: 3vw;
+  -webkit-text-size-adjust: auto;
+  text-size-adjust: auto;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 div.footnote {
