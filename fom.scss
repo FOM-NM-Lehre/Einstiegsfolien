@@ -46,7 +46,8 @@ div.quarto-title-block > div.slide-background-content {
 }
 
 /*
-  Hintergrund für alle anderen Seiten hat rechts ein FOM Logo
+  Hintergrund für alle anderen Seiten hat rechts ein FOM Logo,
+  diese Position wird von dem h2 freigehalten
 */
 section.slide {
   background-image: url("../../../../../fom.png");
@@ -56,16 +57,18 @@ section.slide {
   padding-right: -27px;
 } 
 
+/*
+ Gehört zu section.slide und hält recht genug Platz frei für das Logo.
+ Zusätzlich wird der Text mit "..." an der rechten Seite abgeschnitten.
+*/
 .reveal .slide h2 {
-  /* background-image: url("fom.jpg"); */
   width: calc(100% - 1.8em);
   max-height: 2.3em;
-  text-size: 3vw;
-  -webkit-text-size-adjust: auto;
-  text-size-adjust: auto;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+  text-size-adjust: auto;
+  -webkit-text-size-adjust: auto;
 }
 
 div.footnote {
