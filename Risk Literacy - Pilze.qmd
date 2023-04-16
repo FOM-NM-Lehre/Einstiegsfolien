@@ -8,9 +8,7 @@ editor: visual
 
 ## Rahmenbedingungen
 
-In einem Wald sind 20% der Pilze rot, 50% braun und 30% weiß. 
-Ein roter Pilz ist mit einer Wahrscheinlichkeit von 20% giftig. 
-Ein nicht roter Pilz ist mit einer Wahrscheinlichkeit von 5% giftig.
+In einem Wald sind 20% der Pilze rot, 50% braun und 30% weiß. Ein roter Pilz ist mit einer Wahrscheinlichkeit von 20% giftig. Ein nicht roter Pilz ist mit einer Wahrscheinlichkeit von 5% giftig.
 
 #### Aufgabe
 
@@ -23,7 +21,7 @@ Pr(Farbe = rot) = 0.2; \qquad Pr(Farbe \neq rot) = 0.8
 $$
 
 $$
-Pr(giftig = ja\,|\,Farbe = rot) = 0.2;\qquad Pr(giftig = ja\,|\,Farbe \neq rot) = 0.05
+Pr(giftig = ja\mid Farbe = rot) = 0.2;\qquad Pr(giftig = ja\mid Farbe \neq rot) = 0.05
 $$
 
 ## Mathematisierung der Aufgabe
@@ -31,7 +29,7 @@ $$
 Berechne:
 
 $$
-Pr(Farbe = rot\,|\,giftig = Ja)
+Pr(Farbe = rot\mid giftig = Ja)
 $$
 
 ### Lösungsweg
@@ -39,10 +37,10 @@ $$
 Mit dem **Satz von Bayes** gilt:
 
 $$
-Pr(Farbe = rot\,|\,giftig = Ja) = \frac{Pr(giftig = ja\,|\,Farbe = rot) \cdot Pr(Farbe = rot)}{Pr(giftig = ja)}
+Pr(Farbe = rot\mid giftig = Ja) = \frac{Pr(giftig = ja\mid Farbe = rot) \cdot Pr(Farbe = rot)}{Pr(giftig = ja)}
 $$
 
-Wir wissen, dass $Pr(giftig = ja\,|\,Farbe = rot) = 0.2$ und $Pr(Farbe = rot)=0.2$ ist. Somit ist der Zähler leicht zu berechnen.\
+Wir wissen, dass $Pr(giftig = ja\mid Farbe = rot) = 0.2$ und $Pr(Farbe = rot)=0.2$ ist. Somit ist der Zähler leicht zu berechnen.\
 \
 Wir brauchen aber noch $Pr(giftig = ja)$!
 
@@ -50,8 +48,8 @@ Hier hilft der **Satz von der totalen Wahrscheinlichkeit**:
 
 $$
 \begin{aligned}
-Pr(giftig = ja) &= \quad Pr(giftig = ja\,|\,Farbe = rot) \cdot Pr(Farbe = rot) \\
-                &\quad+ Pr(giftig = ja\,|\,Farbe \neq rot) \cdot Pr(Farbe \neq rot)
+Pr(giftig = ja) &= \quad Pr(giftig = ja\mid Farbe = rot) \cdot Pr(Farbe = rot) \\
+                &\quad+ Pr(giftig = ja\mid Farbe \neq rot) \cdot Pr(Farbe \neq rot)
 \end{aligned}
 $$
 
@@ -64,7 +62,7 @@ $$
 Das setzen wir in die obige Formel ein und erhalten:
 
 $$
-Pr(Farbe = rot\,|\,giftig = Ja) = \frac{0.2 \cdot 0.2}{0.08} = 0.5
+Pr(Farbe = rot\mid giftig = Ja) = \frac{0.2 \cdot 0.2}{0.08} = 0.5
 $$
 
 Damit ist die Wahrscheinlichen das ein giftiger Pilz ein roter Pilz ist bei 50%.
