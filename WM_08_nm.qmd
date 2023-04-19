@@ -19,9 +19,9 @@ format:
       - wm.scss
     footer: "WM | Norman Markgraf"
     chalkboard: true
-    title-slide-attributes:
-      data-background-image: fom-background.png
-      data-background-size: contain
+#    title-slide-attributes:
+#      data-background-image: fom-background.png
+#      data-background-size: contain
 ---
 
 ```{r child="prelude_WM.Rmd"}

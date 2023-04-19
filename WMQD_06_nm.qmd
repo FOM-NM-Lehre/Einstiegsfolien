@@ -44,7 +44,7 @@ format:
 
 Auf der Skala von *Elon Musk*: Wie fühlen Sie sich heute?
 
-::: {.center}
+::: center
 ```{r Elon_Musk_eres_hoy_cut_img, fig.align="center", out.width="35%", fig.cap="Quelle: [@Empoweringrace](https://www.pinterest.de/pin/1196337391792572/)"}
 knitr::include_graphics(here::here("img", "Elon_Musk_eres_hoy_cut.jpg"))
 ```
