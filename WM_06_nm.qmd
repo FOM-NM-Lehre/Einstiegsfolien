@@ -6,6 +6,7 @@ author: "Norman Markgraf"
 lang: de-DE
 format: 
   revealjs:
+    html-math-method: katex
     main-font: Arial
     hight: 1920
     width: 1080
@@ -35,7 +36,13 @@ format:
 
 &#x1F937; Stellen Sie Fragen.
 
-&#x1F4AA; [https://tweedback.de/XXXX](https://tweedback.de/XXXX)
+&#x1F4AA; [https://tweedback.de/XXXX](https://tweedback.de/XXXX) 
+
+::: center
+
+{{< qrcode https://tweedback.de/XXXX >}}
+
+:::
 
 ------------------------------------------------------------------------
 
@@ -141,7 +148,6 @@ Erst visualisieren, dann korrelieren! $\bar{x}, \bar{y}, sd_x, sd_y,r_{x,y}$ sin
 [https://www.autodesk.com/research/publications/same-stats-different-graphs](https://www.autodesk.com/research/publications/same-stats-different-graphs/)
 :::
 :::
-
 
 ------------------------------------------------------------------------
 

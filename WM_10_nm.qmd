@@ -6,6 +6,7 @@ author: "Norman Markgraf"
 lang: de-DE
 format: 
   revealjs:
+    html-math-method: katex
     main-font: Arial
     hight: 1920
     width: 1080

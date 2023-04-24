@@ -117,6 +117,13 @@ figcaption {
   margin-right: auto;
 }
 
+/*
+  Damit die QR Codes richtig positioniert werden können müssen
+  die display Werte auf inline-blocks und nicht blocks gesetzt werden.
+*/
+.qrcode img {
+  display: inline-block!important;
+}
 
 @media print {
   @page {
