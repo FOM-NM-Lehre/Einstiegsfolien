@@ -162,10 +162,18 @@ By default, KaTeX math is rendered in a 1.21× larger font than the surrounding 
   html:not(.print-pdf) #title-slide h1 {
     font-size: 76px !important;
   }
+  html:not(.print-pdf) div.slide-chalkboard-buttons,
+  html:not(.print-pdf) div.slide-chalkboard-buttons span,
+  html:not(.print-pdf) div.slide-chalkboard-buttons span i,
+  html:not(.print-pdf) div.slide-menu-botton a,
+  html:not(.print-pdf) div.slide-menu-botton a i,
   html:not(.print-pdf) div.slide-menu-botton {
     display: none !important;
   }
   html:not(.print-pdf) .reveal .slide-chalkboard-buttons {
+    display: none !important;
+  }
+  html:not(.print-pdf) div#chalkboard {
     display: none !important;
   }
   html:not(.print-pdf) div.columns,
@@ -181,6 +189,7 @@ By default, KaTeX math is rendered in a 1.21× larger font than the surrounding 
   }
   html:not(.print-pdf) .footer p{
     text-align: center !important;
+    font-size: 90% !important;
   }
   html:not(.print-pdf) div.center div.cell figure,
   html:not(.print-pdf) .reveal section img{
@@ -188,7 +197,7 @@ By default, KaTeX math is rendered in a 1.21× larger font than the surrounding 
   }
   html:not(.print-pdf) p,
   html:not(.print-pdf) li {
-    font-size: 120% !important;
+    font-size: 100% !important;
   }
   html:not(.print-pdf) .reveal section img {
     border: 0!important;
