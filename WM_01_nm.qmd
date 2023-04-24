@@ -67,6 +67,12 @@ Gehen wir es an ...
 
 💪 <https://tweedback.de/XXX>
 
+::: center
+
+{{< qrcode https://tweedback.de/XXXX >}}
+
+:::
+
 ------------------------------------------------------------------------
 
 ## Stimmung?
