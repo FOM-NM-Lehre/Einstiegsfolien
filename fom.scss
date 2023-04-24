@@ -125,6 +125,13 @@ figcaption {
   display: inline-block!important;
 }
 
+/*
+By default, KaTeX math is rendered in a 1.21× larger font than the surrounding context, which makes super- and subscripts easier to read. You can control this using CSS, for example, to set to 1.1×:
+*/
+.katex { 
+  font-size: 1.0em!important;
+}
+
 @media print {
   @page {
     size: landscape;
