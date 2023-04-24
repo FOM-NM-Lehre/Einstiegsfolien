@@ -84,6 +84,7 @@ knitr::include_graphics(here::here("img", "sketchplanations-the-accountability-l
 - Korrelation
 
 - Einstieg in die lineare Regression
+
 ::: center
 ```{r correlation_img, fig.align="center", out.width="70%", fig.cap="Quelle: [https://xkcd.com/552](https://xkcd.com/552)"}
 knitr::include_graphics(here::here("img", "correlation.png"))
