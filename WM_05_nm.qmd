@@ -38,6 +38,12 @@ format:
 
 💪 <https://tweedback.de/z79k>
 
+::: center
+
+{{< qrcode https://tweedback.de/XXXX >}}
+
+:::
+
 ------------------------------------------------------------------------
 
 ## Stimmung?

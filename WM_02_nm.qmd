@@ -39,6 +39,11 @@ format:
 
 &#x1F4AA; [https://tweedback.de/z4aa](https://tweedback.de/z4aa)
 
+::: center
+
+{{< qrcode https://tweedback.de/XXXX >}}
+
+:::
 ------------------------------------------------------------------------
 
 ## Guten Morgen

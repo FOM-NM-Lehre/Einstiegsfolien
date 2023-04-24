@@ -40,6 +40,12 @@ format:
 
 &#x1F4AA; [https://tweedback.de/z8mm](https://tweedback.de/z8mm)
 
+::: center
+
+{{< qrcode https://tweedback.de/z8mm >}}
+
+:::
+
 <br> Hinweise zu den **Prüfungsleistungen** finden Sie im OC.
 
 Das [Skript von Prof. Matthias Gehrke aus dem OC](https://campus.bildungscentrum.de/nfcampus/plpd/content/9168039) strukturiert Ihre Vor- und Nacharbeit.

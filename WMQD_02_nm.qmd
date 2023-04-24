@@ -41,6 +41,11 @@ format:
 
 &#x1F4AA; [https://tweedback.de/exy7](https://tweedback.de/exy7)
 
+::: center
+
+{{< qrcode https://tweedback.de/exy7 >}}
+
+:::
 
 ------------------------------------------------------------------------
 
@@ -49,7 +54,7 @@ format:
 Auf einer Skala von *AngelaMerkel*, welcher Vorlesungstyp sind Sie? 
 
 ::: center
-```{r angela_merkel_vorlesungstyp_cut_img, fig.align="center", out.width="35%", fig.cap="Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/133820674237159424"}
+```{r angela_merkel_vorlesungstyp_cut_img, fig.align="center", out.width="35%", fig.cap="Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/133820674237159424)"}
 knitr::include_graphics(here::here("img", "angela_merkel_vorlesungstyp_cut.jpg"))
 ```
 :::

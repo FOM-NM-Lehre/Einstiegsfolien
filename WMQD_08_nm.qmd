@@ -35,6 +35,12 @@ format:
 
 &#x1F4AA; [https://tweedback.de/z7uw](https://tweedback.de/z7uw)
 
+::: center
+
+{{< qrcode https://tweedback.de/z7uw >}}
+
+:::
+
 <br> Hinweise zu den **Prüfungsleistungen** finden Sie in der **Projektgruppe** zur Vorlesung.
 
 Die **Studienbriefe** strukturieren Ihre Vor- und Nacharbeit.

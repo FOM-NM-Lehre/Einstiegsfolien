@@ -38,6 +38,12 @@ format:
 
 💪 <https://tweedback.de/z8w9>
 
+::: center
+
+{{< qrcode https://tweedback.de/z8w9 >}}
+
+:::
+
 <br> Hinweise zu den **Prüfungsleistungen** finden Sie im OC.
 
 ------------------------------------------------------------------------

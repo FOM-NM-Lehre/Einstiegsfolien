@@ -39,6 +39,11 @@ format:
 
 &#x1F4AA; [https://tweedback.de/XXXX](https://tweedback.de/XXXX)
 
+::: center
+
+{{< qrcode https://tweedback.de/XXXX >}}
+
+:::
 ------------------------------------------------------------------------
 
 ## Letzter Termin

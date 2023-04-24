@@ -72,6 +72,11 @@ Gehen wir es an ...
 
 💪 <https://tweedback.de/z25p>
 
+::: center
+
+{{< qrcode https://tweedback.de/z25p >}}
+
+:::
 ------------------------------------------------------------------------
 
 ## Stimmung?

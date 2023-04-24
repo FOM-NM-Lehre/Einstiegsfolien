@@ -40,6 +40,13 @@ format:
 
 💪 <https://tweedback.de/zwew>
 
+
+::: center
+
+{{< qrcode https://tweedback.de/zwew >}}
+
+:::
+
 ------------------------------------------------------------------------
 
 ## Stimmung?

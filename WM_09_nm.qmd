@@ -39,6 +39,11 @@ format:
 
 &#x1F4AA; [https://tweedback.de/XXXX](https://tweedback.de/XXXX)
 
+::: center
+
+{{< qrcode https://tweedback.de/XXXX >}}
+
+:::
 
 ------------------------------------------------------------------------
 
@@ -88,15 +93,22 @@ knitr::include_graphics(here::here("img", "RedBlue-Causal.jpg"))
 
 ------------------------------------------------------------------------
 
+## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; (I / II)
 
-## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB;
+- was ein *potenzielles Ergebnis* (*Potential Outcome*) ist; 
+- was ein *Counterfactual* ist;
+- wie *kausale Effekte* definiert werden können und warum die Bestimmung von kausalen Effekten so herausfordernd ist.
 
-- was ein potenzielles Ergebnis (Potential Outcome) ist; was ein Counterfactual ist;
-wie kausale Effekte definiert werden können und warum die Bestimmung von kausalen Effekten so herausfordernd ist.
+- die Grundlagen von *kausalen Graphen*: was ein Pfeil aussagt;
+- was unter einem *kausalen Modell* verstanden werden kann; 
+- den Unterschied zwischen Beobachten und Handeln im Kontext kausaler Inferenz.
 
-- die Grundlagen von kausalen Graphen: was ein Pfeil aussagt; was unter einem Kausalen Modell verstanden werden kann; den Unterschied zwischen Beobachten und Handeln im Kontext kausaler Inferenz.
+------------------------------------------------------------------------
 
-- zwischen Beschreibung, Vorhersage und Kausaler Inferenz zu unterscheiden; warum diese Unterscheidung wichtig ist und was die Kausale Leiter ist.
+## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; (II / II)
+
+- zwischen *Beschreibung*, *Vorhersage* und *kausaler Inferenz* zu unterscheiden; 
+- warum diese Unterscheidung wichtig ist und was die *Kausale Leiter* ist.
 
 ------------------------------------------------------------------------
 
