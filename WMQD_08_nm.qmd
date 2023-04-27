@@ -34,10 +34,9 @@ format:
 
 &#x1F4AA; [https://tweedback.de/z7uw](https://tweedback.de/z7uw)
 
-<br> Hinweise zu den **Prüfungsleistungen** finden Sie in der **Projektgruppe** zur Vorlesung.
+<br> Hinweise zu den **Prüfungsleistungen** finden Sie im OC!
 
-Die **Studienbriefe** strukturieren Ihre Vor- und Nacharbeit.
-
+Das [Skript von Prof. Matthias Gehrke aus dem OC](https://campus.bildungscentrum.de/nfcampus/plpd/content/9168039) strukturiert Ihre Vor- und Nacharbeit.
 
 ## Learning Pit
 
@@ -133,7 +132,7 @@ knitr::include_graphics(here::here("img", "modelmeme.jpeg"))
 ## Regression motivieren (II/II)
 
 - Regression funktioniert genau so: Wir haben (fiktive) Daten von Temperatur und Vebrauch und wir wollen den Zusammenhang zwischen diesen Variablen analysieren.
-
+x
 - Das gefundene Modell wird aufgrund des Rauschens nicht perfekt sein.
 
 ::: footnote
@@ -148,5 +147,5 @@ Anregung: [Tay (2022)](https://doi.org/10.1080/26939169.2021.2024777)
 
 - RStudio Cloud: In **Ihr** Projekt einloggen.  
 
-- `Lego_Fortsetzung.Rmd` im Ordner `fallstudien` öffnen.
+- `LEGO_Modellierung.Rmd` im Ordner `fallstudien` öffnen.
 
