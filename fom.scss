@@ -37,20 +37,29 @@ $presentation-title-slide-text-align: right;
   Hintergrund nur auf der ersten Seite ('quarto-title-block')
   einblenden. Diesen um 1.2em nach oben rücken um die Footer-Zeile
   frei zu lassen. 
+  
+  Altes Layout!
 */
+/* */
 div.quarto-title-block > div.slide-background-content { 
   background-image: url("../../../../../fom-background.png");
   background-size: 100% 100% !important;
   background-repeat: no-repeat;
   background-position: 50% calc(50% - 1.2em) !important;
 }
-
+/* */
+/* Neues Layout 
+div.quarto-title-block > div.slide-background-content { 
+  background-image: url("../../../../../fom-hintergrund-3.png");
+  background-repeat: no-repeat;
+}
+*/ 
 /*
   Hintergrund für alle anderen Seiten hat rechts ein FOM Logo,
   diese Position wird von dem h2 freigehalten
 */
 section.slide {
-  background-image: url("../../../../../fom.png");
+  background-image: url("../../../../../fom-logo.png");
   background-size: 2.3em;
   background-repeat: no-repeat;
   background-position: right top;

@@ -4,6 +4,7 @@ subtitle: "Erster Termin"
 institute: "FOM Essen"
 author: "Norman Markgraf"
 lang: de-DE
+slide-number: c
 format: 
   revealjs:
     html-math-method: katex
@@ -20,9 +21,7 @@ format:
       - wm.scss
     footer: "WM | Norman Markgraf"
     chalkboard: true
-    title-slide-attributes:
-      data-background-image: fom-background.png
-      data-background-size: contain
+    
 ---
 
 ```{r child="prelude_WM.Rmd"}
