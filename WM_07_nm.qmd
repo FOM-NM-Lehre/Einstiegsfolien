@@ -6,6 +6,7 @@ author: "Norman Markgraf"
 lang: de-DE
 format: 
   revealjs:
+    html-math-method: katex
     main-font: Arial
     hight: 1920
     width: 1080
@@ -36,6 +37,12 @@ format:
 &#x1F937; Stellen Sie Fragen.
 
 &#x1F4AA; [https://tweedback.de/XXXX](https://tweedback.de/XXXX)
+
+::: center
+
+{{< qrcode https://tweedback.de/XXXX >}}
+
+:::
 
 ------------------------------------------------------------------------
 

@@ -6,6 +6,7 @@ author: "Norman Markgraf"
 lang: de-DE
 format: 
   revealjs:
+    html-math-method: katex
     main-font: Arial
     hight: 1920
     width: 1080
@@ -38,15 +39,23 @@ format:
 
 💪 <https://tweedback.de/zw83>
 
+::: center
+
+{{< qrcode https://tweedback.de/XXXX >}}
+
+:::
+
 ------------------------------------------------------------------------
 
 ## Stimmung?
 
 Auf der *Katzenskala*: Wie geht es Ihnen?
 
+::: center
 ```{r cat-scale8_img, fig.align="center", out.width="40%", fig.cap="Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1338206742371594240)"}
 knitr::include_graphics(here::here("img", "cat-scale8.jpg"))
 ```
+:::
 
 ------------------------------------------------------------------------
 
@@ -145,6 +154,7 @@ Diskutieren Sie innerhalb Ihres Raumes das genannte Gütekriterium. Was kann ich
 
 ## Datentabelle
 
+::: center
 ```{r tidydata_1_img}
 #| echo: false
 #| fig.align: center
@@ -152,11 +162,13 @@ Diskutieren Sie innerhalb Ihres Raumes das genannte Gütekriterium. Was kann ich
 knitr::include_graphics(
   "https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/tidydata_1.jpg")
 ```
+:::
 
 ------------------------------------------------------------------------
 
 ## Übung 💪
 
+::: right
 ```{r tidydata_1_img_reuse}
 #| echo: false
 #| fig-align: right
@@ -166,6 +178,7 @@ knitr::include_graphics(
   "https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/tidydata_1.jpg"
   )
 ```
+:::
 
 Was ist bei einer Datentabelle der Klausurergebnisse eine Beobachtung (engl.: observation?)
 
@@ -183,20 +196,23 @@ Was ist bei einer Datentabelle der Klausurergebnisse eine Beobachtung (engl.: ob
 <iframe src="https://www.causeweb.org/cause/resources/fun/songs/levels-measurement" title width="100%" height="500" style="border:none;">
 
 </iframe>
-:::
 
 ::: footnote
 Quelle: <https://www.causeweb.org/cause/resources/fun/songs/levels-measurement>
 :::
+:::
+
 
 ------------------------------------------------------------------------
 
 ## R Markdown rockt!
 
+::: center
 ```{r rmarkdown_rockstar_img, fig.align="center", out.width="60%", fig.cap="Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)"}
 knitr::include_graphics(
   "https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/rmarkdown_rockstar.png")
 ```
+:::
 
 ------------------------------------------------------------------------
 
@@ -233,7 +249,7 @@ Datei `EineLuege_Fortsetzung.Rmd` im Ordner `fallstudie` öffnen und unter `Eine
 -   [Rauschen]{.orange}: Zufällige Schwankungen aufgrund der Stichprobe.
 
 ::: footnote
-[de Mesquita and Fowler (2021)](https://press.princeton.edu/books/paperback/9780691214351/thinking-clearly-with-data)
+Vgl.: [de Mesquita and Fowler (2021)](https://press.princeton.edu/books/paperback/9780691214351/thinking-clearly-with-data)
 :::
 
 ------------------------------------------------------------------------
