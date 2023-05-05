@@ -20,9 +20,6 @@ format:
       - wm.scss
     footer: "WM | Norman Markgraf"
     chalkboard: true
-    title-slide-attributes:
-      data-background-image: fom-background.png
-      data-background-size: contain
 ---
 
 ```{r child="prelude_WM.Rmd"}
@@ -36,11 +33,11 @@ format:
 
 &#x1F937; Stellen Sie Fragen.
 
-&#x1F4AA; [https://tweedback.de/XXXX](https://tweedback.de/XXXX)
+&#x1F4AA; <https://tweedback.de/zgte>
 
 ::: center
 
-{{< qrcode https://tweedback.de/XXXX >}}
+{{< qrcode https://tweedback.de/zgte >}}
 
 :::
 
@@ -83,10 +80,14 @@ Quelle: [via GIPHY](https://giphy.com/gifs/pttEsx1vDDhYs)
 
 ## Schlagen Sie die &#129302;?
 
-Mission Vorhersage &#128073; [https://bit.ly/RegCont](https://bit.ly/RegCont)
+Mission Vorhersage &#128073; <https://bit.ly/RegCont>
 
 ::: center
-```{r linearregression_img, fig.align="center", out.width="20%", fig.cap=""}
+```{r qr_regcont_img, fig.align="center", out.width="15%", fig.cap=""}
+knitr::include_graphics(here::here("img", "QR-RegCont.png"))
+```
+
+```{r linearregression_img, fig.align="center", out.width="30%", fig.cap=""}
 knitr::include_graphics(here::here("img", "linearregression.png"))
 ```
 :::
@@ -155,5 +156,5 @@ Anregung: [Tay (2022)](https://doi.org/10.1080/26939169.2021.2024777)
 
 - RStudio Cloud: In **Ihr** Projekt einloggen.  
 
-- `Lego_Fortsetzung.Rmd` im Ordner `fallstudien` öffnen und unter `Lego_Fortsetzung_<KÜRZEL>.Rmd` speichern.
+- `LEGO_Modellierung.Rmd` im Ordner `fallstudien` öffnen und unter `LEGO_Modellierung_<KÜRZEL>.Rmd` speichern.
 
