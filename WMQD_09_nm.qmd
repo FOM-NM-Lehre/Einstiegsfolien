@@ -52,7 +52,7 @@ Das [Skript von Prof. Matthias Gehrke aus dem OC](https://campus.bildungscentrum
 ## Wie ist Ihre Stimmung heute?
 
 ::: center
-```{r annalena_baerbock_img, fig.align="center", out.width="50%", fig.cap="Quelle: Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1442743577126264832)"}
+```{r annalena_baerbock_img, fig.align="center", out.width="50%", fig.cap="Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1442743577126264832)"}
 knitr::include_graphics(here::here("img", "annalena_baerbock.jpg"))
 ```
 :::
