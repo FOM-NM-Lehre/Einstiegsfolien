@@ -7,6 +7,7 @@ lang: de-DE
 format: 
   revealjs:
     #html-math-method: katex
+    #html-math-method: mathjax
     main-font: Arial
     hight: 1920
     width: 1080
@@ -166,11 +167,15 @@ erg_lm
 ```
 
 $$
-\begin{aligned}
-\color{purple}{
-\widehat{\text{total_bill}}_i} = `r round(coef(erg_lm)[1],2)` &`r round(coef(erg_lm)[2],2)`\cdot\begin{cases}1 &: \color{olive}{\text{i ist Lunch}} \\ 0 &: \color{olive}{\text{i ist nicht Lunch}} \end{cases} \\
-  &+ `r round(coef(erg_lm)[3],2)` \cdot \color{olive}{\text{size}_i}
-\end{aligned}
+\begin{align}
+{\color{purple}\widehat{\text{total_bill}}_i}
+      = `r round(coef(erg_lm)[1],2)` &`r round(coef(erg_lm)[2],2)`
+        \cdot \begin{cases} 
+                1 &: {\color{olive} \text{i ist Lunch}} \\
+                0 &: {\color{olive} \text{i ist nicht Lunch}} \\ 
+              \end{cases} \\
+  &+ `r round(coef(erg_lm)[3],2)` \cdot {\color{olive}{\text{size}_i}}
+\end{align}
 $$
 ------------------------------------------------------------------------
 
@@ -201,7 +206,8 @@ lm_predict
 
 ## Vorhersage (II/III)
 
-Für die Beobachtungen des Anwendungsdatensatzes gibt es jetzt [geschätze Werte]{.purple} für die Rechnungshöhe, $\color{purple}{\widehat{\text{total_bill}}}$. Z. B. für $i=1$:
+Für die Beobachtungen des Anwendungsdatensatzes gibt es jetzt [geschätze Werte]{.purple} für die Rechnungshöhe, $\color{purple}\widehat{\text{total_bill}}$. 
+Z. B. für $i=1$:
 
 ```{r echo=FALSE}
 anwendung %>%
@@ -216,7 +222,7 @@ anwendung %>%
 ## Vorhersage (III/III)
 
 $$
-\color{purple}{\widehat{\text{total_bill}}_1}=`r round(coef(erg_lm)[1],2)` `r round(coef(erg_lm)[2],2)`\cdot\color{olive}{1} + `r round(coef(erg_lm)[3],2)` \cdot \color{olive}{6}=\color{purple}{`r round(lm_predict[1],2)`}
+{\color{purple}\widehat{\text{total_bill}}_1}=`r round(coef(erg_lm)[1],2)` `r round(coef(erg_lm)[2],2)`\cdot{\color{olive}1} + `r round(coef(erg_lm)[3],2)` \cdot {\color{olive}6}={\color{purple}`r round(lm_predict[1],2)`}
 $$
 
 ```{r echo=FALSE}
@@ -253,7 +259,7 @@ test %>%
 Z. B.:
 
 $$
-MAE = \frac{1}{n_{test}}\cdot\sum_{i=1}^{n_{test}}{|\color{violet}{y_i-\color{purple}{\hat{y}_i}}|}
+MAE = \frac{1}{n_{test}} \cdot \sum_{i=1}^{n_{test}} |{\color{violet} y_i}-{\color{purple} \hat{y}_i}|
 $$
 
 ------------------------------------------------------------------------

@@ -20,9 +20,6 @@ format:
       - wm.scss
     footer: "WM | Norman Markgraf"
     chalkboard: true
-#    title-slide-attributes:
-#      data-background-image: fom-background.png
-#      data-background-size: contain
 ---
 
 ```{r child="prelude_WM.Rmd"}
@@ -37,11 +34,11 @@ format:
 
 &#x1F937; Stellen Sie Fragen.
 
-&#x1F4AA; [https://tweedback.de/XXXX](https://tweedback.de/XXXX)
+&#x1F4AA; <https://tweedback.de/zde9>
 
 ::: center
 
-{{< qrcode https://tweedback.de/XXXX >}}
+{{< qrcode https://tweedback.de/zde9>}}
 
 :::
 
@@ -131,6 +128,6 @@ knitr::include_graphics(here::here("img", "LM.jpeg"))
 
 - RStudio Cloud: In **Ihr** Projekt einloggen.  
 
-- `Lego_Fortsetzung.Rmd` im Ordner `fallstudien` öffnen und unter `Lego_Fortsetzung_<KÜRZEL>.Rmd` speichern.
+- `Lego_Modellierung.Rmd` im Ordner `fallstudien` öffnen und unter `Lego_Modellierung_<KÜRZEL>.Rmd` speichern.
 
 
