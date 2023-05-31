@@ -33,28 +33,28 @@ format:
 
 ## Zur Erinnerung
 
-&#x1F4DB; Stellen Sie bitte ein Namensschild auf.
 
 &#x1F937; Stellen Sie Fragen.
 
-&#x1F4AA; [https://tweedback.de/zkqp](https://tweedback.de/zkqp)
+&#x1F4AA; <https://tweedback.de/zdwh>
 
-<br> Hinweise zu den **Prüfungsleistungen** finden Sie in der **Projektgruppe** zur Vorlesung. Vergessen Sie nicht sich anzumelden!
+::: center
 
-Die **Studienbriefe** strukturieren Ihre Vor- und Nacharbeit.
+{{< qrcode https://tweedback.de/zdwh >}}
 
+:::
 
+------------------------------------------------------------------------
 
 ## Wie ist Ihre Stimmung heute?
 
-![](img/christian_lindner.png){fig-align="center" width="50%"}
-
-
-::: aside
-Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1443448084407726084/)
+::: center
+```{r christian_lindner_img, fig.align="center", out.width="50%", fig.cap="Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1443448084407726084/)"}
+knitr::include_graphics(here::here("img", "christian_lindner.png"))
+```
 :::
 
-
+------------------------------------------------------------------------
 
 ## UN Ziel 11: Sustainable cities and communities
 
@@ -62,6 +62,7 @@ Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1443448084407726084/
 <iframe src="https://upgrader.gapminder.org/q/13/embed?hasBorder=true&hasOpenSansFont=false" title="77% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
 :::
 
+------------------------------------------------------------------------
 
 ## Heutiges Thema &#127979;
 
@@ -69,17 +70,20 @@ Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1443448084407726084/
 
 Einstieg: [https://fomshinyapps.shinyapps.io/Sampling/](https://fomshinyapps.shinyapps.io/Sampling/)
 
+------------------------------------------------------------------------
+
 ## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
 
 - Dass wir über die Daten hinaus gehen wollen und können -- dabei aber unsicher sind. Was ein Punktschätzer ist. Was ein Standardfehler angibt und was Konfidenzintervalle (nicht) sind.
 
-::: {.center}
+::: center
 <iframe src="https://giphy.com/embed/MRsWGk355jTJXeQfvf" width="320" height="180" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-:::
-
-::: {.aside}
+::: footnote
 [via GIPHY](https://giphy.com/gifs/abcnetwork-MRsWGk355jTJXeQfvf)
 :::
+:::
+
+------------------------------------------------------------------------
 
 ## Wiedereinstieg Inferenz
 
@@ -90,22 +94,24 @@ Einstieg: [https://fomshinyapps.shinyapps.io/Sampling/](https://fomshinyapps.shi
 
 $$\color{green}{Schätzwert} = \color{blue}{Wert\,Parameter} + Verzerrung + Rauschen$$
 
-::: {.aside}
+::: footnote
 [Bueno de Mesquita und Fowler (2021)](https://press.princeton.edu/books/paperback/9780691214351/thinking-clearly-with-data): Estimate = Estimand + Bias + Noise
 :::
 
+------------------------------------------------------------------------
+
 ## Punktschätzung -- Unverzerrt
 
-::: {.columns}
-
-:::: {.column width="50%"}
+::: columns
+::: {.column width="50%"}
 ![](img/Meme_Unsicherheit.jpg){fig-align="center" width="75%"}
-::::
-
-:::: {.column width="50%"}
-![](img/Estimate.gif){fig-align="center" width="100%"}
-::::
 :::
+::: {.column width="50%"}
+![](img/Estimate.gif){fig-align="center" width="100%"}
+:::
+:::
+
+------------------------------------------------------------------------
 
 ## Punktschätzung -- Verzerrt
 
@@ -125,51 +131,40 @@ $$\color{green}{Schätzwert} = \color{blue}{Wert\,Parameter} + Verzerrung + Raus
 
 ![](img/Schema_Bootstrap.png){fig-align="center" width="85%"}
 
-::: {.aside}
+::: footnote
 Quelle: Allen Downey: [tinyurl.com/inference3](https://tinyurl.com/inference3)
 :::
 
+------------------------------------------------------------------------
+
 ## Konfidenzintervall
 
-::: {.columns}
-
-:::: {.column width="50%"}
+::: columns
+::: {.column width="50%"}
 ![](img/Meme_Konfidenzintervall.jpg){fig-align="center" width="75%"}
-::::
-
-:::: {.column width="50%"}
+:::
+::: {.column width="50%"}
 ![](img/Confidence.gif){fig-align="center" width="100%"}
-::::
+:::
 :::
 
+------------------------------------------------------------------------
 
 ## Fallstudie &#x1F4BB;
 
-- Lokal: RStudio durch klick auf `WMQD_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+- Lokal: RStudio durch klick auf ``r ProjektName`` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
 
-- RStudio Cloud: In **Ihr** Projekt einloggen.  
+- posit Cloud: In **Ihr** Projekt einloggen.  
 
-- Öffnen Sie die Fallstudie `Entfernung.Rmd`.
+- Öffnen Sie die Fallstudie `Entfernung.Rmd` im Ordner `fallstudien` öffnen und speichern diese unter `Entfernung_<KÜRZEL>.Rmd` und bearbeiten sie.
+
+------------------------------------------------------------------------
 
 ## &#127908; Konfidenzintervall
 
-::: {.center}
+::: center
 <iframe src="https://www.causeweb.org/cause/resources/fun/songs/call-it-maybe" title="" width="100%" height="500" style="border:none;"></iframe>
-:::
-
-::: {.aside}
+::: footnote
 Quelle: [https://www.causeweb.org/cause/resources/fun/songs/call-it-maybe](https://www.causeweb.org/cause/resources/fun/songs/call-it-maybe)
 :::
-
-
-## Ende -- aber nur für dieses Jahr
-
-<br>
-
-::: {.center}
-<iframe src="https://giphy.com/embed/2IfqRSy8jfOVO" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-:::
-
-::: {.aside}
-<p><a href="https://giphy.com/gifs/christmas-smiling-2IfqRSy8jfOVO">via GIPHY</a></p>
 :::
