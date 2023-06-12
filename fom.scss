@@ -40,20 +40,21 @@ $presentation-title-slide-text-align: right;
   
   Altes Layout!
 */
-/* */
+/* 
 div.quarto-title-block > div.slide-background-content { 
   background-image: url("../../../../../fom-background.png");
   background-size: 100% 100% !important;
   background-repeat: no-repeat;
   background-position: 50% calc(50% - 1.2em) !important;
 }
-/* */
-/* Neues Layout 
+ */
+/* Neues Layout */
 div.quarto-title-block > div.slide-background-content { 
-  background-image: url("../../../../../fom-hintergrund-3.png");
+  background-image: url("../../../../../fom-background-neu.png");
   background-repeat: no-repeat;
+  background-size: 100% 100% !important;
 }
-*/ 
+/* */ 
 /*
   Hintergrund für alle anderen Seiten hat rechts ein FOM Logo,
   diese Position wird von dem h2 freigehalten
