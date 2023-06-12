@@ -30,7 +30,6 @@ format:
 #| include: false
 ```
 
-
 ## Zur Erinnerung
 
 &#x1F4DB; Stellen Sie bitte ein Namensschild auf.
