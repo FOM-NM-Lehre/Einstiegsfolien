@@ -13,6 +13,7 @@ format:
     margin: 0
     history: true
     center: false
+    slide-number: true
     theme:
       - colors.scss
       - fontsstyles.scss
