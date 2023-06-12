@@ -13,18 +13,6 @@ $presentation-title-slide-text-align: right;
   padding-left: 10px;
 }
 
-.reveal .my-title div {
-  margin-left: 50%;
-  margin-top: 30%;
-}
-
-.reveal .my-title h1 {
-  font-size: 30px;
-}
-
-.reveal .my-title h2 {
-  font-size: 28px;
-}
 
 .reveal .quarto-title-block .quarto-title-authors .quarto-title-author,
 .reveal .quarto-title-block .quarto-title-authors {
@@ -40,20 +28,39 @@ $presentation-title-slide-text-align: right;
   
   Altes Layout!
 */
-/* */
+/* 
 div.quarto-title-block > div.slide-background-content { 
   background-image: url("../../../../../fom-background.png");
   background-size: 100% 100% !important;
   background-repeat: no-repeat;
   background-position: 50% calc(50% - 1.2em) !important;
 }
-/* */
-/* Neues Layout 
+ */
+/* Neues Layout */
 div.quarto-title-block > div.slide-background-content { 
-  background-image: url("../../../../../fom-hintergrund-3.png");
+  background-image: url("../../../../../fom-background-neu.png");
   background-repeat: no-repeat;
+  background-size: 100% 100% !important;
 }
-*/ 
+/* */ 
+
+.reveal h1.title {
+  font-size: 50px!important;
+  color: #C7FDF8;
+  margin-left: 30%;
+  margin-top: 25%;
+  margin-right: 5%;
+  
+}
+
+.reveal #title-slide p.subtitle,
+.quarto-title-authors {
+  font-size: 30px!important;
+  color: #C6E4E2;
+  margin-right: 5%;
+
+}
+
 /*
   Hintergrund für alle anderen Seiten hat rechts ein FOM Logo,
   diese Position wird von dem h2 freigehalten
