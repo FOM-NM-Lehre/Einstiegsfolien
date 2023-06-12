@@ -1,5 +1,5 @@
 ---
-title: "Wissenschaftliche Methodik -- Quantitative Datenanalyse"
+title: "Wissenschaftliche Methodik \\r-- Quantitative Datenanalyse"
 subtitle: "Zwölfter Termin"
 institute: "FOM Dortmund"
 author: "Norman Markgraf"
@@ -20,9 +20,6 @@ format:
       - wmqd.scss
     footer: "WMQD | Norman Markgraf"
     chalkboard: true
-    title-slide-attributes:
-      data-background-image: fom-background.png
-      data-background-size: contain
 ---
 
 ```{r child="prelude_WMQD.Rmd"}
