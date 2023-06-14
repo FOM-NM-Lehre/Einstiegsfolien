@@ -1,5 +1,5 @@
 ---
-title: "Wissenschaftliche Methodik \\r-- Quantitative Datenanalyse"
+title: "Wissenschaftliche Methodik -- Quantitative Datenanalyse"
 subtitle: "Zwölfter Termin"
 institute: "FOM Dortmund"
 author: "Norman Markgraf"
@@ -8,8 +8,8 @@ format:
   revealjs:
     html-math-method: katex
     main-font: Arial
-    hight: 1920
-    width: 1080
+    width: 1920
+    hight: 1080
     margin: 0
     history: true
     center: false

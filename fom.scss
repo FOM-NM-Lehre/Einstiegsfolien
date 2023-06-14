@@ -8,9 +8,9 @@ $presentation-title-slide-text-align: right;
 
 /*-- scss:rules --*/
 .reveal .slide h2 {
-  background-color: #00998A;
+  /*background-color: #00998A;
   color: white;
-  padding-left: 10px;
+  padding-left: 10px;*/
 }
 
 
@@ -65,6 +65,7 @@ div.quarto-title-block > div.slide-background-content {
   Hintergrund für alle anderen Seiten hat rechts ein FOM Logo,
   diese Position wird von dem h2 freigehalten
 */
+/*
 section.slide {
   background-image: url("../../../../../fom-logo.png");
   background-size: 2.3em;
@@ -72,19 +73,32 @@ section.slide {
   background-position: right top;
   padding-right: -27px;
 } 
+*/
+
+section.slide.level2 {
+}
 
 /*
  Gehört zu section.slide und hält recht genug Platz frei für das Logo.
  Zusätzlich wird der Text mit "..." an der rechten Seite abgeschnitten.
 */
 .reveal .slide h2 {
-  width: calc(100% - 1.8em);
+  background-image: url("../../../../../fom-kopfzeile.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  margin: 5px;
+  padding: 10px;
+  width: 2878px!important; /*878 x 164*/
+  height: 164px;
+
+/*  width: calc(100% - 1.8em);
   max-height: 2.3em;
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: nowrap; */
   text-size-adjust: auto;
   -webkit-text-size-adjust: auto;
+  font-size: 20px!important
 }
 
 div.footnote {
