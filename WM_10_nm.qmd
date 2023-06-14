@@ -8,8 +8,8 @@ format:
   revealjs:
     html-math-method: katex
     main-font: Arial
-    hight: 1920
-    width: 1080
+    height: 1080
+    width: 1920
     margin: 0
     history: true
     center: false
@@ -20,9 +20,6 @@ format:
       - wm.scss
     footer: "WM | Norman Markgraf"
     chalkboard: true
-    title-slide-attributes:
-      data-background-image: fom-background.png
-      data-background-size: contain
 ---
 
 ```{r child="prelude_WM.Rmd"}

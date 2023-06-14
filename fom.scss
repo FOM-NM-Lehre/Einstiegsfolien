@@ -45,7 +45,7 @@ div.quarto-title-block > div.slide-background-content {
 /* */ 
 
 .reveal h1.title {
-  font-size: 50px!important;
+  font-size: 80px!important;
   color: #C7FDF8;
   margin-left: 30%;
   margin-top: 25%;
@@ -55,7 +55,7 @@ div.quarto-title-block > div.slide-background-content {
 
 .reveal #title-slide p.subtitle,
 .quarto-title-authors {
-  font-size: 30px!important;
+  font-size: 50px!important;
   color: #C6E4E2;
   margin-right: 5%;
 
@@ -86,28 +86,49 @@ section.slide.level2 {
   background-image: url("../../../../../fom-kopfzeile.png");
   background-repeat: no-repeat;
   background-position: top;
-  margin: 5px;
-  padding: 10px;
-  width: 2878px!important; /*878 x 164*/
-  height: 164px;
-
-/*  width: calc(100% - 1.8em);
+  background-size: contain;
+  padding-top: 30px;
+  padding-left: 25px;
+  width: calc(100% - 0.46em);
+  height: 80px;
+  font-size: 56px!important;
+  color: #FFFFFF;
+/*
+width: calc(100% - 0.7em);
   max-height: 2.3em;
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space: nowrap; */
+  white-space: nowrap; 
   text-size-adjust: auto;
   -webkit-text-size-adjust: auto;
-  font-size: 20px!important
+*/
 }
 
+.reveal p, 
+.reveal .slides section {
+  font-size: 45px;
+}
+
+.reveal .slide p,
+.reveal .slide ol,
+.reveal .slide ul {
+    padding-left: 25px!important;
+  }
+
+.reveal div.footnote,
+.reveal div.footnote p,
 div.footnote {
-  font-size: 40%;
+  font-size: 18px;
 }
 
 div.footer {
   border-top: solid #00998A !important;
-  padding-top: 4px;
+  margin-top: 8px;
+  padding-top: 8px;
+}
+.reveal div.footer p, 
+div.footer p {
+  font-size: 22px!important;
 }
 
 @page :last {
