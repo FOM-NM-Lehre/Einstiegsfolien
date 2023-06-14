@@ -37,7 +37,7 @@ format:
 
 &#x1F937; Stellen Sie Fragen.
 
-&#x1F4AA; [https://tweedback.de/XXXX](https://tweedback.de/XXXX)
+&#x1F4AA; <https://tweedback.de/XXXX>
 
 ::: center
 
@@ -112,6 +112,13 @@ knitr::include_graphics(here::here("img", "RedBlue-Causal.jpg"))
 
 ------------------------------------------------------------------------
 
+## Kein kleiner Teaser am Anfang
+
+<https://vimeo.com/786584973> (Passwort: FOMtest)
+
+
+------------------------------------------------------------------------
+
 ## Praxistransfer
 
 Geben Sie bitte ein Beispiel für die Ebene Assoziation (oder Intervention oder Counterfactual) auf der kausalen Leiter nach Pearl in Ihrer beruflichen Praxis (bitte angeben). Definieren Sie dabei $X$, $Y$.
@@ -135,6 +142,12 @@ Geben Sie bitte ein Beispiel für die Ebene Assoziation (oder Intervention oder 
 - Die Tutorien [https://fomshinyapps.shinyapps.io/WWWEKI_Modul_02/](https://fomshinyapps.shinyapps.io/WWWEKI_Modul_02/) und [https://fomshinyapps.shinyapps.io/WWWEKI_Modul_03/](https://fomshinyapps.shinyapps.io/WWWEKI_Modul_03/) jeweils in Gruppen.
 
 - Anschließend [https://fomshinyapps.shinyapps.io/WWWEKI_Modul_07/](https://fomshinyapps.shinyapps.io/WWWEKI_Modul_07/) wieder gemeinsam.
+
+------------------------------------------------------------------------
+
+## Noch ein kleines Video zum Thema
+
+<https://vimeo.com/786588993> (Passwort: FOMtest)
 
 ------------------------------------------------------------------------
 
