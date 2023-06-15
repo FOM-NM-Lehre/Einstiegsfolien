@@ -36,11 +36,11 @@ format:
 
 &#x1F937; Stellen Sie Fragen.
 
-&#x1F4AA; <https://tweedback.de/XXXX>
+&#x1F4AA; <https://tweedback.de/z9a5>
 
 ::: center
 
-{{< qrcode https://tweedback.de/XXXX >}}
+{{< qrcode https://tweedback.de/z9a5 >}}
 
 :::
 
