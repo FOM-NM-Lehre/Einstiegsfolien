@@ -66,15 +66,13 @@ knitr::include_graphics(here::here("img", "annalena_baerbock.jpg"))
 
 ## Aus der Forschung
 
-
 ::: center
 ```{r CI_img, fig.align="center", out.width="70%", fig.cap="Quelle: [https://doi.org/10.1080/10691898.2020.1752859](https://doi.org/10.1080/10691898.2020.1752859)"}
 knitr::include_graphics(here::here("img", "CI.png"))
 ```
-:::
-
 ::: footnote
 &#129351; ASA's most read collection 2020 (JSE).
+:::
 :::
 
 ------------------------------------------------------------------------
