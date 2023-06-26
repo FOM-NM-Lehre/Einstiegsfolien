@@ -8,7 +8,8 @@ format:
   revealjs:
     html-math-method: katex
     main-font: Arial
-    height: 1080
+#    height: 1080 # 16x9 1920 x 1080  (???)
+    height: 1200 # 16x10 1920 x 1200 (Apple macOS)
     width: 1920
     margin: 0
     history: true
@@ -118,6 +119,8 @@ knitr::include_graphics(here::here("img", "RedBlue-Causal.jpg"))
 
 ## Kausale Leiter
 
+:::: {.columns}
+::: {.column width="65%"}
 - **Assoziation**: $Pr(y \mid x)$ &ndash; Beobachtung: *Was ist*? \
 Wie wahrscheinlich ist $Y=y$, wenn ich $X=x$ beobachte? 
 
@@ -126,6 +129,15 @@ Wie wahrscheinlich ist $Y=y$, wenn ich $X=x$ setze, d.h. manipuliere?
 
 - **Counterfactuals**: $Pr(y_x \mid x',y')$ &ndash; Vorstellung: *Was wäre gewesen*? \
 Wir haben $X=x'$ und als Folge $Y=y'$ beobachtet. Wie wahrscheinlich ist dann $Y=y$, wenn ich $X=x$ gesetzt hätte?
+:::
+::: {.column width="34%"}
+
+```{r KausaleLeiter_img, fig.align="center", fig.cap="Quelle: [Cloudera Fast Forward - Causality for Machine Learning](https://ff13.fastforwardlabs.com)"}
+knitr::include_graphics(here::here("img", "ff13-06-CausalityLadder.png"))
+```
+
+:::
+::::
 
 ------------------------------------------------------------------------
 
