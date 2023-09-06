@@ -23,7 +23,7 @@ Den Cloud Dienst können Sie mit jedem Internetbrowser nutzen, eine lokale Insta
 
 -   Registrieren Sie sich bei https://posit.cloud/
 
--   Öffnen Sie den Link zum Vorlesungsprojekt: https://posit.cloud/content/5558167.
+-   Öffnen Sie den Link zum Vorlesungsprojekt: https://posit.cloud/content/6455876.
 
 -   Klicken Sie rechts oben auf Save a Permanent Copy um eine Kopie des Projektes im eigenen Workspace anzulegen.
 
