@@ -9,14 +9,15 @@ format:
   revealjs:
     html-math-method: katex
     main-font: Arial
-    hight: 1920
-    width: 1080
+    width: 1920
+    height: 1080
     margin: 0
     history: true
     center: false
+    slide-number: true
     theme:
       - colors.scss
-      - fontsstyles.scss 
+      - fontsstyles.scss
       - fom.scss
       - wm.scss
     footer: "WM | Norman Markgraf"
@@ -64,11 +65,11 @@ Gehen wir es an ...
 
 🤷 Stellen Sie Fragen.
 
-💪 <https://tweedback.de/XXX>
+💪 <https://tweedback.de/zcsb>
 
 ::: center
 
-{{< qrcode https://tweedback.de/XXXX >}}
+{{< qrcode https://tweedback.de/zcsb >}}
 
 :::
 
@@ -170,7 +171,7 @@ Beachten Sie die im OC hinterlegten Fristen!
 
 > Die Agenda 2030 mit ihren 17 Zielen für nachhaltige Entwicklung (Sustainable Development Goals, SDGs) ist ein globaler Plan zur Förderung nachhaltigen Friedens und Wohlstands und zum Schutz unseres Planeten.
 
-::: aside
+::: footnote
 Quelle: <https://unric.org/de/17ziele/>
 :::
 

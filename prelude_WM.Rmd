@@ -1,6 +1,6 @@
 ```{r child="prelude.Rmd"}
 ```
 ```{r echo=FALSE}
-ProjektName <- "2023_SoSe_WM.Rproj"
-SkriptLink <- "https://campus.bildungscentrum.de/nfcampus/plpd/content/9168045"
+ProjektName <- "2023_WiSe_WM.Rproj"
+SkriptLink <- "https://lms.fom.de/pluginfile.php/117833/mod_resource/content/1/QDmR_Master-2.pdf"
 ```
