@@ -4,25 +4,24 @@ subtitle: "Zweiter Termin"
 institute: "FOM Essen"
 author: "Norman Markgraf"
 lang: de-DE
+slide-number: c
 format: 
   revealjs:
     html-math-method: katex
     main-font: Arial
-    hight: 1920
-    width: 1080
+    width: 1920
+    height: 1080
     margin: 0
     history: true
     center: false
+    slide-number: true
     theme:
       - colors.scss
-      - fontsstyles.scss 
+      - fontsstyles.scss
       - fom.scss
       - wm.scss
     footer: "WM | Norman Markgraf"
     chalkboard: true
-    title-slide-attributes:
-      data-background-image: fom-background.png
-      data-background-size: contain
 ---
 
 ```{r child="prelude_WM.Rmd"}
@@ -30,18 +29,17 @@ format:
 #| include: false
 ```
 
-
 ## Zur Erinnerung
 
 &#x270F; Arbeiten Sie aktiv mit.
 
 &#x1F937; Stellen Sie Fragen.
 
-&#x1F4AA; [https://tweedback.de/z4aa](https://tweedback.de/z4aa)
+&#x1F4AA; <https://tweedback.de/zcyh>
 
 ::: center
 
-{{< qrcode https://tweedback.de/XXXX >}}
+{{< qrcode https://tweedback.de/zcyh >}}
 
 :::
 ------------------------------------------------------------------------
@@ -52,21 +50,24 @@ Wie sind Sie heute aufgestanden?
 
 ::: {.columns}
 ::: {.column width="50%"}
+::: center
 **A**:
-
 <iframe src="https://giphy.com/embed/l46CBEVQjSJG6mCnC" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 ::: footnote
 [A via GIPHY](https://giphy.com/gifs/veephbo-hbo-veep-julia-louis-dreyfus-l46CBEVQjSJG6mCnC)
 :::
+
+:::
 :::
 ::: {.column width="50%"}
+::: center
 **B**:
-
 <iframe src="https://giphy.com/embed/l46CBvLI7Q7YthRzG" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 ::: footnote
 [B via GIPHY](https://giphy.com/gifs/comedycentral-amy-schumer-inside-stretch-l46CBvLI7Q7YthRzG)
+:::
 :::
 :::
 :::
@@ -89,7 +90,7 @@ Lernen ist kein Zuschauersport!
 ## UN Ziel 2: Kein Hunger
 
 ::: center
-<iframe src="https://upgrader.gapminder.org/q/28/embed?hasBorder=true&hasOpenSansFont=false" title="85% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+<iframe src="https://upgrader.gapminder.org/q/28/embed?hasBorder=true&hasOpenSansFont=false" title="85% of people get this question wrong" width="100%" height="900" style="border:none;"></iframe>
 :::
 
 ------------------------------------------------------------------------
@@ -137,7 +138,7 @@ Lernen ist kein Zuschauersport!
 Wir sind es dem datenbasierten Entscheiden schuldig!
 
 ::: center
-```{r rmarkdown_wizards_img, fig.align="center", out.width="450px", fig.cap="Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)"}
+```{r rmarkdown_wizards_img, fig.align="center", out.width="900px", fig.cap="Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)"}
 knitr::include_graphics(here::here("img", "rmarkdown_wizards.png"))
 ```
 :::
@@ -149,7 +150,7 @@ knitr::include_graphics(here::here("img", "rmarkdown_wizards.png"))
 > and in a blink of an eye [a] week passes by [t]hen I read my code again I can’t understand a damn thing
 
 ::: center
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nziSP3vELCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="840" height="473" src="https://www.youtube-nocookie.com/embed/nziSP3vELCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ::: {.footnote}
 Quelle: [The Raf: The R Inferno Song (Teenage Dirtbag Parody)](https://youtu.be/nziSP3vELCk)
 :::
@@ -169,12 +170,16 @@ Datei `EineLuege.Rmd` im Ordner `fallstudie` öffnen und unter `EineLuege_<KÜRZ
 
 ## Gütekriterien
 
-Disktuieren Sie in Gruppen die Gütekritieren unserer Wissenschaftlichen Studie zum Thema *Gummibärchen am Geschmack erkennen (?)*
+Disktuieren Sie in Gruppen die Gütekritieren unserer Wissenschaftlichen Studie zum Thema *Zwei Wahrheiten, eine Lüge*
 
-&#x1F4AA; [bit.ly/3n46y56](bit.ly/3n46y56)
+\
+
+&#x1F4AA; <https://bit.ly/3qOD7CD>
+
+\
 
 ::: center
-<iframe src="https://giphy.com/embed/26FLaFRZa93ZcoDnO" width="480" height="270´" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+<iframe src="https://giphy.com/embed/26FLaFRZa93ZcoDnO" width="960" height="540" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 ::: {.footnote}
 [via GIPHY](https://giphy.com/gifs/Obama-26FLaFRZa93ZcoDnO)
 :::
