@@ -172,7 +172,6 @@ Datei `EineLuege.Rmd` im Ordner `fallstudie` öffnen und unter `EineLuege_<KÜRZ
 
 Disktuieren Sie in Gruppen die Gütekritieren unserer Wissenschaftlichen Studie zum Thema *Zwei Wahrheiten, eine Lüge*
 
-\
 
 &#x1F4AA; <https://bit.ly/3qOD7CD>
 
