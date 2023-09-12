@@ -4,25 +4,28 @@ subtitle: "Dritter Termin"
 institute: "FOM Essen"
 author: "Norman Markgraf"
 lang: de-DE
+slide-number: c
 format: 
   revealjs:
     html-math-method: katex
     main-font: Arial
-    hight: 1920
-    width: 1080
+    width: 1920
+    height: 1080
     margin: 0
     history: true
     center: false
+    slide-number: true
     theme:
       - colors.scss
-      - fontsstyles.scss 
+      - fontsstyles.scss
       - fom.scss
       - wm.scss
     footer: "WM | Norman Markgraf"
     chalkboard: true
-    title-slide-attributes:
-      data-background-image: fom-background.png
-      data-background-size: contain
+    pointer:
+      color: '#4040F0'  # blau
+revealjs-plugins:
+  - pointer
 ---
 
 ```{r child="prelude_WM.Rmd"}
@@ -37,7 +40,7 @@ format:
 
 🤷 Stellen Sie Fragen.
 
-💪 <https://tweedback.de/zw83>
+💪 <https://tweedback.de/XXXX>
 
 ::: center
 
@@ -119,16 +122,30 @@ knitr::include_graphics(here::here("img","TheLearningPit.png"))
 ## PPDAC
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="70%"}
 In fünf Schritten von der Fragestellung zur (vorläufigen) Antwort...
+
+```{r PPDAC_img_detail}
+#| fig-align: center
+#| out-width: 95%
+#| fig-cap: "Quelle: [dataschools.education](https://dataschools.education/about-data-literacy/ppdac-the-data-problem-solving-cycle/)"
+
+knitr::include_graphics(here::here("img", "PPDAC-details.png"))
+```
 :::
 
-::: {.column width="50%"}
-```{r PPDAC_img, fig.align="center", out.width="95%", fig.cap="Quelle: Eigene Zeichnung"}
-knitr::include_graphics(here::here("img", "PPDAC.png"))
+::: {.column width="30%"}
+```{r PPDAC_img_spiral}
+#| fig-align: center
+#| out-width: 95%
+#| fig-cap: "Quelle: [dataschools.education](https://dataschools.education/about-data-literacy/ppdac-the-data-problem-solving-cycle/)"
+#knitr::include_graphics(here::here("img", "PPDAC.png"))
+knitr::include_graphics(here::here("img", "PPDAC-Spiral.png"))
 ```
 :::
 :::
+
+------------------------------------------------------------------------
 
 ## Messung
 
@@ -146,7 +163,9 @@ Beim Messen wird einer [Eigenschaft]{.blue} eines Objektes ein [Wert]{.gray} zug
 
 Am Ende des Semesters wird Ihr Lernergebnis durch 👩‍🏫 vermessen - im Rahmen einer Klausur.
 
-Diskutieren Sie innerhalb Ihres Raumes das genannte Gütekriterium. Was kann ich tun, damit das [Messergebnis]{.gray} gut mit dem [Wert der Eigenschaft]{.blue} übereinstimmt?
+Diskutieren Sie innerhalb Ihrer Gruppe das genannte Gütekriterium.
+
+Was kann ich tun, damit das [Messergebnis]{.gray} gut mit dem [Wert der Eigenschaft]{.blue} übereinstimmt?
 
 💪 <https://bit.ly/3ZbqLmP>
 
@@ -180,7 +199,7 @@ knitr::include_graphics(
 ```
 :::
 
-Was ist bei einer Datentabelle der Klausurergebnisse eine Beobachtung (engl.: observation?)
+Was ist bei einer Datentabelle der Klausurergebnisse eine Beobachtung (engl.: *observation*?)
 
 **A**: Die erreichte Punktzahl.
 
@@ -193,8 +212,7 @@ Was ist bei einer Datentabelle der Klausurergebnisse eine Beobachtung (engl.: ob
 ## Skalenniveaus
 
 ::: center
-<iframe src="https://www.causeweb.org/cause/resources/fun/songs/levels-measurement" title width="100%" height="500" style="border:none;">
-
+<iframe src="https://www.causeweb.org/cause/resources/fun/songs/levels-measurement" title width="100%" height="800" style="border:none;">
 </iframe>
 
 ::: footnote
@@ -226,23 +244,21 @@ Datei `EineLuege_Fortsetzung.Rmd` im Ordner `fallstudie` öffnen und unter `Eine
 
 ------------------------------------------------------------------------
 
-## Eine wichtige Gleichung (I/II)
+## Eine wichtige Gleichung
+
+\
+\
 
 ::: box
 [Beobachteter Wert]{.gray} = [Wahrer Wert]{.blue} + [Verzerrung]{.purple} + [Rauschen]{.orange}
 :::
+
+\
+\
 
 -   [Beobachteter Wert]{.gray}: Wert, den wir auf Basis unser **Stichprobe** berechnen, häufig eine **Statistik**.
 
 -   [Wahrer Wert]{.blue}: Wert, an dem wir interessiert sind. Häufig ein **Parameter** der **Population**.
-
-------------------------------------------------------------------------
-
-## Eine wichtige Gleichung (II/II)
-
-::: box
-[Beobachteter Wert]{.gray} = [Wahrer Wert]{.blue} + [Verzerrung]{.purple} + [Rauschen]{.orange}
-:::
 
 -   [Verzerrung]{.purple}: Systematische Abweichungen zwischen [Beobachteter Wert]{.gray} und [Wahrer Wert]{.blue}, z.B. aufgrund nicht-repräsentativer Stichprobe oder Störfaktoren.
 
@@ -320,7 +336,11 @@ dag_s2
 :::
 :::
 
-Der Zufall [eliminert]{.red} die Abhängigkeit von möglichen [Verzerrungen]{.purple} der Stichprobe (hier durch Verstehen). Der [Beobachtete Wert]{.gray} kann den [Wahrer Wert]{.blue} unverzerrt schätzen. Es gibt aber noch [zufällige Schwankungen]{.orange}.
+Der Zufall [eliminert]{.red} die Abhängigkeit von möglichen [Verzerrungen]{.purple} der Stichprobe (hier durch Verstehen). 
+
+Der [Beobachtete Wert]{.gray} kann den [Wahrer Wert]{.blue} unverzerrt schätzen. 
+
+Es gibt aber noch [zufällige Schwankungen]{.orange}.
 
 ------------------------------------------------------------------------
 
