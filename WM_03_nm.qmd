@@ -42,9 +42,11 @@ revealjs-plugins:
 
 💪 <https://tweedback.de/XXXX>
 
+\
+
 ::: center
 
-{{< qrcode https://tweedback.de/XXXX >}}
+{{< qrcode https://tweedback.de/XXXX width=350 height=350 >}}
 
 :::
 
@@ -91,7 +93,7 @@ knitr::include_graphics(here::here("img","TheLearningPit.png"))
 ## UN Ziel 3: Gesundheit und Wohlergehen
 
 ::: center
-<iframe src="https://upgrader.gapminder.org/q/1/embed?hasBorder=true&amp;hasOpenSansFont=false" title width="100%" height="500" style="border:none;">
+<iframe src="https://upgrader.gapminder.org/q/1/embed?hasBorder=true&amp;hasOpenSansFont=false" title width="100%" height="800" style="border:none;">
 
 </iframe>
 :::
@@ -107,7 +109,9 @@ knitr::include_graphics(here::here("img","TheLearningPit.png"))
 ## Was Sie lernen 👩‍🏫
 
 -   Die Studierenden können Messen definieren und können verschiedene Typen von Skalenniveaus sicher unterscheiden.
+
 -   Die Studierenden kennen Grundbegriffe der quantitativen Datenanalyse (wie unabhängige und abhängige Variable) und können Probleme erklären, die aufgrund der Nichtberücksichtigung von Drittvariablen auftreten können.
+
 -   Die Studierenden können zentrale Begriffe um Stichproben(arten) und Populationen erläutern.
 
 ------------------------------------------------------------------------
@@ -115,6 +119,7 @@ knitr::include_graphics(here::here("img","TheLearningPit.png"))
 ## Was Sie auch noch lernen 👩‍🏫
 
 -   Die Studierenden wissen um die Unterschiede hinsichtlich Zufall und Kausalität bei Beobachtungs- vs. Experimentalstudien.
+
 -   Die Studierenden können die Phasen des PPDAC-Zyklus nennen und anhand von Beispielen illustrieren.
 
 ------------------------------------------------------------------------
@@ -151,7 +156,7 @@ knitr::include_graphics(here::here("img", "PPDAC-Spiral.png"))
 
 Beim Messen wird einer [Eigenschaft]{.blue} eines Objektes ein [Wert]{.gray} zugewiesen. Dabei sollte die [Beziehung der Werte]{.gray} der [Beziehung der Eigenschaften]{.blue} der Objekte entsprechen.
 
-<br>
+\
 
 ::: box
 [Messergebnis]{.gray} = [Wert der Eigenschaft]{.blue} + [Systematische Abweichungen]{.purple} + [Zufällige Schwankungen]{.orange}
