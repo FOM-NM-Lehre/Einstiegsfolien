@@ -9,8 +9,9 @@ format:
   revealjs:
     html-math-method: katex
     main-font: Arial
+#    height: 1080 # 16x9 1920 x 1080  (???)
+    height: 1200 # 16x10 1920 x 1200 (Apple macOS)
     width: 1920
-    height: 1080
     margin: 0
     history: true
     center: false
@@ -55,7 +56,7 @@ Gehen wir es an ...
 
 -   {{< fa envelope >}}: norman.markgraf\@fom-net.de
 
--   {{< fa brands twitter >}}: https://twitter.com/NormanMarkgraf
+-   {{< fa brands x-twitter >}}: https://twitter.com/NormanMarkgraf
 
 ------------------------------------------------------------------------
 
@@ -80,7 +81,7 @@ Gehen wir es an ...
 Auf einer Skala von *OlafScholz*, wie geht es Ihnen heute?
 
 ::: center
-```{r Scholz_img, fig.align="center", out.width="450px", fig.cap="Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1443100157487296512)"}
+```{r Scholz_img, fig.align="center", out.width="800px", fig.cap="Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1443100157487296512)"}
 knitr::include_graphics(here::here("img", "Scholz.jpeg"))
 ```
 :::
@@ -92,7 +93,7 @@ knitr::include_graphics(here::here("img", "Scholz.jpeg"))
 Lernen ist kein Zuschauersport!
 
 ::: center
-<iframe src="https://giphy.com/embed/3o6Zt90p6NgiyoN4Mo" width="960" height="407´" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+<iframe src="https://giphy.com/embed/3o6Zt90p6NgiyoN4Mo" width="1060" height="607´" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 ::: footnote
 [via GIPHY](https://media.giphy.com/media/3o6Zt90p6NgiyoN4Mo/giphy.gif)
 :::
@@ -157,7 +158,7 @@ Beachten Sie die im OC hinterlegten Fristen!
 
 ## Workload
 
--   Präsenzstunden: 44,0 UE (nach OC eigentlich nur 40 UE!)
+-   Präsenzstunden: 44,0 UE (nach OC eigentlich nur 40 UE bzw. 38 UE!)
 
 -   Strukturiertes Eigenstudium 92,00 ZStd
 
@@ -198,7 +199,7 @@ Gucken wir uns dazu mal Daten an ...
 ## Sie kommen zum eRfolg!
 
 ::: center
-```{r r_first_then_img, fig.align="center", out.width="450px", fig.cap="Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)"}
+```{r r_first_then_img, fig.align="center", out.width="700px", fig.cap="Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)"}
 knitr::include_graphics(here::here("img", "r_first_then.png"))
 ```
 :::
@@ -208,7 +209,7 @@ knitr::include_graphics(here::here("img", "r_first_then.png"))
 ## Reproduzierbarkeit durch R Markdown
 
 ::: center
-```{r reproducibility_court_img, fig.align="center", out.width="700px", fig.cap="Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)"}
+```{r reproducibility_court_img, fig.align="center", out.width="1000px", fig.cap="Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)"}
 knitr::include_graphics(here::here("img", "reproducibility_court.png"))
 ```
 :::
@@ -228,7 +229,7 @@ Datei `EineLuege.Rmd` im Ordner `fallstudie` öffnen und unter `EineLuege_<KÜRZ
 ## Arbeiten in R Studio
 
 ::: center
-```{r Kochen_mit_RStudio_img, fig.align="center", out.width="850px", fig.cap="Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)"}
+```{r Kochen_mit_RStudio_img, fig.align="center", out.width="1000px", fig.cap="Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)"}
 knitr::include_graphics(here::here("img", "Kochen_mit_RStudio.png"))
 ```
 :::
@@ -240,7 +241,7 @@ knitr::include_graphics(here::here("img", "Kochen_mit_RStudio.png"))
 Im *YAML Header* stehen Informationen über unser Dokument.
 
 ::: center
-```{r YAML-EineLuege_img, fig.align="center", out.width="850px", fig.cap="Quelle: Eigene Darstellung"}
+```{r YAML-EineLuege_img, fig.align="center", out.width="1000px", fig.cap="Quelle: Eigene Darstellung"}
 knitr::include_graphics(here::here("img", "YAML-EineLuege.png"))
 ```
 :::
@@ -252,7 +253,7 @@ knitr::include_graphics(here::here("img", "YAML-EineLuege.png"))
 In den *Code Chunks* stehen die R Befehle.
 
 ::: center
-```{r Chunk-EineLuege_img, fig.align="center", out.width="700px", fig.cap="Quelle: Eigene Darstellung"}
+```{r Chunk-EineLuege_img, fig.align="center", out.width="1000px", fig.cap="Quelle: Eigene Darstellung"}
 knitr::include_graphics(here::here("img", "Chunk-EineLuege.png"))
 ```
 :::
@@ -274,7 +275,7 @@ knitr::include_graphics(here::here("img", "Knit.png"))
 ## eRfolg?
 
 ::: center
-```{r /Erfolg-EineLuege_img, fig.align="center", out.width="850px", fig.cap="Quelle: Eigene Darstellung"}
+```{r /Erfolg-EineLuege_img, fig.align="center", out.width="1000px", fig.cap="Quelle: Eigene Darstellung"}
 knitr::include_graphics(here::here("img", "Erfolg-EineLuege.png"))
 ```
 :::
