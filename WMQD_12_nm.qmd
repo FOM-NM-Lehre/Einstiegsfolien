@@ -21,6 +21,8 @@ format:
       - wmqd.scss
     footer: "WMQD | Norman Markgraf"
     chalkboard: true
+revealjs-plugins:
+  - pointer
 ---
 
 ```{r child="prelude_WMQD.Rmd"}
