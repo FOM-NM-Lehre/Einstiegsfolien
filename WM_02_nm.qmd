@@ -22,6 +22,11 @@ format:
       - wm.scss
     footer: "WM | Norman Markgraf"
     chalkboard: true
+    pointer:
+      pointerSize: 18
+      color: '#4040F0'  # blau
+revealjs-plugins:
+  - pointer
 ---
 
 ```{r child="prelude_WM.Rmd"}
