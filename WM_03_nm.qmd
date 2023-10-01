@@ -4,25 +4,24 @@ subtitle: "Dritter Termin"
 institute: "FOM Essen"
 author: "Norman Markgraf"
 lang: de-DE
+slide-number: c
 format: 
   revealjs:
     html-math-method: katex
     main-font: Arial
-    hight: 1920
-    width: 1080
+    width: 1920
+    height: 1080
     margin: 0
     history: true
     center: false
+    slide-number: true
     theme:
       - colors.scss
-      - fontsstyles.scss 
+      - fontsstyles.scss
       - fom.scss
       - wm.scss
     footer: "WM | Norman Markgraf"
     chalkboard: true
-    title-slide-attributes:
-      data-background-image: fom-background.png
-      data-background-size: contain
 ---
 
 ```{r child="prelude_WM.Rmd"}
@@ -37,11 +36,11 @@ format:
 
 🤷 Stellen Sie Fragen.
 
-💪 <https://tweedback.de/zw83>
+💪 <https://tweedback.de/zxay>
 
 ::: center
 
-{{< qrcode https://tweedback.de/XXXX >}}
+{{< qrcode https://tweedback.de/zxay >}}
 
 :::
 
