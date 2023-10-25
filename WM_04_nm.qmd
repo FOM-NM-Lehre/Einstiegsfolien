@@ -4,25 +4,29 @@ subtitle: "Vierter Termin"
 institute: "FOM Essen"
 author: "Norman Markgraf"
 lang: de-DE
+slide-number: c
 format: 
   revealjs:
     html-math-method: katex
     main-font: Arial
-    hight: 1920
-    width: 1080
+#    height: 1080 # 16x9 1920 x 1080  (???)
+    height: 1200 # 16x10 1920 x 1200 (Apple macOS)
+    width: 1920
     margin: 0
     history: true
     center: false
+    slide-number: true
     theme:
       - colors.scss
-      - fontsstyles.scss 
+      - fontsstyles.scss
       - fom.scss
       - wm.scss
     footer: "WM | Norman Markgraf"
     chalkboard: true
-    title-slide-attributes:
-      data-background-image: fom-background.png
-      data-background-size: contain
+    pointer:
+      color: '#4040F0'  # blau
+revealjs-plugins:
+  - pointer
 ---
 
 ```{r child="prelude_WM.Rmd"}
@@ -36,11 +40,11 @@ format:
 
 🤷 Stellen Sie Fragen.
 
-💪 <https://tweedback.de/z8eg>
+💪 <https://tweedback.de/zjzs>
 
 ::: center
 
-{{< qrcode https://tweedback.de/XXXX >}}
+{{< qrcode https://tweedback.de/zjzs >}}
 
 :::
 
@@ -66,7 +70,7 @@ knitr::include_graphics(here::here("img", "fun-scale.jpg"))
 ## UN Ziel 4: Hochwertige Bildung
 
 ::: center
-<iframe src="https://upgrader.gapminder.org/q/3/embed?hasBorder=true&amp;hasOpenSansFont=false" title="86% of people get this question wrong" width="100%" height="500" style="border:none;">
+<iframe src="https://upgrader.gapminder.org/q/3/embed?hasBorder=true&amp;hasOpenSansFont=false" title="86% of people get this question wrong" width="100%" height="900" style="border:none;">
 
 </iframe>
 :::
@@ -97,9 +101,9 @@ knitr::include_graphics(here::here("img", "fun-scale.jpg"))
 
 ## Fallstudie 💻
 
--   Lokal: RStudio durch klick auf `2023-SoSe-WM.Rproj` starten.
+- Lokal: RStudio durch klick auf ``r ProjektName`` starten.
 
--   RStudio Cloud: In **Ihr** Projekt einloggen.
+- RStudio Cloud: In **Ihr** Projekt einloggen.  
 
 Datei `Filmgenre.Rmd` im Ordner `fallstudie` öffnen und unter `Filmgenre_<KÜRZEL>.Rmd` speichern.
 
@@ -107,10 +111,10 @@ Datei `Filmgenre.Rmd` im Ordner `fallstudie` öffnen und unter `Filmgenre_<KÜRZ
 
 ## Risk Literacy
 
-Steigern Sie in Ihrer Gruppe die Risikokompetenz: <http://bit.ly/3FQZUFJ>
+Steigern Sie in Ihrer Gruppe die Risiko-Kompetenz: <http://bit.ly/3FQZUFJ>
 
 ::: {.center}
-<iframe src="https://giphy.com/embed/26DMZEsanUIYHFO9y" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen>
+<iframe src="https://giphy.com/embed/26DMZEsanUIYHFO9y" width="960" height="540" frameBorder="0" class="giphy-embed" allowFullScreen>
 
 </iframe>
 ::: footnote
