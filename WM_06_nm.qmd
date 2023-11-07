@@ -4,25 +4,29 @@ subtitle: "Sechster Termin"
 institute: "FOM Essen"
 author: "Norman Markgraf"
 lang: de-DE
+slide-number: c
 format: 
   revealjs:
     html-math-method: katex
     main-font: Arial
-    hight: 1920
-    width: 1080
+#    height: 1080 # 16x9 1920 x 1080  (???)
+    height: 1200 # 16x10 1920 x 1200 (Apple macOS)
+    width: 1920
     margin: 0
     history: true
     center: false
+    slide-number: true
     theme:
       - colors.scss
-      - fontsstyles.scss 
+      - fontsstyles.scss
       - fom.scss
       - wm.scss
     footer: "WM | Norman Markgraf"
     chalkboard: true
-    title-slide-attributes:
-      data-background-image: fom-background.png
-      data-background-size: contain
+    pointer:
+      color: '#4040F0'  # blau
+revealjs-plugins:
+  - pointer
 ---
 
 ```{r child="prelude_WM.Rmd"}
@@ -36,11 +40,14 @@ format:
 
 &#x1F937; Stellen Sie Fragen.
 
-&#x1F4AA; <https://tweedback.de/zg5f>
+&#x1F4AA; <https://tweedback.de/XXXX>
+
+\
+\
 
 ::: center
 
-{{< qrcode https://tweedback.de/zg5f >}}
+{{< qrcode https://tweedback.de/XXXX qr-tweedback width=300 height=300 >}}
 
 :::
 
@@ -51,7 +58,7 @@ format:
 Auf der Skala von *Elon Musk*: Wie fühlen Sie sich heute?
 
 ::: center
-```{r cat-scale8_img, fig.align="center", out.width="35%", fig.cap="Quelle: [@Empoweringrace](https://www.pinterest.de/pin/1196337391792572/)"}
+```{r cat-scale8_img, fig.align="center", out.width="38%", fig.cap="Quelle: [@Empoweringrace](https://www.pinterest.de/pin/1196337391792572/)"}
 knitr::include_graphics(here::here("img", "Elon_Musk_eres_hoy_cut.jpg"))
 ```
 :::
@@ -62,7 +69,9 @@ knitr::include_graphics(here::here("img", "Elon_Musk_eres_hoy_cut.jpg"))
 
 ::: {.columns}
 ::: {.column width="59"}
-Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die das [Skript von Prof. Matthias Gehrke aus dem OC](`r SkriptLink`)!
+Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. 
+
+Nutzen Sie dafür die das [Skript von Prof. Matthias Gehrke aus dem OC](`r SkriptLink`)!
 :::
 ::: {.column width="39%"}
 ```{r sketchplanations-the-accountability-ladder_img, fig.align="center", fig.cap="Quelle: [sketchplanations](https://sketchplanations.com/the-accountability-ladder)"}
@@ -76,7 +85,7 @@ knitr::include_graphics(here::here("img", "sketchplanations-the-accountability-l
 ## UN Ziel 6: Clean water and sanitation
 
 ::: center
-<iframe src="https://upgrader.gapminder.org/q/6/embed?hasBorder=true&hasOpenSansFont=false" title="89% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+<iframe src="https://upgrader.gapminder.org/q/6/embed?hasBorder=true&hasOpenSansFont=false" title="89% of people get this question wrong" width="100%" height="900" style="border:none;"></iframe>
 :::
 
 ------------------------------------------------------------------------
@@ -114,7 +123,7 @@ knitr::include_graphics(here::here("img", "correlation.png"))
 ## Streudiagramm
 
 ::: center
-<iframe src="https://fomshinyapps.shinyapps.io/Korrelation/" width="475" height="535"></iframe>
+<iframe src="https://fomshinyapps.shinyapps.io/Korrelation/" width="800px" height="900px"></iframe>
 ::: footnote
 [https://fomshinyapps.shinyapps.io/Korrelation/](https://fomshinyapps.shinyapps.io/Korrelation/)
 :::
@@ -123,31 +132,32 @@ knitr::include_graphics(here::here("img", "correlation.png"))
 
 ------------------------------------------------------------------------
 
-## Korrelation (I/II)
+## Korrelation
 
 - **Kovarianz** beschreibt den linearen Zusammenhang zweier metrischer Merkmale: $s_{xy}=\frac{1}{n-1}\sum_{i=1}^n (x_i-\bar{x})(y_i-\bar{y})$: Die Werte beider Variablen einer Beobachtung werden mit dem jeweiligen Mittelwert der Variable verglichen. Vom Produkt der gemeinsamen Abweichungen wird $\approx$ Mittelwert berechnet.
 
 - Der **Korrelationskoeffizient** nach Pearson $r=\frac{s_{xy}}{sd_x \cdot sd_y}$ normiert die Kovarianz auf den Wertebereich $-1$ bis $+1$ durch Division der Kovarianz durch das Produkt der Standardabweichungen.
 
-------------------------------------------------------------------------
-
-## Korrelation (II/II)
-
-- Korrelationskoeffizienten $r>0$ zeigen einen positiven linearen Zusammenhang an, $r<0$ einen negativen. Je größer $|r|$, desto größer ist der lineare Zusammenhang.
+- Positive lineare Zusammenhänge führen zu Korrelationskoeffizienten $r>0$, negative zu $r<0$ einen negativen. Je größer der lineare Zusammenhang ist um so größer wird $|r|$.
 
 - **Achtung**: Korrelation heißt nicht zwangsläufig Kausalität, keine 
-Korrelation heißt nicht zwangsläufig kein Zusammenhang oder keine Kausalität. Beispiele unter [http://www.tylervigen.com/spurious-correlations](http://www.tylervigen.com/spurious-correlations).
+Korrelation heißt nicht zwangsläufig kein Zusammenhang oder keine Kausalität. 
+Beispiele unter [http://www.tylervigen.com/spurious-correlations](http://www.tylervigen.com/spurious-correlations).
 
 ------------------------------------------------------------------------
 
 ## Visualisierung
 
-**Erst visualisieren, dann korrelieren!** \
+**Erst visualisieren, dann korrelieren!** 
+
+\
 
 $\bar{x}, \bar{y}, sd_x, sd_y,r_{x,y}$ sind nahezu konstant.
 
+\
+
 ::: {.center}
-<iframe src="https://damassets.autodesk.net/content/dam/autodesk/research/publications-assets/gifs/same-stats-different-graphs/DinoSequentialSmaller.gif" width="750" height="435"></iframe>
+<iframe src="https://damassets.autodesk.net/content/dam/autodesk/research/publications-assets/gifs/same-stats-different-graphs/DinoSequentialSmaller.gif" width="900" height="522"></iframe>
 ::: {.footnote}
 [https://www.autodesk.com/research/publications/same-stats-different-graphs](https://www.autodesk.com/research/publications/same-stats-different-graphs/)
 :::
@@ -157,9 +167,15 @@ $\bar{x}, \bar{y}, sd_x, sd_y,r_{x,y}$ sind nahezu konstant.
 
 ## Fallstudie &#x1F4BB;
 
+\
+
 - Lokal: RStudio durch klick auf ``r ProjektName`` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
 
-- RStudio Cloud: In **Ihr** Projekt einloggen.  
+\
+
+- posit cloud: In **Ihr** Projekt einloggen.
+
+\
 
 - `LEGO-Modellierung.Rmd` im Ordner `fallstudien` öffnen und unter `LEGO-Modellierung_<KÜRZEL>.Rmd` speichern.
 

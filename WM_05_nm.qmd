@@ -131,8 +131,8 @@ knitr::include_graphics(here::here("img", "Homer_Simpson2.jpg"))
 
 ## Fallstudie 💻
 
--   Lokal: RStudio durch klick auf ``r ProjektName`` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+- Lokal: RStudio durch klick auf ``r ProjektName`` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
 
--   RStudio Cloud: In **Ihr** Projekt einloggen.
+- posit Cloud: In **Ihr** Projekt einloggen.
 
--   `Fueleconomy.Rmd` im Ordner `fallstudien` öffnen und unter `Fueleconomy_<KÜRZEL>.Rmd` speichern.
+- `Fueleconomy.Rmd` im Ordner `fallstudien` öffnen und unter `Fueleconomy_<KÜRZEL>.Rmd` speichern.
