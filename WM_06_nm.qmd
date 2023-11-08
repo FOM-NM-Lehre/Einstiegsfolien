@@ -40,14 +40,14 @@ revealjs-plugins:
 
 &#x1F937; Stellen Sie Fragen.
 
-&#x1F4AA; <https://tweedback.de/XXXX>
+&#x1F4AA; <https://tweedback.de/zbhf>
 
 \
 \
 
 ::: center
 
-{{< qrcode https://tweedback.de/XXXX qr-tweedback width=300 height=300 >}}
+{{< qrcode https://tweedback.de/zbhf qr-tweedback width=300 height=300 >}}
 
 :::
 
