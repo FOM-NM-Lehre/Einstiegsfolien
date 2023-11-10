@@ -173,7 +173,7 @@ $\bar{x}, \bar{y}, sd_x, sd_y,r_{x,y}$ sind nahezu konstant.
 
 \
 
-- posit cloud: In **Ihr** Projekt einloggen.
+- posit.cloud: In **Ihr** Projekt einloggen.
 
 \
 

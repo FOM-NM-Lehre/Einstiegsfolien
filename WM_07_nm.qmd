@@ -4,22 +4,29 @@ subtitle: "Siebter Termin"
 institute: "FOM Essen"
 author: "Norman Markgraf"
 lang: de-DE
+slide-number: c
 format: 
   revealjs:
     html-math-method: katex
     main-font: Arial
-    hight: 1920
-    width: 1080
+#    height: 1080 # 16x9 1920 x 1080  (???)
+    height: 1200 # 16x10 1920 x 1200 (Apple macOS)
+    width: 1920
     margin: 0
     history: true
     center: false
+    slide-number: true
     theme:
       - colors.scss
-      - fontsstyles.scss 
+      - fontsstyles.scss
       - fom.scss
       - wm.scss
     footer: "WM | Norman Markgraf"
     chalkboard: true
+    pointer:
+      color: '#4040F0'  # blau
+revealjs-plugins:
+  - pointer
 ---
 
 ```{r child="prelude_WM.Rmd"}
@@ -33,11 +40,11 @@ format:
 
 &#x1F937; Stellen Sie Fragen.
 
-&#x1F4AA; <https://tweedback.de/zgte>
+&#x1F4AA; <https://tweedback.de/zbqj>
 
 ::: center
 
-{{< qrcode https://tweedback.de/zgte >}}
+{{< qrcode https://tweedback.de/zbqj qr-tweedback width=300 height=300 >}}
 
 :::
 
@@ -59,6 +66,7 @@ Quelle: [via GIPHY](https://giphy.com/gifs/abcnetwork-tired-the-middle-l4pLXMFYQ
 ::: {.column width="49%"}
 ::: center
 **B**:
+
 <iframe src="https://giphy.com/embed/pttEsx1vDDhYs" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 ::: footnote
@@ -73,7 +81,7 @@ Quelle: [via GIPHY](https://giphy.com/gifs/pttEsx1vDDhYs)
 ## UN Ziel 7: Affordable and clean energy
 
 ::: center
-<iframe src="https://upgrader.gapminder.org/q/59/embed?hasBorder=true&hasOpenSansFont=false" title="83% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+<iframe src="https://upgrader.gapminder.org/q/59/embed?hasBorder=true&hasOpenSansFont=false" title="83% of people get this question wrong" width="100%" height="800" style="border:none;"></iframe>
 :::
 
 ------------------------------------------------------------------------
@@ -111,7 +119,11 @@ $$Verbrauch = 8.120,60 - 18,44 \cdot Temperatur$$
 
 - Sie können ein lineares Modell aufsetzen und die Ergebnisse interpretieren.
 
+\
+
 - Sie wissen, was der y-Achsenabschnitt und was die Steigung bedeuten.
+
+\
 
 - Sie wissen, was das Bestimmtheitsmaß ist.
 
@@ -124,7 +136,7 @@ $$Verbrauch = 8.120,60 - 18,44 \cdot Temperatur$$
 $$\hat{\beta} = \beta + \text{(Verzerrung)} + \text{Rauschen}$$
 
 ::: center
-```{r modelmeme_img, fig.align="center", out.width="40%", fig.cap="Quelle: [David Hood](https://twitter.com/Thoughtfulnz/status/1446972794135216131)"}
+```{r modelmeme_img, fig.align="center", out.width="44%", fig.cap="Quelle: [David Hood](https://twitter.com/Thoughtfulnz/status/1446972794135216131)"}
 knitr::include_graphics(here::here("img", "modelmeme.jpeg"))
 ```
 :::
@@ -134,7 +146,13 @@ knitr::include_graphics(here::here("img", "modelmeme.jpeg"))
 ## Regression motivieren (I/II)
 
 - Stellen Sie sich eine Regressionsanalyse wie eine Radiostation vor, die ein Programm sendet.
+
+\
+
 - Ich empfange dieses *Signal* nur weit entfernt, mit *Rauschen*. Was ich also empfange ist das *Signal* plus *Rauschen*.
+
+\
+
 - Es gibt diverse Techniken, um aus dem Signal was ich höre, möglichst das gesendete Signal zu extrahieren, das Rauschen zu reduzieren.
 
 ------------------------------------------------------------------------
@@ -142,6 +160,9 @@ knitr::include_graphics(here::here("img", "modelmeme.jpeg"))
 ## Regression motivieren (II/II)
 
 - Regression funktioniert genau so: Wir haben (fiktive) Daten von Temperatur und Verbrauch und wir wollen den Zusammenhang zwischen diesen Variablen analysieren. 
+
+\
+
 - Das gefundene Modell wird aufgrund des Rauschens nicht perfekt sein.
 
 :::{.footnote}
@@ -154,7 +175,13 @@ Anregung: [Tay (2022)](https://doi.org/10.1080/26939169.2021.2024777)
 
 - Lokal: RStudio durch klick auf ``r ProjektName`` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
 
-- RStudio Cloud: In **Ihr** Projekt einloggen.  
+\
+
+
+- posit.cloud: In **Ihr** Projekt einloggen.  
+
+\
+
 
 - `LEGO_Modellierung.Rmd` im Ordner `fallstudien` öffnen und unter `LEGO_Modellierung_<KÜRZEL>.Rmd` speichern.
 
