@@ -21,22 +21,6 @@ $presentation-title-slide-text-align: right;
   display: block;
 }
 
-/*
-  Hintergrund nur auf der ersten Seite ('quarto-title-block')
-  einblenden. Diesen um 1.2em nach oben rücken um die Footer-Zeile
-  frei zu lassen. 
-  
-  Altes Layout!
-*/
-/* 
-div.quarto-title-block > div.slide-background-content { 
-  background-image: url("../../../../../fom-background.png");
-  background-size: 100% 100% !important;
-  background-repeat: no-repeat;
-  background-position: 50% calc(50% - 1.2em) !important;
-}
- */
-/* Neues Layout */
 div.quarto-title-block > div.slide-background-content { 
   background-image: url("../../../../../fom-background-neu.png");
   background-repeat: no-repeat;
@@ -61,19 +45,6 @@ div.quarto-title-block > div.slide-background-content {
 
 }
 
-/*
-  Hintergrund für alle anderen Seiten hat rechts ein FOM Logo,
-  diese Position wird von dem h2 freigehalten
-*/
-/*
-section.slide {
-  background-image: url("../../../../../fom-logo.png");
-  background-size: 2.3em;
-  background-repeat: no-repeat;
-  background-position: right top;
-  padding-right: -27px;
-} 
-*/
 
 section.slide.level2 {
 }
@@ -93,15 +64,6 @@ section.slide.level2 {
   height: 80px;
   font-size: 56px!important;
   color: #FFFFFF;
-/*
-width: calc(100% - 0.7em);
-  max-height: 2.3em;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap; 
-  text-size-adjust: auto;
-  -webkit-text-size-adjust: auto;
-*/
 }
 
 .reveal p, 
@@ -126,6 +88,7 @@ div.footer {
   margin-top: 8px;
   padding-top: 8px;
 }
+
 .reveal div.footer p, 
 div.footer p {
   font-size: 22px!important;
@@ -255,3 +218,4 @@ By default, KaTeX math is rendered in a 1.21× larger font than the surrounding 
     margin: auto!important;
   }
 }
+
