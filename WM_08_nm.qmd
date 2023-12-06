@@ -4,22 +4,29 @@ subtitle: "Achter Termin"
 institute: "FOM Essen"
 author: "Norman Markgraf"
 lang: de-DE
+slide-number: c
 format: 
   revealjs:
     html-math-method: katex
     main-font: Arial
-    hight: 1920
-    width: 1080
+#    height: 1080 # 16x9 1920 x 1080  (???)
+    height: 1200 # 16x10 1920 x 1200 (Apple macOS)
+    width: 1920
     margin: 0
     history: true
     center: false
+    slide-number: true
     theme:
       - colors.scss
-      - fontsstyles.scss 
+      - fontsstyles.scss
       - fom.scss
       - wm.scss
     footer: "WM | Norman Markgraf"
     chalkboard: true
+    pointer:
+      color: '#4040F0'  # blau
+revealjs-plugins:
+  - pointer
 ---
 
 ```{r child="prelude_WM.Rmd"}
@@ -34,37 +41,39 @@ format:
 
 &#x1F937; Stellen Sie Fragen.
 
-&#x1F4AA; <https://tweedback.de/zde9>
+&#x1F4AA; <https://tweedback.de/zvy7>
 
 ::: center
 
-{{< qrcode https://tweedback.de/zde9 >}}
+{{< qrcode https://tweedback.de/zvy7 width="250" height="250" colorDark="#00998A" >}}
 
 :::
 
 ------------------------------------------------------------------------
 
-## Guten Morgen
+## Alle (schon wieder) wach?
 
 Wie sind Sie heute aufgestanden?
 
+::: {.center}
 ::: {.columns}
-::: {.column width="50%"}
+::: {.column width="49%"}
 **A**:
 
-<iframe src="https://giphy.com/embed/l46CBEVQjSJG6mCnC" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+<iframe src="https://giphy.com/embed/l46CBEVQjSJG6mCnC" width="720" height="407" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 ::: footnote
 [via GIPHY](https://giphy.com/gifs/veephbo-hbo-veep-julia-louis-dreyfus-l46CBEVQjSJG6mCnC)
 :::
 :::
-::: {.column width="50%"}
+::: {.column width="49%"}
 **B**:
 
-<iframe src="https://giphy.com/embed/l46CBvLI7Q7YthRzG" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+<iframe src="https://giphy.com/embed/l46CBvLI7Q7YthRzG" width="720" height="407" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 ::: footnote
 [via GIPHY](https://giphy.com/gifs/comedycentral-amy-schumer-inside-stretch-l46CBvLI7Q7YthRzG)
+:::
 :::
 :::
 :::
@@ -74,7 +83,7 @@ Wie sind Sie heute aufgestanden?
 ## UN Ziel 8: Decent work and economic growth
 
 ::: center
-<iframe src="https://upgrader.gapminder.org/q/56/embed?hasBorder=true&hasOpenSansFont=false" title="82% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+<iframe src="https://upgrader.gapminder.org/q/56/embed?hasBorder=true&hasOpenSansFont=false" title="82% of people get this question wrong" width="100%" height="900" style="border:none;"></iframe>
 :::
 
 ------------------------------------------------------------------------
@@ -124,9 +133,9 @@ knitr::include_graphics(here::here("img", "LM.jpeg"))
 
 ## Fallstudie &#x1F4BB;
 
-- Lokal: RStudio durch klick auf ``r ProjektName``` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+- Lokal: RStudio durch klick auf ``r ProjektName`` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
 
-- RStudio Cloud: In **Ihr** Projekt einloggen.  
+- posit Cloud: In **Ihr** Projekt einloggen.  
 
 - `Lego_Modellierung.Rmd` im Ordner `fallstudien` öffnen und unter `Lego_Modellierung_<KÜRZEL>.Rmd` speichern.
 
